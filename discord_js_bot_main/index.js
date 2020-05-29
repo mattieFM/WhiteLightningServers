@@ -2,26 +2,28 @@
 const Discord = require('discord.js');
 const fs = require("fs");
 const WhiteList = ("5971", "3464", "1974", "9915");
-const Config = require("./Config.json");
+const Config = require(".\\config_auth\\Config.json");
 var generalmillz= "generalmillz"
 const WelconeChannel = "general"
+const ChildShellBase = require("./components/ChildProccessCreate").ChildShell
+const ChildShell = new ChildShell();
 const Token = Config.Token
-const GoodDay = require("./RandomGoodbyes.json");
 const AWS = require('aws-sdk');
 var RANDOM = (14)
 var RANDOMNUMBER = Math.floor(Math.random() * 15) + 1;
 var d = new Date();
 var t= d.getTime();
-var Hr = d.getHours()
-var year = d.getFullYear()
-var month = d.getMonth() + 1
-var day = d.getDate()
-var Min = d.getMinutes()
-var sec = d.getSeconds()
+var Hr = d.getHours();
+var year = d.getFullYear();
+var month = d.getMonth() + 1;
+var day = d.getDate();
+var Min = d.getMinutes();
+var sec = d.getSeconds();
 var time = month + `.` + day + "." + year +  ".txt"
 var time1 =  Hr + ":" + Min + ":" + sec
 
-AWS.config.loadFromPath('C:\\Users\\Administrator\\Desktop\\discord bot\\awsconfig.json');
+
+
 
 var bot = new Discord.Client({disableEveryone: true});
 bot.commands = new Discord.Collection();
@@ -64,9 +66,9 @@ member.addRole(member.guild.roles.find('name', '03 Security Clearance (Secret)')
 });
 
 
-module.exports.dice = function rollDice(max) {
-    return 1 + Math.floor(Math.random()*max)
-  }
+// module.exports.dice = function rollDice(max) {
+//     return 1 + Math.floor(Math.random()*max)
+//   }
   
   
 

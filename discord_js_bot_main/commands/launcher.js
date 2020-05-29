@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
-const Config = require("./Config.json");
+const Config = require("../config_auth/Config.json");
 const { RichEmbed } = require("discord.js");
 var bot = new Discord.Client({disableEveryone: true});
-const server = require("../servercontrol");
+const server = require("../components/servercontroler");
 const GAMETYPES = require("../enums/GAMETYPES.js");
 const AWS = require("aws-sdk");
 var activeServers = [];

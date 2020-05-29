@@ -13,8 +13,9 @@ constructor(avalibilityZone){
     zone = avalibilityZone;
 }
     LaunchEc2Instance(){
+        
      this.ec2 = new AWS.EC2({apiVersion: '2016-11-15', region: zone});
-
+    
      this.instanceParams = {
         ImageId: 'ami-059377ba193aa9309', 
         InstanceType: 't2.micro',
@@ -23,7 +24,7 @@ constructor(avalibilityZone){
         MaxCount: 1
      };
 
-
+    
       this.instancePromise = new AWS.EC2({apiVersion: '2016-11-15', region: zone}).runInstances(instanceParams).promise();
 
      this.instancePromise.then(
