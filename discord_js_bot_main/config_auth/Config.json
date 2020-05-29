@@ -1,6 +1,6 @@
 
 {
-    "botfolder": "H:/codeing/discord bot/",
+"botfolder": "H:/codeing/discord bot/",
 "prefix": "!",
 "Token": "NDgwMjM1MDY5ODEwNjcxNjE5.DlowLg.HsxR9VuOMVQmAtTJR0CI0Syp3Co",
 "ownerID": "162609988131487744",
@@ -26,5 +26,7 @@
 "firefrost": "398586495499239425",
 "BoxBot": "413728456942288896",
 "BrownsugarsBot": "480235069810671619",
-"Zach":"141742032191356929"
+"Zach":"141742032191356929",
+
+"path": "C:/Users/Administrator/Desktop/discord bot"
 }

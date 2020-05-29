@@ -1,1 +1,0 @@
-exports.BotPath = "H:/codeing/discord bot/";
