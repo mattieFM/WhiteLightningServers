@@ -1,0 +1,20 @@
+module.exports.avalibilityZones = {
+    OHIO: "us-east-2",
+    NVIRGINIA: "us-east-1",
+    NCALIFORNIA: "us-west-1",
+    CAPETOWN: "af-south-1",
+    HONGKONG: "ap-east-1",
+    MUMBAI: "ap-south-1",
+    OSAKALOCAL: "ap-northeast-3",
+    SEOUL: "ap-northeast-2",
+    SINGAPORE: "ap-southeast-1",
+    SYDNEY: "ap-southeast-2",
+    TOKYO: "ap-northeast-1",
+    CANADA: "ca-central-1",
+    FRANKFURT: "eu-central-1",
+    IRELAND: "eu-west-1",
+    MILAN: "eu-south-1",
+    STOLKHOLM: "eu-north-1",
+    BAHRAIN: "me-south-1",
+    SAOPAULO: "sa-east-1"
+}

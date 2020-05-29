@@ -1,0 +1,1374 @@
+Bot Restarted
+-------------Start of Log-----------------
+-------------4/26/2020  16:57:3-----------------
+Username: "Spam Pigeon Overlord" UserId: "480235069810671619",
+Username: "Clyde" UserId: "1",
+Username: "Khelekgil" UserId: "280933138169987082",
+Username: "fullerdad" UserId: "277514425580388352",
+Username: "RyanChamp" UserId: "216392318926848001",
+Username: "LilDodoBrain" UserId: "597154094892974109",
+Username: "microvolt52" UserId: "244559046617595904",
+Username: "bigonee" UserId: "71784424026411008",
+Username: "SmallBeardedMan" UserId: "310883222953132044",
+Username: "Wolf Pup" UserId: "613605118063018004",
+Username: "brownsugarpup" UserId: "162609988131487744",
+Username: "CronaVirus" UserId: "587901515344379915",
+Username: "havsumskeet" UserId: "329253681352671234",
+Username: "SpartanZev" UserId: "514632740185047040",
+Username: "Igloo440" UserId: "228321678139195393",
+Username: "Rico Rodriguez Potato Slayer III" UserId: "146470103477780480",
+Username: "SoulienGT" UserId: "578970175001460736",
+Username: "27" UserId: "141742032191356929",
+Username: "Abs-Wobbly" UserId: "199641882937131008",
+Username: "Que" UserId: "187036969719693312",
+Username: "TheDragonPug" UserId: "272031954126241792",
+Username: "MordredTheTyrant" UserId: "435676475035877376",
+Username: "purplefreek99" UserId: "147937156705288193",
+Username: "Kiwiman22" UserId: "311369727769313280",
+Username: "Jeremy" UserId: "71128653651513344",
+Username: "CDNguyen" UserId: "272498202597654531",
+Username: "Drdinero" UserId: "295006556754411520",
+Username: "Connor Sig" UserId: "145546472828436480",
+Username: "Trokia003" UserId: "118934738391138304",
+Username: "lilcreepy" UserId: "144201804773588992",
+Username: "Rennoc2000" UserId: "157287224663212032",
+Username: "mashedpotato5" UserId: "293816730189299712",
+Username: "mashedpotato5" UserId: "224272479806291968",
+Username: "FateFalls" UserId: "381915618154250250",
+Username: "King of Goons" UserId: "179709957455872001",
+Username: "Coldyco" UserId: "141024919692509184",
+Username: "RBG" UserId: "146463792190980096",
+Username: "Proto" UserId: "123221880030232576",
+Username: "SpaceHerpes" UserId: "242117467361640449",
+Username: "nilek" UserId: "305530287360704514",
+Username: "Metanym" UserId: "146471263630524417",
+Username: "Ancientcrafter" UserId: "200807090569084928",
+Username: "Whiskey250" UserId: "255870437337202688",
+Username: "TheUnderLord" UserId: "141650601590128640",
+Username: "TheUnderElf" UserId: "143555932620718080",
+Username: "PringleBeaver" UserId: "150645389211598848",
+Username: "thatoneguy4231" UserId: "271723862855516162",
+Username: "Большой медведь" UserId: "313031149620428810",
+Username: "Discord" UserId: "393277675889754113",
+Username: "firefrost" UserId: "398586495499239425",
+Username: "OsyWare" UserId: "401617502003789834",
+Username: "BoxBot" UserId: "413728456942288896",
+Username: "MatteoPasta" UserId: "438491940627939348",
+Username: "ƒriendly" UserId: "316618405128044546",
+Username: "Tonner2" UserId: "316630562649538582",
+Username: "DuckJesus" UserId: "689629955272998931",
+Username: "goblinsasscrack" UserId: "688944083795836993",
+Username: "existenceisinferred" UserId: "629065410951643167",
+Username: "Papa John Is Best Girl" UserId: "564516362823925791",
+Username: "creamfan135" UserId: "347459981882425354",
+Username: "GreebShi" UserId: "336552409654362113",
+Username: "Groovy" UserId: "234395307759108106",
+Username: "MuppetsWillKillAll" UserId: "211325707358306304",
+Username: "Theory_of_Everything" UserId: "356953662297473025",
+-------------Guilds-----------------
+Guild Name: server 2 Guild Id: 246395029105410049
+Guild Name: server? Guild Id: 290238720907542540
+Guild Name: Old Desk Jockey Stream Guild Id: 675533634106818640
+Guild Name: Gamers At Yellow_tables Guild Id: 684538007168090123
+
+----------------server 2 Channels--------------
+The Select Few
+Attack Of The LandSharks
+Mass Confusion
+general2
+The Server Within Server2
+General 3 (Invisable-Zach)
+definitly Christmas
+KittenPowerOverPowered
+General 2
+General 3
+General 3
+watch yo profamity
+magic-card-ideas
+general
+general
+Chirstmas is here
+Hidden Channels
+servers
+Raptor choir
+General
+General
+GriffinsAreAttacking
+general
+Pro Minecrafters
+ult the rapters
+kittens-game
+the-quote-jar
+League Of Legends (mostly)
+Kittens-Game
+announcements
+Homosexual Infant Prison
+Lizzards AKA Snekos
+All seem to say
+Chill zone
+General 2
+Tilt zone
+afk
+leauge-of-kitchen
+welcome
+Feed the rapters?
+----------------server? Channels--------------
+generalmills
+Playing ark
+Cereal Lovers
+logo
+AFK? AFK ISH (AFK)
+Minecraft
+not a Cereal Lovers
+no-one-can-see-me
+admins
+y u still in this channel?
+ur bad
+boxbox-killfeed-channel
+boxbot
+admins-boxbot
+announcements
+Admins
+brb
+generalmillz
+welcome
+minecraft
+Admins
+Admins
+brb
+test
+----------------Old Desk Jockey Stream Channels--------------
+Text Channels
+Old Man Stories
+general
+Back in my day...
+Team smol pups
+Team swol pups
+Customs
+Sneaky Sneks
+snek-channel
+Stealth Pups
+Chill Pups
+clips
+Sneak Pups
+OldMan's Art Gallery
+art-logo-suggestions
+logo-art
+----------------Gamers At Yellow_tables Channels--------------
+goose-l
+general
+Codename: Goose -Version
+discussion-art
+The Church of Peanut
+D&D - Class: Euclid
+D&D-A Class: Safe
+general
+my-hero-branch
+ap-lit
+description
+Apex -Class: Safe
+D&D - SCP
+art-music-whatever
+general
+173
+D&D 5E
+general, class: boomer
+scp-branch
+D&D - "My Hero"
+Chris: Class: [data expunged]
+General
+ap lit
+original-campaign
+general
+05 - Class: Apollyon
+"Honk"
+welcomechannel
+testing
+chris
+development-branch
+OldDeskJockey -Class: Euclid
+apex-homeschool-stuff
+description
+Codename: Goose, class: safe
+saved<MuppetsWillKillAll > :  !roll 1d20 +7
+Message Details: AuthorId: 211325707358306304 AuthorTag: MuppetsWillKillAll#7708 Channel: general Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  !roll 1d20 +7
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: general Server: Gamers At Yellow_tables Date:4/26/2020
+<Spam Pigeon Overlord > :  
+Message Details: AuthorId: 480235069810671619 AuthorTag: Spam Pigeon Overlord#0510 Channel: general Server: Gamers At Yellow_tables Date:4/26/2020
+<Spam Pigeon Overlord > :  
+Message Details: AuthorId: 480235069810671619 AuthorTag: Spam Pigeon Overlord#0510 Channel: general Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: general Server: Gamers At Yellow_tables Date:4/26/2020
+<MuppetsWillKillAll > :  !roll 1d20 +7
+Message Details: AuthorId: 211325707358306304 AuthorTag: MuppetsWillKillAll#7708 Channel: general Server: Gamers At Yellow_tables Date:4/26/2020
+<Spam Pigeon Overlord > :  
+Message Details: AuthorId: 480235069810671619 AuthorTag: Spam Pigeon Overlord#0510 Channel: general Server: Gamers At Yellow_tables Date:4/26/2020
+<MuppetsWillKillAll > :  !roll 1d20 +7
+Message Details: AuthorId: 211325707358306304 AuthorTag: MuppetsWillKillAll#7708 Channel: general Server: Gamers At Yellow_tables Date:4/26/2020
+<Spam Pigeon Overlord > :  
+Message Details: AuthorId: 480235069810671619 AuthorTag: Spam Pigeon Overlord#0510 Channel: general Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -play beartooth - blitzkrieg bop
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: general Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: general Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  -play ramones Blitzkrieg bop
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: general Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: general Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: general Server: Gamers At Yellow_tables Date:4/26/2020
+<existenceisinferred > :  !roll 1d20 +2
+Message Details: AuthorId: 629065410951643167 AuthorTag: existenceisinferred#3766 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Spam Pigeon Overlord > :  
+Message Details: AuthorId: 480235069810671619 AuthorTag: Spam Pigeon Overlord#0510 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<existenceisinferred > :  !roll 1d20 +2
+Message Details: AuthorId: 629065410951643167 AuthorTag: existenceisinferred#3766 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Spam Pigeon Overlord > :  
+Message Details: AuthorId: 480235069810671619 AuthorTag: Spam Pigeon Overlord#0510 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  https://www.youtube.com/channel/UCBs12pLr47B9F4rKdcc1FFA
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  why dat baby have
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  have such big headphone?
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  https://www.ebay.com/itm/313063618112
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<existenceisinferred > :  !roll 1d20
+Message Details: AuthorId: 629065410951643167 AuthorTag: existenceisinferred#3766 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Spam Pigeon Overlord > :  
+Message Details: AuthorId: 480235069810671619 AuthorTag: Spam Pigeon Overlord#0510 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: general Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  !joke
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Spam Pigeon Overlord > :  9-11 was a national tragity
+Message Details: AuthorId: 480235069810671619 AuthorTag: Spam Pigeon Overlord#0510 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<existenceisinferred > :  !roll 1d20
+Message Details: AuthorId: 629065410951643167 AuthorTag: existenceisinferred#3766 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Spam Pigeon Overlord > :  
+Message Details: AuthorId: 480235069810671619 AuthorTag: Spam Pigeon Overlord#0510 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<existenceisinferred > :  !roll 1d20 +6
+Message Details: AuthorId: 629065410951643167 AuthorTag: existenceisinferred#3766 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Spam Pigeon Overlord > :  
+Message Details: AuthorId: 480235069810671619 AuthorTag: Spam Pigeon Overlord#0510 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  https://www.reddit.com/r/okbuddyretard/comments/g3o3p9/hes_dead_hes_fucking_dead/
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<MuppetsWillKillAll > :  
+Message Details: AuthorId: 211325707358306304 AuthorTag: MuppetsWillKillAll#7708 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  Sex 👉👌
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  https://www.reddit.com/r/okbuddyretard/comments/fv13w0/balls_fish/
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  https://www.reddit.com/r/okbuddyretard/comments/g8141u/guys_villagers_are_real/
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  oop
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<MuppetsWillKillAll > :  
+Message Details: AuthorId: 211325707358306304 AuthorTag: MuppetsWillKillAll#7708 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  uh oh
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  https://www.reddit.com/r/okbuddyretard/comments/fxj1r1/take_me_back/
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  https://www.reddit.com/r/okbuddyretard/comments/fxj1r1/take_me_back/
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  !call911
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Spam Pigeon Overlord > :  yes, 9-11 is the calling card of national tragity
+Message Details: AuthorId: 480235069810671619 AuthorTag: Spam Pigeon Overlord#0510 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<MuppetsWillKillAll > :  
+Message Details: AuthorId: 211325707358306304 AuthorTag: MuppetsWillKillAll#7708 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<MuppetsWillKillAll > :  
+Message Details: AuthorId: 211325707358306304 AuthorTag: MuppetsWillKillAll#7708 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  https://cdn.discordapp.com/attachments/700793168701947979/702741304110743613/8b803f7.png
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<MuppetsWillKillAll > :  https://www.reddit.com/r/okbuddyretard/comments/g8h55x/ohio_is_so_cool/
+Message Details: AuthorId: 211325707358306304 AuthorTag: MuppetsWillKillAll#7708 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  !roll 1d20 +6
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Spam Pigeon Overlord > :  
+Message Details: AuthorId: 480235069810671619 AuthorTag: Spam Pigeon Overlord#0510 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<MuppetsWillKillAll > :  !roll 1d20 +2
+Message Details: AuthorId: 211325707358306304 AuthorTag: MuppetsWillKillAll#7708 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Spam Pigeon Overlord > :  
+Message Details: AuthorId: 480235069810671619 AuthorTag: Spam Pigeon Overlord#0510 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Papa John Is Best Girl > :  !roll 1d20 +3
+Message Details: AuthorId: 564516362823925791 AuthorTag: Papa John Is Best Girl#7158 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Spam Pigeon Overlord > :  
+Message Details: AuthorId: 480235069810671619 AuthorTag: Spam Pigeon Overlord#0510 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  !roll 1d20 +4
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Spam Pigeon Overlord > :  
+Message Details: AuthorId: 480235069810671619 AuthorTag: Spam Pigeon Overlord#0510 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  !roll 1d20 +12
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Spam Pigeon Overlord > :  
+Message Details: AuthorId: 480235069810671619 AuthorTag: Spam Pigeon Overlord#0510 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  !roll 1d20 +14
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Spam Pigeon Overlord > :  
+Message Details: AuthorId: 480235069810671619 AuthorTag: Spam Pigeon Overlord#0510 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<existenceisinferred > :  !roll 1d20 +5
+Message Details: AuthorId: 629065410951643167 AuthorTag: existenceisinferred#3766 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Spam Pigeon Overlord > :  
+Message Details: AuthorId: 480235069810671619 AuthorTag: Spam Pigeon Overlord#0510 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -play the amity affliction - all my friends are dead
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -play soak me in bleach
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -play all fucked up
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -skip
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -play the amity affliction all messed up
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  bro?
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  What
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<MuppetsWillKillAll > :  bruh
+Message Details: AuthorId: 211325707358306304 AuthorTag: MuppetsWillKillAll#7708 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -skip
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -play https://www.youtube.com/watch?v=U1TrfMU6SLU
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<goblinsasscrack > :  -play the Amity affliction youngblood
+Message Details: AuthorId: 688944083795836993 AuthorTag: goblinsasscrack#9895 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  Maffhew 🥺 🥺 🥺
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  🥺 🥺 🥺
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  🥺 🥺 🥺
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  🥺 🥺 🥺
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  🥺 🥺 🥺
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  v
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<MuppetsWillKillAll > :  I will pee on your Beyblades
+Message Details: AuthorId: 211325707358306304 AuthorTag: MuppetsWillKillAll#7708 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Papa John Is Best Girl > :  ¿Donde está?
+Message Details: AuthorId: 564516362823925791 AuthorTag: Papa John Is Best Girl#7158 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  🥺
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -skip
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  <@!162609988131487744> Bro where are you?
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<MuppetsWillKillAll > :  -play choak
+Message Details: AuthorId: 211325707358306304 AuthorTag: MuppetsWillKillAll#7708 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<MuppetsWillKillAll > :  -skip
+Message Details: AuthorId: 211325707358306304 AuthorTag: MuppetsWillKillAll#7708 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<MuppetsWillKillAll > :  -play choke
+Message Details: AuthorId: 211325707358306304 AuthorTag: MuppetsWillKillAll#7708 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -play sweet bod
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  that was my nicname in highschoo
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<MuppetsWillKillAll > :  https://www.reddit.com/r/okbuddyretard/comments/g8l0cf/whatthefuckwhatthefuckwhatthefuck/
+Message Details: AuthorId: 211325707358306304 AuthorTag: MuppetsWillKillAll#7708 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  -play chicken in a raft
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Papa John Is Best Girl > :  -play show me your genitels
+Message Details: AuthorId: 564516362823925791 AuthorTag: Papa John Is Best Girl#7158 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -play great fairy mountian
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -play https://www.youtube.com/watch?v=IljKQ1BdHKI
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -skip
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<existenceisinferred > :  -skip
+Message Details: AuthorId: 629065410951643167 AuthorTag: existenceisinferred#3766 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  BRO
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  bro......m
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -skip
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<MuppetsWillKillAll > :  thats it, I am going to pee on your Beyblades
+Message Details: AuthorId: 211325707358306304 AuthorTag: MuppetsWillKillAll#7708 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -play great deku tree
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -skip
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -play deku tree
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -skip
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  https://www.youtube.com/watch?v=fdD7_L2VSxI&list=PL8D1E4637261C45EF&index=3
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -play https://www.youtube.com/watch?v=fdD7_L2VSxI&list=PL8D1E4637261C45EF&index=3
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  🥺 🥺 🥺
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  🥺 🥺
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  🥺
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  🥺 🥺
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  🥺 🥺 🥺
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -play https://www.youtube.com/watch?v=uj97kISm1nc
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -play https://www.youtube.com/watch?v=3UnK5rw_6hM
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  can yall hear me?
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Papa John Is Best Girl > :  No
+Message Details: AuthorId: 564516362823925791 AuthorTag: Papa John Is Best Girl#7158 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  if yall talking i cant hear you 😦
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  bruh
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Papa John Is Best Girl > :  Bruh
+Message Details: AuthorId: 564516362823925791 AuthorTag: Papa John Is Best Girl#7158 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  bruh
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  bruh
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  we cab hear each oither
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  also, now that i think about it i think i have been cutting out all session, cus yall didn't respond to a lot of stuff
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<goblinsasscrack > :  Huh
+Message Details: AuthorId: 688944083795836993 AuthorTag: goblinsasscrack#9895 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  maye
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  so do any of you remember that the priest basically said the exact same thing as the prince (and yall totaly ignored it?), about how you were requested by wukong?
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<goblinsasscrack > :  No
+Message Details: AuthorId: 688944083795836993 AuthorTag: goblinsasscrack#9895 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  nah
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<existenceisinferred > :  Not really.
+Message Details: AuthorId: 629065410951643167 AuthorTag: existenceisinferred#3766 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  dam..... that means im probably right,, ive probably been cutting out all session
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  : (
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -play v
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  no
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -play https://www.youtube.com/watch?v=z2lZKFq-c4g
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -np
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -skip
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -skip
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -play https://www.youtube.com/watch?v=AlIdlrlv6Ak
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  i am sans
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -play https://www.youtube.com/watch?v=TKvjEQXKeec
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  !joke
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Spam Pigeon Overlord > :  9-11 was a national tragity
+Message Details: AuthorId: 480235069810671619 AuthorTag: Spam Pigeon Overlord#0510 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -play https://www.youtube.com/watch?v=IeJfKmaxdMQ
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -play https://www.youtube.com/watch?v=yNxhpRiupr0
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  https://www.youtube.com/watch?v=4htVcaTo1z4
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  firstly, you asked me to do this, here is all the information i could dig up on axel and luke
+theoretically, Axel Gustaf Larsson, is 24 years old, and his birth day is somewhere between April 9th- and august 31st
+here is his face book: https://www.facebook.com/axel.larsson.5855
+linked in:  https://www.linkedin.com/in/axel-larsson-6804a697/
+address?: 648 University Ave #1, Boulder, CO 80302 /7123 Shoreham Dr
+Castle Pines, CO 80108 / 2870 Kalmia Ave #307
+Boulder, CO 80301
+phone number?: (303) 284-8980
+
+Lucas was a lot harder to find anything about, so here is what i found (take it with more than a grain of salt)
+age: 27
+birthday: sometime in june
+address: 350 Quail Cir
+Boulder, CO 80304
+
+phone:
+(303) 594-3844 - Wireless
+(303) 248-3650 - Landline
+(303) 545-9816 - Landline
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  https://www.youtube.com/watch?v=tDqUDt3K5Mk
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -play https://www.youtube.com/watch?v=yNxhpRiupr0
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -play https://www.youtube.com/watch?v=o4TEoPyERIw
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -skip
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -play i love minorities\
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -skip
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -play
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  -play gaymer
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  -skip
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  =play ben shaperio
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  -play ben shaperio
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  -skpi
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  -skip
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  https://www.reddit.com/r/Romm/comments/er8com/one/
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  !gun
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  ricochetman
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  mc.hypixel.net
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  SwaggalonAdmin
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<MuppetsWillKillAll > :  you guys cant hear me?
+Message Details: AuthorId: 211325707358306304 AuthorTag: MuppetsWillKillAll#7708 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  nope
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  -play https://youtu.be/3zhlKmKTpqk
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  -stop
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -play bfg division
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -play skullhacker
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -play rip and tear
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -play the only thing they fear is you
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<MuppetsWillKillAll > :  amazingminer2003
+Message Details: AuthorId: 211325707358306304 AuthorTag: MuppetsWillKillAll#7708 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -play vega core
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<creamfan135 > :  SHIT IGNORE RHAT
+Message Details: AuthorId: 347459981882425354 AuthorTag: creamfan135#7044 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -play hellwalker
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<GreebShi > :  -play bfg division
+Message Details: AuthorId: 336552409654362113 AuthorTag: GreebShi#6916 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -play flesh and metal
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -play idkill_vega
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -play born to lose
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -play the amity affliction - born to lose
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -skip
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  -play let the ocean take me
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+<Groovy > :  
+Message Details: AuthorId: 234395307759108106 AuthorTag: Groovy#7254 Channel: original-campaign Server: Gamers At Yellow_tables Date:4/26/2020
+-------------Start of Log-----------------
+Bot Restarted
+-------------4/26/2020  16:57:3-----------------
+Username: "Spam Pigeon Overlord" UserId: "480235069810671619",
+Username: "Clyde" UserId: "1",
+Username: "Khelekgil" UserId: "280933138169987082",
+Username: "fullerdad" UserId: "277514425580388352",
+Username: "RyanChamp" UserId: "216392318926848001",
+Username: "LilDodoBrain" UserId: "597154094892974109",
+Username: "microvolt52" UserId: "244559046617595904",
+Username: "bigonee" UserId: "71784424026411008",
+Username: "SmallBeardedMan" UserId: "310883222953132044",
+Username: "Wolf Pup" UserId: "613605118063018004",
+Username: "brownsugarpup" UserId: "162609988131487744",
+Username: "CronaVirus" UserId: "587901515344379915",
+Username: "havsumskeet" UserId: "329253681352671234",
+Username: "SpartanZev" UserId: "514632740185047040",
+Username: "Igloo440" UserId: "228321678139195393",
+Username: "Rico Rodriguez Potato Slayer III" UserId: "146470103477780480",
+Username: "SoulienGT" UserId: "578970175001460736",
+Username: "27" UserId: "141742032191356929",
+Username: "Abs-Wobbly" UserId: "199641882937131008",
+Username: "Que" UserId: "187036969719693312",
+Username: "TheDragonPug" UserId: "272031954126241792",
+Username: "MordredTheTyrant" UserId: "435676475035877376",
+Username: "purplefreek99" UserId: "147937156705288193",
+Username: "Kiwiman22" UserId: "311369727769313280",
+Username: "Jeremy" UserId: "71128653651513344",
+Username: "CDNguyen" UserId: "272498202597654531",
+Username: "Drdinero" UserId: "295006556754411520",
+Username: "Connor Sig" UserId: "145546472828436480",
+Username: "Trokia003" UserId: "118934738391138304",
+Username: "lilcreepy" UserId: "144201804773588992",
+Username: "Rennoc2000" UserId: "157287224663212032",
+Username: "mashedpotato5" UserId: "293816730189299712",
+Username: "mashedpotato5" UserId: "224272479806291968",
+Username: "FateFalls" UserId: "381915618154250250",
+Username: "King of Goons" UserId: "179709957455872001",
+Username: "Coldyco" UserId: "141024919692509184",
+Username: "RBG" UserId: "146463792190980096",
+Username: "Proto" UserId: "123221880030232576",
+Username: "SpaceHerpes" UserId: "242117467361640449",
+Username: "nilek" UserId: "305530287360704514",
+Username: "Metanym" UserId: "146471263630524417",
+Username: "Ancientcrafter" UserId: "200807090569084928",
+Username: "Whiskey250" UserId: "255870437337202688",
+Username: "TheUnderLord" UserId: "141650601590128640",
+Username: "TheUnderElf" UserId: "143555932620718080",
+Username: "PringleBeaver" UserId: "150645389211598848",
+Username: "thatoneguy4231" UserId: "271723862855516162",
+Username: "Большой медведь" UserId: "313031149620428810",
+Username: "Discord" UserId: "393277675889754113",
+Username: "firefrost" UserId: "398586495499239425",
+Username: "OsyWare" UserId: "401617502003789834",
+Username: "BoxBot" UserId: "413728456942288896",
+Username: "MatteoPasta" UserId: "438491940627939348",
+Username: "ƒriendly" UserId: "316618405128044546",
+Username: "Tonner2" UserId: "316630562649538582",
+Username: "DuckJesus" UserId: "689629955272998931",
+Username: "goblinsasscrack" UserId: "688944083795836993",
+Username: "existenceisinferred" UserId: "629065410951643167",
+Username: "Papa John Is Best Girl" UserId: "564516362823925791",
+Username: "creamfan135" UserId: "347459981882425354",
+Username: "GreebShi" UserId: "336552409654362113",
+Username: "Groovy" UserId: "234395307759108106",
+Username: "MuppetsWillKillAll" UserId: "211325707358306304",
+Username: "Theory_of_Everything" UserId: "356953662297473025",
+-------------Guilds-----------------
+Guild Name: server 2 Guild Id: 246395029105410049
+Guild Name: server? Guild Id: 290238720907542540
+Guild Name: Old Desk Jockey Stream Guild Id: 675533634106818640
+Guild Name: Gamers At Yellow_tables Guild Id: 684538007168090123
+
+----------------server 2 Channels--------------
+The Select Few
+Attack Of The LandSharks
+Mass Confusion
+general2
+The Server Within Server2
+General 3 (Invisable-Zach)
+definitly Christmas
+KittenPowerOverPowered
+General 2
+General 3
+General 3
+watch yo profamity
+magic-card-ideas
+general
+general
+Chirstmas is here
+Hidden Channels
+servers
+Raptor choir
+General
+General
+GriffinsAreAttacking
+general
+Pro Minecrafters
+ult the rapters
+kittens-game
+the-quote-jar
+League Of Legends (mostly)
+Kittens-Game
+announcements
+Homosexual Infant Prison
+Lizzards AKA Snekos
+All seem to say
+Chill zone
+General 2
+Tilt zone
+afk
+leauge-of-kitchen
+welcome
+Feed the rapters?
+----------------server? Channels--------------
+generalmills
+Playing ark
+Cereal Lovers
+logo
+AFK? AFK ISH (AFK)
+Minecraft
+not a Cereal Lovers
+no-one-can-see-me
+admins
+y u still in this channel?
+ur bad
+boxbox-killfeed-channel
+boxbot
+admins-boxbot
+announcements
+Admins
+brb
+generalmillz
+welcome
+minecraft
+Admins
+Admins
+brb
+test
+----------------Old Desk Jockey Stream Channels--------------
+Text Channels
+Old Man Stories
+general
+Back in my day...
+Team smol pups
+Team swol pups
+Customs
+Sneaky Sneks
+snek-channel
+Stealth Pups
+Chill Pups
+clips
+Sneak Pups
+OldMan's Art Gallery
+art-logo-suggestions
+logo-art
+----------------Gamers At Yellow_tables Channels--------------
+goose-l
+general
+Codename: Goose -Version
+discussion-art
+The Church of Peanut
+D&D - Class: Euclid
+D&D-A Class: Safe
+general
+my-hero-branch
+ap-lit
+description
+Apex -Class: Safe
+D&D - SCP
+art-music-whatever
+general
+173
+general, class: boomer
+scp-branch
+D&D - "My Hero"
+Chris: Class: [data expunged]
+General
+ap lit
+original-campaign
+general
+05 - Class: Apollyon
+"Honk"
+welcomechannel
+testing
+chris
+development-branch
+OldDeskJockey -Class: Euclid
+apex-homeschool-stuff
+description
+Codename: Goose, class: safe
+saved
+D&D 5E<SoulienGT > :  so tomorrow ranked comes out (or it should) and I mean like we abouta grind that as a team XD
+Message Details: AuthorId: 578970175001460736 AuthorTag: SoulienGT#9059 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<SoulienGT > :  Like where do you think where gonna set at?
+Message Details: AuthorId: 578970175001460736 AuthorTag: SoulienGT#9059 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<fullerdad > :  Dope!!!! Ranked! I can be officially baaaaaad 🙂
+Message Details: AuthorId: 277514425580388352 AuthorTag: fullerdad#8410 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<TheDragonPug > :  SAME!
+Message Details: AuthorId: 272031954126241792 AuthorTag: TheDragonPug#3464 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<SoulienGT > :  Yeah hold on let me re-write that XD
+Message Details: AuthorId: 578970175001460736 AuthorTag: SoulienGT#9059 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<Tonner2 > :  Lol
+Message Details: AuthorId: 316630562649538582 AuthorTag: Tonner2#5170 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<SoulienGT > :  So Ranked is supposedly coming out on Tuesday (tomorrow) which means the grind is gonna LIT but I believe. (There we go)
+Message Details: AuthorId: 578970175001460736 AuthorTag: SoulienGT#9059 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<SoulienGT > :  English is my 2nd language give me a break
+Message Details: AuthorId: 578970175001460736 AuthorTag: SoulienGT#9059 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<TheDragonPug > :  boi no it isnt
+Message Details: AuthorId: 272031954126241792 AuthorTag: TheDragonPug#3464 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<SoulienGT > :  it rly is tho
+Message Details: AuthorId: 578970175001460736 AuthorTag: SoulienGT#9059 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<TheDragonPug > :  whats your first then
+Message Details: AuthorId: 272031954126241792 AuthorTag: TheDragonPug#3464 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<SoulienGT > :  Gibberish
+Message Details: AuthorId: 578970175001460736 AuthorTag: SoulienGT#9059 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<TheDragonPug > :  Nice
+Message Details: AuthorId: 272031954126241792 AuthorTag: TheDragonPug#3464 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<SoulienGT > :  its a real language u gotta learn it
+Message Details: AuthorId: 578970175001460736 AuthorTag: SoulienGT#9059 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<SoulienGT > :  lol
+Message Details: AuthorId: 578970175001460736 AuthorTag: SoulienGT#9059 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<fullerdad > :  Can't believe it, but my First Ace Remix is at 40+ views and climbing....Dope!
+Message Details: AuthorId: 277514425580388352 AuthorTag: fullerdad#8410 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<SoulienGT > :  POG!
+Message Details: AuthorId: 578970175001460736 AuthorTag: SoulienGT#9059 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<brownsugarpup > :  https://www.youtube.com/watch?v=oGSYzY1q4Hk&feature=youtu.be
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<fullerdad > :  Matt gets the credit (from Reddit)!
+Message Details: AuthorId: 277514425580388352 AuthorTag: fullerdad#8410 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<SoulienGT > :  LOL. I'm so confused about this ranking thing guys. so they say it should come out 4/28/20 but another things says that Ranked comes out on the patch 0.49 and where only on 0.47 so there saying it should come out like mid to the end of May. I have no idea tbh. If it doesn't come out tomorrow then I guess we get our answer but I'm rly hoping it does.
+Message Details: AuthorId: 578970175001460736 AuthorTag: SoulienGT#9059 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<fullerdad > :  As long as people show up to watch, idc 😉
+Message Details: AuthorId: 277514425580388352 AuthorTag: fullerdad#8410 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<SoulienGT > :  Very tru altho ranked would make the gameplay a lot more fun
+Message Details: AuthorId: 578970175001460736 AuthorTag: SoulienGT#9059 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<fullerdad > :  true
+Message Details: AuthorId: 277514425580388352 AuthorTag: fullerdad#8410 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<fullerdad > :  And we could see how bad we really are 😉
+Message Details: AuthorId: 277514425580388352 AuthorTag: fullerdad#8410 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<TheDragonPug > :  or good?
+Message Details: AuthorId: 272031954126241792 AuthorTag: TheDragonPug#3464 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<SoulienGT > :  XD hey as long as i can play with homies I'm good.
+Message Details: AuthorId: 578970175001460736 AuthorTag: SoulienGT#9059 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<fullerdad > :  Hmmm...I hadn't considered that possibility 😉
+Message Details: AuthorId: 277514425580388352 AuthorTag: fullerdad#8410 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<fullerdad > :  Also, 51+ views and +4 or 5 subs today on youtube for one video!
+Message Details: AuthorId: 277514425580388352 AuthorTag: fullerdad#8410 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<SoulienGT > :  My mans!
+Message Details: AuthorId: 578970175001460736 AuthorTag: SoulienGT#9059 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<fullerdad > :  Matt is the promo king!
+Message Details: AuthorId: 277514425580388352 AuthorTag: fullerdad#8410 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<SoulienGT > :  Yessir
+Message Details: AuthorId: 578970175001460736 AuthorTag: SoulienGT#9059 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<Papa John Is Best Girl > :  Are we having the my hero campaign?
+Message Details: AuthorId: 564516362823925791 AuthorTag: Papa John Is Best Girl#7158 Channel: my-hero-branch Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  this is a good question. is it still on?
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: my-hero-branch Server: Gamers At Yellow_tables Date:4/26/2020
+<brownsugarpup > :  hey yall, i can't get discord to let me do anyhting, this is the 5th message ive sent, if yall see it, great
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: my-hero-branch Server: Gamers At Yellow_tables Date:4/26/2020
+<MuppetsWillKillAll > :  i can now see it
+Message Details: AuthorId: 211325707358306304 AuthorTag: MuppetsWillKillAll#7708 Channel: my-hero-branch Server: Gamers At Yellow_tables Date:4/26/2020
+<DuckJesus > :  indeed
+Message Details: AuthorId: 689629955272998931 AuthorTag: DuckJesus#0991 Channel: my-hero-branch Server: Gamers At Yellow_tables Date:4/26/2020
+<Papa John Is Best Girl > :  Me too
+Message Details: AuthorId: 564516362823925791 AuthorTag: Papa John Is Best Girl#7158 Channel: my-hero-branch Server: Gamers At Yellow_tables Date:4/26/2020
+<SoulienGT > :  might be a late start for me but ill be on soon.
+Message Details: AuthorId: 578970175001460736 AuthorTag: SoulienGT#9059 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<fullerdad > :  kk. no worries
+Message Details: AuthorId: 277514425580388352 AuthorTag: fullerdad#8410 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<SoulienGT > :  nvm we good ima have some internet issues for a bit but as we get further in tonight it'll settle down.
+Message Details: AuthorId: 578970175001460736 AuthorTag: SoulienGT#9059 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<fullerdad > :  k. I'll start 'er up in a moment
+Message Details: AuthorId: 277514425580388352 AuthorTag: fullerdad#8410 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<SoulienGT > :  aight sounds good!
+Message Details: AuthorId: 578970175001460736 AuthorTag: SoulienGT#9059 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+-------------Start of Log-----------------
+Bot Restarted
+-------------4/26/2020  16:57:3-----------------
+Username: "Spam Pigeon Overlord" UserId: "480235069810671619",
+Username: "Clyde" UserId: "1",
+Username: "Khelekgil" UserId: "280933138169987082",
+Username: "fullerdad" UserId: "277514425580388352",
+Username: "RyanChamp" UserId: "216392318926848001",
+Username: "LilDodoBrain" UserId: "597154094892974109",
+Username: "microvolt52" UserId: "244559046617595904",
+Username: "bigonee" UserId: "71784424026411008",
+Username: "SmallBeardedMan" UserId: "310883222953132044",
+Username: "Wolf Pup" UserId: "613605118063018004",
+Username: "brownsugarpup" UserId: "162609988131487744",
+Username: "CronaVirus" UserId: "587901515344379915",
+Username: "havsumskeet" UserId: "329253681352671234",
+Username: "SpartanZev" UserId: "514632740185047040",
+Username: "Igloo440" UserId: "228321678139195393",
+Username: "Rico Rodriguez Potato Slayer III" UserId: "146470103477780480",
+Username: "SoulienGT" UserId: "578970175001460736",
+Username: "27" UserId: "141742032191356929",
+Username: "Abs-Wobbly" UserId: "199641882937131008",
+Username: "Que" UserId: "187036969719693312",
+Username: "TheDragonPug" UserId: "272031954126241792",
+Username: "BenevolentTyrant" UserId: "435676475035877376",
+Username: "purplefreek99" UserId: "147937156705288193",
+Username: "Kiwiman22" UserId: "311369727769313280",
+Username: "Jeremy" UserId: "71128653651513344",
+Username: "CDNguyen" UserId: "272498202597654531",
+Username: "Drdinero" UserId: "295006556754411520",
+Username: "Connor Sig" UserId: "145546472828436480",
+Username: "Trokia003" UserId: "118934738391138304",
+Username: "lilcreepy" UserId: "144201804773588992",
+Username: "Rennoc2000" UserId: "157287224663212032",
+Username: "mashedpotato5" UserId: "293816730189299712",
+Username: "mashedpotato5" UserId: "224272479806291968",
+Username: "FateFalls" UserId: "381915618154250250",
+Username: "King of Goons" UserId: "179709957455872001",
+Username: "Coldyco" UserId: "141024919692509184",
+Username: "RBG" UserId: "146463792190980096",
+Username: "Proto" UserId: "123221880030232576",
+Username: "SpaceHerpes" UserId: "242117467361640449",
+Username: "nilek" UserId: "305530287360704514",
+Username: "Metanym" UserId: "146471263630524417",
+Username: "Ancientcrafter" UserId: "200807090569084928",
+Username: "Whiskey250" UserId: "255870437337202688",
+Username: "TheUnderLord" UserId: "141650601590128640",
+Username: "TheUnderElf" UserId: "143555932620718080",
+Username: "PringleBeaver" UserId: "150645389211598848",
+Username: "thatoneguy4231" UserId: "271723862855516162",
+Username: "Большой медведь" UserId: "313031149620428810",
+Username: "Discord" UserId: "393277675889754113",
+Username: "firefrost" UserId: "398586495499239425",
+Username: "OsyWare" UserId: "401617502003789834",
+Username: "BoxBot" UserId: "413728456942288896",
+Username: "MatteoPasta" UserId: "438491940627939348",
+Username: "ƒriendly" UserId: "316618405128044546",
+Username: "Tonner2" UserId: "316630562649538582",
+Username: "DuckJesus" UserId: "689629955272998931",
+Username: "goblinsasscrack" UserId: "688944083795836993",
+Username: "existenceisinferred" UserId: "629065410951643167",
+Username: "Papa John Is Best Girl" UserId: "564516362823925791",
+Username: "creamfan135" UserId: "347459981882425354",
+Username: "GreebShi" UserId: "336552409654362113",
+Username: "Groovy" UserId: "234395307759108106",
+Username: "MuppetsWillKillAll" UserId: "211325707358306304",
+Username: "Theory_of_Everything" UserId: "356953662297473025",
+-------------Guilds-----------------
+Guild Name: server 2 Guild Id: 246395029105410049
+Guild Name: server? Guild Id: 290238720907542540
+Guild Name: Old Desk Jockey Stream Guild Id: 675533634106818640
+Guild Name: Gamers At Yellow_tables Guild Id: 684538007168090123
+
+----------------server 2 Channels--------------
+The Select Few
+Attack Of The LandSharks
+Mass Confusion
+general2
+The Server Within Server2
+General 3 (Invisable-Zach)
+definitly Christmas
+KittenPowerOverPowered
+General 2
+General 3
+General 3
+watch yo profamity
+magic-card-ideas
+general
+general
+Chirstmas is here
+Hidden Channels
+servers
+Raptor choir
+General
+General
+GriffinsAreAttacking
+general
+Pro Minecrafters
+ult the rapters
+kittens-game
+the-quote-jar
+League Of Legends (mostly)
+Kittens-Game
+announcements
+Homosexual Infant Prison
+Lizzards AKA Snekos
+All seem to say
+Chill zone
+General 2
+Tilt zone
+afk
+leauge-of-kitchen
+welcome
+Feed the rapters?
+----------------server? Channels--------------
+generalmills
+Playing ark
+Cereal Lovers
+logo
+AFK? AFK ISH (AFK)
+Minecraft
+not a Cereal Lovers
+no-one-can-see-me
+admins
+y u still in this channel?
+ur bad
+boxbox-killfeed-channel
+boxbot
+admins-boxbot
+announcements
+Admins
+brb
+generalmillz
+welcome
+minecraft
+Admins
+Admins
+brb
+test
+----------------Old Desk Jockey Stream Channels--------------
+Text Channels
+Old Man Stories
+general
+Back in my day...
+Team smol pups
+Team swol pups
+Customs
+Sneaky Sneks
+snek-channel
+Stealth Pups
+Chill Pups
+clips
+Sneak Pups
+OldMan's Art Gallery
+art-logo-suggestions
+logo-art
+----------------Gamers At Yellow_tables Channels--------------
+goose-l
+general
+Codename: Goose -Version
+discussion-art
+The Church of Peanut
+D&D - Class: Euclid
+D&D-A Class: Safe
+general
+my-hero-branch
+ap-lit
+description
+Apex -Class: Safe
+D&D - SCP
+art-music-whatever
+general
+173
+general, class: boomer
+scp-branch
+D&D - "My Hero"
+Chris: Class: [data expunged]
+General
+ap lit
+original-campaign
+general
+05 - Class: Apollyon
+"Honk"
+welcomechannel
+testing
+chris
+development-branch
+OldDeskJockey -Class: Euclid
+apex-homeschool-stuff
+description
+Codename: Goose, class: safe
+saved
+D&D 5E<brownsugarpup > :  7 - 91
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<SoulienGT > :  Omen backwards= Nemo...
+Message Details: AuthorId: 578970175001460736 AuthorTag: SoulienGT#9059 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<Igloo440 > :  Big brain
+Message Details: AuthorId: 228321678139195393 AuthorTag: Igloo440#5373 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020
+<brownsugarpup > :  
+Message Details: AuthorId: 162609988131487744 AuthorTag: brownsugarpup#5971 Channel: general Server: Old Desk Jockey Stream Date:4/26/2020

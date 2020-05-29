@@ -1,0 +1,122 @@
+Bot Restarted
+-------------Start of Log-----------------
+-------------5/3/2019  20:21:19-----------------
+Username: "Spam Pigeon Overlord" UserId: "480235069810671619",
+Username: "Clyde" UserId: "1",
+Username: "TheUnderLord" UserId: "141650601590128640",
+Username: "TheUnderElf" UserId: "143555932620718080",
+Username: "RBG" UserId: "146463792190980096",
+Username: "TheHamsterKing" UserId: "150645389211598848",
+Username: "brownsugarpup" UserId: "162609988131487744",
+Username: "Abs-Wobbly" UserId: "199641882937131008",
+Username: "DarkInVader4231" UserId: "271723862855516162",
+Username: "FireLord47" UserId: "272031954126241792",
+Username: "fullerdad" UserId: "277514425580388352",
+Username: "Большой медведь" UserId: "313031149620428810",
+Username: "Discord" UserId: "393277675889754113",
+Username: "firefrost" UserId: "398586495499239425",
+Username: "Hackmaster4378" UserId: "401617502003789834",
+Username: "BoxBot" UserId: "413728456942288896",
+Username: "MatteoPasta" UserId: "438491940627939348",
+Username: "mashedpotato5" UserId: "293816730189299712",
+Username: "I0I00I0I" UserId: "141742032191356929",
+Username: "Khelekgil" UserId: "280933138169987082",
+Username: "RyanChamp" UserId: "216392318926848001",
+Username: "microvolt52" UserId: "244559046617595904",
+Username: "Big_onee" UserId: "71784424026411008",
+Username: "SmallBeardedMan" UserId: "310883222953132044",
+Username: "Killerdog1337" UserId: "264113088880574476",
+Username: "havsumskeet" UserId: "329253681352671234",
+Username: "SpartanZev" UserId: "514632740185047040",
+Username: "Igloo440" UserId: "228321678139195393",
+Username: "Rico Rodriguez Potato Slayer III" UserId: "146470103477780480",
+Username: "Quokka" UserId: "400169379821518859",
+Username: "Que" UserId: "187036969719693312",
+Username: "King Julian" UserId: "435676475035877376",
+Username: "purplefreek99" UserId: "147937156705288193",
+Username: "Kiwiman22" UserId: "311369727769313280",
+Username: "Jeremy" UserId: "71128653651513344",
+Username: "TGMohle" UserId: "220378739781926912",
+Username: "CDNguyen" UserId: "272498202597654531",
+Username: "Drdinero" UserId: "295006556754411520",
+Username: "Connor Sig" UserId: "145546472828436480",
+Username: "Trokia003" UserId: "118934738391138304",
+Username: "lilcreepy" UserId: "144201804773588992",
+Username: "Rennoc2000" UserId: "157287224663212032",
+Username: "mashedpotato5" UserId: "224272479806291968",
+Username: "FateFalls" UserId: "381915618154250250",
+Username: "Coldyco" UserId: "141024919692509184",
+Username: "Blazerken" UserId: "131271540556693504",
+Username: "Proto" UserId: "123221880030232576",
+Username: "SpaceHerpes" UserId: "242117467361640449",
+Username: "bub a fett" UserId: "145949075940966400",
+Username: "nilek" UserId: "305530287360704514",
+Username: "Metanym" UserId: "146471263630524417",
+Username: "SilentShock" UserId: "204769031054426112",
+Username: "Whiskey250" UserId: "255870437337202688",
+-------------Guilds-----------------
+Guild Name: server 2 Guild Id: 246395029105410049
+Guild Name: server? Guild Id: 290238720907542540
+
+----------------server 2 Channels--------------
+The Select Few
+Attack Of The LandSharks
+Mass Confusion
+general
+The Server Within Server2
+General 3 (Invisable-Zach)
+General 2
+KittenPowerOverPowered
+General 2
+General 3
+General 3
+watch yo profamity
+magic-card-ideas
+general
+general
+General 3
+Hidden Channels
+servers
+Raptor choir
+General
+General
+GriffinsAreAttacking
+general
+Definitely Almost Christmas
+ult the rapters
+kittens-game
+the-quote-jar
+League Of Legends (mostly)
+Kittens-Game
+announcements
+afk
+Lizzards AKA Snekos
+The Timeout Zone
+General 2
+afk
+Generally Toxic 1
+welcome
+Feed the rapters?
+----------------server? Channels--------------
+generalmills
+Playing ark
+Cereal Lovers
+logo
+AFK? AFK ISH (AFK)
+Minecraft
+not a Cereal Lovers
+no-one-can-see-me
+admins
+y u still in this channel?
+ur bad
+boxbox-killfeed-channel
+boxbot
+admins-boxbot
+announcements
+Admins
+brb
+generalmillz
+welcome
+-------------End of Members & Guilds-----------------
+
+-------------Start of Chat Log-----------------------

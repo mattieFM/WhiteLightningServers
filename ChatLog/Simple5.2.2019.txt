@@ -1,0 +1,11 @@
+Bot Restarted
+Bot Restarted
+<server 2, FireLord47 > :  1
+<server 2, Spam Pigeon Overlord > :  1
+<server 2, FireLord47 > :  2
+<server 2, Spam Pigeon Overlord > :  2
+Bot Restarted
+<server 2, FireLord47 > :  no
+Bot Restarted
+<server 2, FireLord47 > :  you sure?
+<Message = DM, Spam Pigeon Overlord > :  you sure?

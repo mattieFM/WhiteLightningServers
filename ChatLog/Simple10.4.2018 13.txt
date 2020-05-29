@@ -1,0 +1,4 @@
+Bot Restarted
+<server?, brownsugarpup > :  b!inv
+<server?, BoxBot > :  <@162609988131487744> -> **Getting inventory. Please wait...**
+Bot Restarted

@@ -1,0 +1,1207 @@
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 5
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  enter a number
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  3
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  enter a number after "!Roll"
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  4
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  3
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll d
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  NaN
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  6
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll d6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  3
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  1
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  15
+Bot Restarted
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  please use the syntax "1(or more)d6 +x " note that "+x" may be ignored
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[+1](undefined1)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  please use the syntax "1(or more)d6 +x " note that "+x" may be ignored
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[+10](undefined0)
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  please use the syntax "1(or more)d6 +x " note that "+x" may be ignored
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](undefined+1)
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  please use the syntax "1(or more)d6 +x " note that "+x" may be ignored
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](undefined+1)
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  please use the syntax "1(or more)d6 +x " note that "+x" may be ignored
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6++1](undefined+1)
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  please use the syntax "1(or more)d6 +x " note that "+x" may be ignored
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](undefined1)
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  please use the syntax "1(or more)d6 +x " note that "+x" may be ignored
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](01)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  please use the syntax "1(or more)d6 +x " note that "+x" may be ignored
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](01)
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  please use the syntax "1(or more)d6 +x " note that "+x" may be ignored
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](0+1)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  please use the syntax "1(or more)d6 +x " note that "+x" may be ignored
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](0+1)
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  please use the syntax "1(or more)d6 +x " note that "+x" may be ignored
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](0+1)
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  please use the syntax "1(or more)d6 +x " note that "+x" may be ignored
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](0+1)
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  please use the syntax "1(or more)d6 +x " note that "+x" may be ignored
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](0+1)
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  please use the syntax "1(or more)d6 +x " note that "+x" may be ignored
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](0+1)
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](6+1)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](7+1)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](1+1)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](15+1)
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](3+1)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](15+1)
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+](9+)
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](5+1)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](5+1)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](3+1)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](7+1)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](8+1)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](2+1)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](15+1)
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](3+1)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](3+1)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](3+1)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](1+1)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](1+1)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](16+1)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](13+1)
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](4+1)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](2+1)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](3+1)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](6+1)
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](2)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](6)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](4)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](3)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](4)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](4)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](3)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](5)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](2)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](4)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](4)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](4)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](4)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](7)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d20+1](3)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d6+1](5)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d20+1](3)
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d20+1](NaN)
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d20+1](5)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d20+1](17)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d12 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1d12+1](8)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 4d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[4d20+1](48)
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 4d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[4d20+1](35)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[undefined]
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 4d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[4d20+1](31)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[undefined]
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 4d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[4d20+1](40)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[14,12,2,7]
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 4d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[4d20+1](36)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[3,16,6,6]
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 4d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[4d20+1](33)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1,11,12,4]
+<Old Desk Jockey Stream, Igloo440 > :  We need 2 peop[le for our clash group, anyone wanna join
+<Old Desk Jockey Stream, Igloo440 > :  nevermind we decided to just pass
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 4d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[4d20+1](34)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[12,8,8,1]
+<Old Desk Jockey Stream, Igloo440 > :  sent a bit early lol
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 4d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[4d20+1](42)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[5,8,15,9+1]
+<Old Desk Jockey Stream, SoulienGT > :  Nice lol
+<Old Desk Jockey Stream, Igloo440 > :  ikr
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 4d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[4d20+1](37)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[7,9,13,3,+1]
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d5 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d5+1](4)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[2,+1]
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 + 2
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d6+](NaN)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[4,+]
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  why
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d6 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d6+1](3)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[1,+1]
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  did you role the dice
+<Gamers At Yellow_tables, brownsugarpup > :  testing the bot
+<Gamers At Yellow_tables, brownsugarpup > :  it works now!
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  bro
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  gamer
+<Gamers At Yellow_tables, brownsugarpup > :  !HappyPup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  !HappyPup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+<Old Desk Jockey Stream, fullerdad > :  !roll
+<Old Desk Jockey Stream, fullerdad > :  !Rol
+<Old Desk Jockey Stream, fullerdad > :  !Roll 1d20
+<Old Desk Jockey Stream, fullerdad > :  !Roll 1d6
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 4d20
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[15,+1]
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d20+1](17)
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 1d20 + 1
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 1d20 +1
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d20+1](20)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[18,+1]
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Happypup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d20+](NaN)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[15,+]
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d20+1](20)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[18,+1]
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d20+](NaN)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[15,+]
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d20+1](NaN)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[0,+1]
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d20+](NaN)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[17,+]
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d20+1](7)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[5,+1]
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d20+](NaN)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[12,+]
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d20+](NaN)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[16,+]
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d20+](NaN)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[0,+]
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d20+](NaN)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[5,+]
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d20+](16)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[14,+]
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d20+](9)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[7,+1]
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d20+1](13)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[11,+1]
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d20+](13)
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[11,+1]
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d20+](21)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[19,+1]
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d20+](10)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[8,+1]
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Result[1d20+](17)
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Details[15,+1]
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20  1
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  Roll 1d20 + 1
+<Gamers At Yellow_tables, brownsugarpup > :  Roll 1d20 + 1
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  Roll 1d20 + 1
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 2
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 + 1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +10
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +100
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  <@&688849073318789193> D&D in 13min
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !HappyPup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+<Gamers At Yellow_tables, brownsugarpup > :  !HappyPup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+<Gamers At Yellow_tables, brownsugarpup > :  !HappyPup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+<Gamers At Yellow_tables, brownsugarpup > :  !HappyPup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+<Old Desk Jockey Stream, fullerdad > :  !Roll 1d6
+<Old Desk Jockey Stream, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !HappyPup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+<Gamers At Yellow_tables, brownsugarpup > :  !HappyPup
+<Gamers At Yellow_tables, brownsugarpup > :  !HappyPup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+<Gamers At Yellow_tables, brownsugarpup > :  !HappyPup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+<Gamers At Yellow_tables, brownsugarpup > :  !HappyPup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+<Gamers At Yellow_tables, brownsugarpup > :  !HappyPup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !HappyPup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+<Gamers At Yellow_tables, brownsugarpup > :  !HappyPup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+<Gamers At Yellow_tables, brownsugarpup > :  !HappyPup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+<Gamers At Yellow_tables, brownsugarpup > :  !HappyPup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+<Gamers At Yellow_tables, Theory_of_Everything > :  <@!162609988131487744> ima bee a little late for the meet
+<Gamers At Yellow_tables, brownsugarpup > :  https://www.youtube.com/watch?v=C_3kXSws_cc
+<Gamers At Yellow_tables, brownsugarpup > :  !gay
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Ethan
+<Gamers At Yellow_tables, brownsugarpup > :  !ethan
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Ethan is enslaved to this server and may never leave
+<Gamers At Yellow_tables, brownsugarpup > :  !Roll 1d2
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 1d10
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 1d12 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, vampirefan135 > :  !roll 1d420
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 1d420
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  !roll 2d8
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !sadpup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  You are not the WolfPup, find him, give him the power of the SadPup emotes
+<Gamers At Yellow_tables, brownsugarpup > :  !sadcat
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  You are the chosen ones of the "Sad Cat" emotes
+<Gamers At Yellow_tables, brownsugarpup > :  !happypup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !howsMyMic
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Ethan is a mum
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  !amIgay?
+<Gamers At Yellow_tables, brownsugarpup > :  -play rip and tear
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, brownsugarpup > :  -leave
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, vampirefan135 > :  !roll 1d20+6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, vampirefan135 > :  !roll 1d20 +6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, existenceisinferred > :  !roll d20+6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, existenceisinferred > :  !roll 1d20 +6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  !roll 1d69
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  !roll 1d69 +420
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  !roll 1d6 + 1d9
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, vampirefan135 > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  !roll 2d6+2d8
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, DuckJesus > :  !roll 1d20+1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  !roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, goblinsasscrack > :  !1d20 +8
+<Gamers At Yellow_tables, mashedpotato5 > :  !roll 1d20 +0
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, existenceisinferred > :  !roll 1d20 +2
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, goblinsasscrack > :  !roll 1d20 +8
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  !roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, goblinsasscrack > :  !roll 1d20 +10
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !sadcat
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  You are the chosen ones of the "Sad Cat" emotes
+<Gamers At Yellow_tables, existenceisinferred > :  !sadpup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  You are not the WolfPup, find him, give him the power of the SadPup emotes
+<Gamers At Yellow_tables, brownsugarpup > :  !sdapup
+<Gamers At Yellow_tables, brownsugarpup > :  !sadpup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  You are not the WolfPup, find him, give him the power of the SadPup emotes
+<Gamers At Yellow_tables, existenceisinferred > :  !sadcat
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  You are the chosen ones of the "Sad Cat" emotes
+<Gamers At Yellow_tables, vampirefan135 > :  !sadcat
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  You are the chosen ones of the "Sad Cat" emotes
+<Gamers At Yellow_tables, brownsugarpup > :  !happypup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+<Gamers At Yellow_tables, existenceisinferred > :  !happypup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+<Gamers At Yellow_tables, goblinsasscrack > :  !roll 1d20 +6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 7d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 6d8
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, GreebTheWeeb > :  !roll 1d20 +2
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  !roll 1d20 +3
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  !roll d20 +2
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  9
+<Gamers At Yellow_tables, existenceisinferred > :  !roll 1d20 +2
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, goblinsasscrack > :  !roll 1d20 +4
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  !roll 1d20 +2
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, vampirefan135 > :  !roll 1d20 +6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, DuckJesus > :  !roll 1d20 +2
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, goblinsasscrack > :  !roll 3d4 +4
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 7d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, goblinsasscrack > :  !roll 3d6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, goblinsasscrack > :  !roll 1d20 +6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, existenceisinferred > :  !roll 1d20 +6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, existenceisinferred > :  !roll 1d20 +6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, existenceisinferred > :  !roll 4d12
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  6d20+4
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 6d20+4
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 6d20 +4
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 10d8
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 2d12
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 2d12
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  Iroll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, goblinsasscrack > :  !roll 1d20 +4
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 2d12
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 2d12
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, DuckJesus > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 1d20 -10
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 1d8
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  !roll 2d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  !roll 2d8 +5
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  !roll 2d4
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 1d4
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 50d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 26d8
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 26d4
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll  40d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 40d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 12d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, GreebTheWeeb > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, existenceisinferred > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, goblinsasscrack > :  !roll 1d20 +2
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 1d12
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  
+<Gamers At Yellow_tables, DuckJesus > :  f
+<Gamers At Yellow_tables, goblinsasscrack > :  f
+<Gamers At Yellow_tables, brownsugarpup > :  !sadcat
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  F
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  You are the chosen ones of the "Sad Cat" emotes
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !gay
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Caleb
+<Gamers At Yellow_tables, brownsugarpup > :  -play 104 days
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, brownsugarpup > :  -stop
+<Gamers At Yellow_tables, GreebTheWeeb > :  -play 104 days
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, brownsugarpup > :  -stop
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  !roll 420d69
+<Gamers At Yellow_tables, GreebTheWeeb > :  
+<Gamers At Yellow_tables, DuckJesus > :  poggers
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  
+<Gamers At Yellow_tables, existenceisinferred > :  How do I unmute myself?
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 9d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, existenceisinferred > :  !roll 1d20 +2
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, existenceisinferred > :  !roll 1d20 +2
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !happypup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  !roll 1d20 +5
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !gay
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Caleb
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !ethan
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  is gay
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  !roll 1d20 +5
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  !roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, existenceisinferred > :  !roll 1d20 +2
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll  9d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 9d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 9d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 9d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 9d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 9d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 9d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  d-13
+<Gamers At Yellow_tables, brownsugarpup > :  d-13xxxx x-xx-xx-xx-xx- xX-xx-xx-xx-x-
+<Gamers At Yellow_tables, brownsugarpup > :  
+<Gamers At Yellow_tables, GreebTheWeeb > :  !roll 1d10
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  https://cdn.discordapp.com/attachments/688877400326406227/694001020484845608/image0.jpg
+<Gamers At Yellow_tables, vampirefan135 > :  bruh
+<Gamers At Yellow_tables, brownsugarpup > :  z+e
+<Gamers At Yellow_tables, brownsugarpup > :  Ch-Ro
+<Gamers At Yellow_tables, brownsugarpup > :  da-ethan
+<Gamers At Yellow_tables, brownsugarpup > :  zo jess
+<Gamers At Yellow_tables, GreebTheWeeb > :  ?roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  !roll d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, goblinsasscrack > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, GreebTheWeeb > :  !roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, DuckJesus > :  !roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  !roll 1d20 +5
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  !roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, existenceisinferred > :  !roll 1d20 +2
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, vampirefan135 > :  !roll 1d20 +3
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !whatfoxdosay
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  I am a fox.. you flipp flopping pice of pottato brained potatosing ssssssssss.... pot
+<Gamers At Yellow_tables, mashedpotato5 > :  !roll 2d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  !roll 2d8
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  !roll 2d4
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  !roll 1d8
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  !roll 1d8
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 2d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, DuckJesus > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, DuckJesus > :  !roll 1d6 +2d4
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 2d4
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  !roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, goblinsasscrack > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  !roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, goblinsasscrack > :  !roll 1d20 +8
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  !role 1d20 +2
+<Gamers At Yellow_tables, vampirefan135 > :  !roll 1d20 +2
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  !roll 1d20 +2
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, DuckJesus > :  !roll 1d20 +1
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  !ROLL 1D20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, goblinsasscrack > :  !roll 1d20 +8
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, existenceisinferred > :  !roll 1d20 +2
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 1d20 +2
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 20d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, DuckJesus > :  !roll 3d8
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 20d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  -play rip and tear
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  !roll 2d6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  https://www.youtube.com/watch?v=C_3kXSws_cc
+<Gamers At Yellow_tables, GreebTheWeeb > :  -play bfg division
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 20d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  !roll 3d8
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 10d10
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 2d10
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 10d10
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 10d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 4d110
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 4d10
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  !roll 1d20 +8
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  !roll 1d12
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, GreebTheWeeb > :  -play vega core
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 1d12
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 1d20 +6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  !roll 1d20 +5
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, DuckJesus > :  -play skullhacker
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  !roll 1d12 +7
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 20d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  !roll 3d8
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 20d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  !roll 3d8
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 14d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, DuckJesus > :  !roll 6d8
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  !PLAY i can swing my sword
+<Gamers At Yellow_tables, brownsugarpup > :  -play i can swing my sword
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, DuckJesus > :  -play wndrwll
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  -play pumped up kicks
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, goblinsasscrack > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, goblinsasscrack > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, goblinsasscrack > :  !roll 1d8
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 55d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, existenceisinferred > :  !roll 4d12 +2
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, goblinsasscrack > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, existenceisinferred > :  !roll 1d12
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, existenceisinferred > :  !roll 1d6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  !roll 2d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, GreebTheWeeb > :  -play the less i knkow the better
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, vampirefan135 > :  -play requiem: ii. dies irae
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 60d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  !roll 8d6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, DuckJesus > :  -play https://www.youtube.com/watch?v=U8IwK9ji3hk
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, goblinsasscrack > :  -play https://youtu.be/r7cWi41XGCM
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  !roll 8d6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 47d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, goblinsasscrack > :  !roll 1d20 +6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  -play if you were gay
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, GreebTheWeeb > :  !roll 1d20 +3
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, DuckJesus > :  -play eye of the spider
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, brownsugarpup > :  -play green eggs and jam
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, GreebTheWeeb > :  !roll 1d20 +3
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, GreebTheWeeb > :  1d6 +11
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 1d6 + 11
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, GreebTheWeeb > :  !roll 1d20 +3
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, GreebTheWeeb > :  !roll 2d6 + 22
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Groovy > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !sadpup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  You are the chosen one of the "Sad Pup" emotes
+Bot Restarted
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  !happypup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+<Gamers At Yellow_tables, vampirefan135 > :  !sadcat
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  You are the chosen ones of the "Sad Cat" emotes
+<Gamers At Yellow_tables, brownsugarpup > :  !sadcat
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  You are the chosen ones of the "Sad Cat" emotes
+<Gamers At Yellow_tables, brownsugarpup > :  !sadcat
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  You are the chosen ones of the "Sad Cat" emotes
+<Gamers At Yellow_tables, DuckJesus > :  -skip
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 43d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 24d10
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !IsItGood? test
+<Gamers At Yellow_tables, GreebTheWeeb > :  -play high school blink\193
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !IsItGood?
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !IsItGoodquestionmarkado
+<Gamers At Yellow_tables, brownsugarpup > :  !isitgoodquestionmarkado?
+Bot Restarted
+<Gamers At Yellow_tables, DuckJesus > :  listen here you toe-eyed cabbage, I hope you stub your toe in the dark and crawl around in the dark in horrific pain you absolute gormless minger.
+<Gamers At Yellow_tables, brownsugarpup > :  !isitgoodquestionmarkado?
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !isitgoodquestionmarkado?
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  yes
+<Gamers At Yellow_tables, brownsugarpup > :  !isitgoodquestionmarkado? t
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  yes
+<Gamers At Yellow_tables, brownsugarpup > :  !isitgoodquestionmarkado? listen here you toe-eyed cabbage, I hope you stub your toe in the dark and crawl around in the dark in horrific pain you absolute gormless minger.
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  yes
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, existenceisinferred > :  !roll 2d10
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 22d10
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, existenceisinferred > :  !roll 1d12
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, existenceisinferred > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  !roll 2d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  !roll 1d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  -play these crates dj ster remic
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, goblinsasscrack > :  -play https://open.spotify.com/track/3Fq4mFNvnMHB8yc9nTdSM8?si=76nt1ua3R9CtXTNMUO9-dQ
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  !roll 2d8
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, mashedpotato5 > :  !roll 2d4
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  -play ok boomer
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, brownsugarpup > :  -skip
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, brownsugarpup > :  -play bubberduckey
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  !roll 8d6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 40cd20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !roll 40d20
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, goblinsasscrack > :  !roll 1d20 +6
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  !dontplay ok boomer
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  That did not work
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, GreebTheWeeb > :  it sure didint
+<Gamers At Yellow_tables, brownsugarpup > :  -play these crates dj ster remix
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, brownsugarpup > :  -play hNLFp102d9A
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, DuckJesus > :  -play https://www.youtube.com/watch?v=AnFBqJA18iY
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, GreebTheWeeb > :  -play april showers
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  !roll 6d10
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, vampirefan135 > :  Very good Jackson
+<Gamers At Yellow_tables, GreebTheWeeb > :  thak you charley
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, GreebTheWeeb > :  -skip
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, brownsugarpup > :  -stop
+<Gamers At Yellow_tables, brownsugarpup > :  test
+<Gamers At Yellow_tables, brownsugarpup > :  poll
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  My hero
+<Gamers At Yellow_tables, vampirefan135 > :  Either
+<Gamers At Yellow_tables, GreebTheWeeb > :  my hero orscp
+<Gamers At Yellow_tables, existenceisinferred > :  My hero
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  My hero
+<Gamers At Yellow_tables, brownsugarpup > :  teues day
+<Gamers At Yellow_tables, brownsugarpup > :  friday
+<Gamers At Yellow_tables, DuckJesus > :  myhero
+<Gamers At Yellow_tables, brownsugarpup > :  
+<Gamers At Yellow_tables, brownsugarpup > :  !isitgoodquestionmarkado? Wamon
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  yes
+<Gamers At Yellow_tables, brownsugarpup > :  !happypup
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  Not WoofPup
+<Gamers At Yellow_tables, vampirefan135 > :  -disconnect
+<Gamers At Yellow_tables, Groovy > :  
+<Gamers At Yellow_tables, GreebTheWeeb > :  -disconnect
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  Ok heres my question before i make my character idea, what personalitys are ya'll thinking of for your character? are we going to have a lot of loner, sad boys? Or a lot of cheerful, happy go lucky types?
+<Gamers At Yellow_tables, DuckJesus > :  Mine is probably gonna be on the shy side, but not in an edgy brooding kind of way. More like he has things he wants to say, but usually doesn't have the confidence to say it.
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  gamer
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  I’ll probably go with a cheerful happy go lucky type
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  Gaymer
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  I dont know yet.... i'll probably make mine a little happy, dont know tho
+<Gamers At Yellow_tables, vampirefan135 > :  Maybe mine will b Angry but not exactly like bakuogu
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  hmmmmmmm, what about quirks? I cant come up with anything good.....
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  I’m trying to decide, I have a couple ideas but none that really stand out to me
+<Gamers At Yellow_tables, vampirefan135 > :  Try https://powerlisting.fandom.com/wiki/Superpower_Wiki
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  thanks man!
+<Gamers At Yellow_tables, vampirefan135 > :  U can hit 'random page' under the explore tab if ur rly outta ideas
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  bro smart! i do have some ideas, and the nice thing about my hero is that really nothing is out of the question powers wise, theres some weird crap that you can find with some of the powers.
+<Gamers At Yellow_tables, vampirefan135 > :  Yea absolutely man!
+<Gamers At Yellow_tables, vampirefan135 > :  I might go for smth rly obscure

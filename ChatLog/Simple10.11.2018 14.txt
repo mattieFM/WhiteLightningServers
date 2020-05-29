@@ -1,0 +1,17 @@
+Bot Restarted
+<server?, brownsugarpup > :  !testjoin
+<server?, Brownsugar's Bot > :  Welcome <@162609988131487744> to server?
+<Message = DM, Brownsugar's Bot > :  Rules for + ${Server}1. Do not spam, it's annoying.
+if you want to spam please register for a spam permit by sending a Email to "   "
+Bot Restarted
+<server?, brownsugarpup > :  !testjoin
+<server?, Brownsugar's Bot > :  Welcome <@162609988131487744> to server?
+<Message = DM, Brownsugar's Bot > :  Rules forserver?
+1. Do not spam, it's annoying.
+if you want to spam please register for a spam permit by sending a Email to "   "
+Bot Restarted
+<server?, brownsugarpup > :  !testjoin
+<server?, Brownsugar's Bot > :  Welcome <@162609988131487744> to server?
+<Message = DM, Brownsugar's Bot > :  Rules for[object Object]
+1. Do not spam, it's annoying.
+if you want to spam please register for a spam permit by sending a Email to "   "

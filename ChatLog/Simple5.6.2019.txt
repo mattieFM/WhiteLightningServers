@@ -1,0 +1,66 @@
+Bot Restarted
+<server?, brownsugarpup > :  b!inv
+<server?, BoxBot > :  <@162609988131487744> -> **Getting inventory. Please wait...**
+<server?, brownsugarpup > :  b!inv <@!272031954126241792>
+<server?, BoxBot > :  <@162609988131487744> -> **Getting inventory. Please wait...**
+<server?, brownsugarpup > :  b!help
+<server?, BoxBot > :  <@162609988131487744> -> Please wait for **all three** of the reactions to be added before selecting your option...
+<server?, brownsugarpup > :  b!players
+<server?, BoxBot > :  <@162609988131487744> -> This command had to be disabled to prevent lag. Sorry!
+<server?, brownsugarpup > :  b!inv @\
+<server?, BoxBot > :  <@162609988131487744> -> You must enter a valid user#tag or Discord ID!
+<server?, brownsugarpup > :  b!inv <@!272031954126241792>
+<server?, BoxBot > :  <@162609988131487744> -> **Getting inventory. Please wait...**
+Bot Restarted
+<server 2, brownsugarpup > :  !card
+<server 2, brownsugarpup > :  !Card
+<Message = DM, Spam Pigeon Overlord > :  Don't leave, we will send him after you
+https://cdn.discordapp.com/attachments/416136369442914324/438166783841533953/Teemo_The_Nazi_Panda.jpg
+<@162609988131487744>
+<server 2, brownsugarpup > :  !Card
+<Message = DM, Spam Pigeon Overlord > :  undefined<@162609988131487744>
+Bot Restarted
+<server 2, brownsugarpup > :  welcomeChannel.send(RANDOMGOODDAY[Math.floor(Math.random() * 9) + 1] + `${member}` )
+<server 2, brownsugarpup > :  !CArd
+<server 2, brownsugarpup > :  !Card
+<server 2, Spam Pigeon Overlord > :  I'm a dragon, Rob
+https://cdn.discordapp.com/attachments/416136369442914324/572152725329018891/Bipen_The_Dragon.jpg
+<@162609988131487744>
+<Message = DM, Spam Pigeon Overlord > :  ...
+https://cdn.discordapp.com/attachments/246395029105410049/574814328507727873/Bacon2.jpg
+<@162609988131487744>
+<server 2, brownsugarpup > :  !Card
+<server 2, Spam Pigeon Overlord > :  13 levels till you become a god
+https://cdn.discordapp.com/attachments/416136369442914324/572152070426066954/Gangplank.jpg
+<@162609988131487744>
+<Message = DM, Spam Pigeon Overlord > :  13 levels till you become a god
+https://cdn.discordapp.com/attachments/416136369442914324/572152070426066954/Gangplank.jpg
+<@162609988131487744>
+Bot Restarted
+<server 2, brownsugarpup > :  !Card
+<server 2, Spam Pigeon Overlord > :  Don't step into a turret bush, m8
+https://cdn.discordapp.com/attachments/416136369442914324/572152097794031637/Heimerdinger.jpg
+<@162609988131487744>
+<Message = DM, Spam Pigeon Overlord > :  ...
+https://cdn.discordapp.com/attachments/246395029105410049/574814328507727873/Bacon2.jpg
+<@162609988131487744>
+Bot Restarted
+<server 2, brownsugarpup > :  !Card
+<server 2, Spam Pigeon Overlord > :  ...
+https://cdn.discordapp.com/attachments/246395029105410049/574814328507727873/Bacon2.jpg
+<@162609988131487744>
+<Message = DM, Spam Pigeon Overlord > :  I'm a dragon, Rob
+https://cdn.discordapp.com/attachments/416136369442914324/572152725329018891/Bipen_The_Dragon.jpg
+<@162609988131487744>
+<server 2, FireLord47 > :  !Card
+<server 2, Spam Pigeon Overlord > :  13 levels till you become a god
+https://cdn.discordapp.com/attachments/416136369442914324/572152070426066954/Gangplank.jpg
+<@272031954126241792>
+<Message = DM, Spam Pigeon Overlord > :  ...
+https://cdn.discordapp.com/attachments/246395029105410049/574814328507727873/Bacon2.jpg
+<@272031954126241792>
+<Message = DM, Spam Pigeon Overlord > :  !Card
+<server 2, FireLord47 > :  hi
+<Message = DM, Spam Pigeon Overlord > :  hi
+Bot Restarted
+<server 2, King Julian > :  I'll be on in 10
