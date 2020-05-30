@@ -1,26 +1,4 @@
-"use strict";
-const Discord = require('discord.js');
-const fs = require("fs");
-const WhiteList = ("5971", "3464", "1974", "9915");
-const Config = require(".\\config_auth\\Config.json");
-var generalmillz= "generalmillz"
-const WelconeChannel = "general"
-const ChildShellBase = require("./components/ChildProccessCreate").ChildShell
-const ChildShell = new ChildShellBase();
-const Token = Config.Token
-const AWS = require('aws-sdk');
-var RANDOM = (14)
-var RANDOMNUMBER = Math.floor(Math.random() * 15) + 1;
-var d = new Date();
-var t= d.getTime();
-var Hr = d.getHours();
-var year = d.getFullYear();
-var month = d.getMonth() + 1;
-var day = d.getDate();
-var Min = d.getMinutes();
-var sec = d.getSeconds();
-var time = month + `.` + day + "." + year +  ".txt"
-var time1 =  Hr + ":" + Min + ":" + sec
+
 
 const init = require("./components/init").init;
 new init();
@@ -28,6 +6,28 @@ new init();
 
 
 
+// const Discord = require('discord.js');
+// const fs = require("fs");
+// const WhiteList = ("5971", "3464", "1974", "9915");
+// const Config = require(".\\config_auth\\Config.json");
+// var generalmillz= "generalmillz"
+// const WelconeChannel = "general"
+// const ChildShellBase = require("./components/ChildProccessCreate").ChildShell
+// const ChildShell = new ChildShellBase();
+// const Token = Config.Token
+// const AWS = require('aws-sdk');
+// var RANDOM = (14)
+// var RANDOMNUMBER = Math.floor(Math.random() * 15) + 1;
+// var d = new Date();
+// var t= d.getTime();
+// var Hr = d.getHours();
+// var year = d.getFullYear();
+// var month = d.getMonth() + 1;
+// var day = d.getDate();
+// var Min = d.getMinutes();
+// var sec = d.getSeconds();
+// var time = month + `.` + day + "." + year +  ".txt"
+// var time1 =  Hr + ":" + Min + ":" + sec
 
 // var bot = new Discord.Client({disableEveryone: true});
 // bot.commands = new Discord.Collection();

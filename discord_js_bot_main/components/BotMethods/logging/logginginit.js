@@ -11,15 +11,19 @@ var day = d.getDate();
 var Min = d.getMinutes();
 var sec = d.getSeconds();
 var time = month + `.` + day + "." + year +  ".txt"
+var t= d.getTime();
+var Hr = d.getHours();
+        const fs = require("fs");
         const Config = require("../../../config_auth/Config.json");
         var bot = ClientInstance.bot;
         bot.on("ready", async () =>{
-            fs.appendFile("../../../ChatLog/exact/" +time, "Bot Restarted" + "\r\n", function (err) {
+            
+            fs.appendFile(Config.path + "/ChatLog/exact/" +time, "Bot Restarted" + "\r\n", function (err) {
                 if (err) throw err;
                 console.log('Log: ' +"../../../ChatLog/exact" + time + " Was successfully created ");
               });
               
-              fs.appendFile("../../../ChatLog/simple" +"Simple" + time, "Bot Restarted" + "\r\n", function (err) {
+              fs.appendFile(Config.path + "/ChatLog/simple/" +"Simple" + time, "Bot Restarted" + "\r\n", function (err) {
                 if (err) throw err;
                 console.log('Log: '+ "../../../ChatLog/simple" + "Simple" + time + " Was successfully created ");
               });
@@ -81,7 +85,7 @@ var time = month + `.` + day + "." + year +  ".txt"
                     logger.end() // close string
         
                     console.log("Logging files have been created")
-                    ClientInstace.LoggingFileCreated = true;
+                    ClientInstance.LoggingFileCreated = true;
                 }
             );
     }

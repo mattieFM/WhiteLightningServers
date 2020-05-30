@@ -11,9 +11,9 @@ StartLogging = require("./BotMethods/logging/loggingOnMessage").OnMessageLogging
 
     Init(){
         var ClientInstace = this.BotInit();
-        this.CommandsInit();
         this.MainBotInit(ClientInstace);
         this.AWSInit();
+        new this.BotOnMethods().ClientLogin(ClientInstace);
     }
 
     BotInit(){
@@ -24,6 +24,7 @@ StartLogging = require("./BotMethods/logging/loggingOnMessage").OnMessageLogging
     }
     
     MainBotInit(ClientInstace){
+        this.CommandsInit(ClientInstace);
         var botMethods = new this.BotOnMethods();
         botMethods.BotOnReady(ClientInstace);
         new this.LoggingInit().init(ClientInstace);
@@ -40,10 +41,11 @@ StartLogging = require("./BotMethods/logging/loggingOnMessage").OnMessageLogging
         AWS.config.loadFromPath(Config.path +'\\config_auth\\awsconfig.json');
     }
 
-    CommandsInit(){
+    CommandsInit(ClientInstace){
+        const bot = ClientInstace.bot;
         const Config = require("../config_auth/Config.json");
         const fs = require("fs");
-        fs.readdir(Config.path + "/discord_js_bot_main/commands/", (err, files) =>{
+        fs.readdir(Config.path + "/commands/", (err, files) =>{
             if(err) console.log(err);
             let jsfile = files.filter(f => f.split(".").pop() === "js");
             if(jsfile.length <= 0){
@@ -52,7 +54,7 @@ StartLogging = require("./BotMethods/logging/loggingOnMessage").OnMessageLogging
             } 
         
             jsfile.forEach((f, i) =>{
-                let C = require(`Config.path + "/discord_js_bot_main/commands/${f}`);
+                let C = require(Config.path + `/commands/${f}`);
                 console.log(`${f} Ready!`);
                 bot.commands.set(C.help.name, C);
             });
