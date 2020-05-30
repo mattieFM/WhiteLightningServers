@@ -17,11 +17,28 @@ constructor(avalibilityZone){
      this.ec2 = new AWS.EC2({apiVersion: '2016-11-15', region: zone});
     
      this.instanceParams = {
+        BlockDeviceMappings: [
+            {
+              DeviceName: '/dev/sdh',
+              Ebs: {
+                DeleteOnTermination: false,
+                Encrypted: false,
+                SnapshotId: 'STRING_VALUE',
+                VolumeSize: '8',
+                VolumeType: standard
+              },
+              NoDevice: 'STRING_VALUE',
+            },
+            /* more items */
+          ],
         ImageId: 'ami-059377ba193aa9309', 
         InstanceType: 't2.micro',
         KeyName: 'MinecraftCloud',
         MinCount: 1,
-        MaxCount: 1
+        MaxCount: 1,
+        SecurityGroupIds: [
+            "sg-95cacfef"
+         ]
      };
 
     

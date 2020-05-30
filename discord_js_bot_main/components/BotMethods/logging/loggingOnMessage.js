@@ -1,14 +1,30 @@
 exports.OnMessageLogging = class OnMessageLogging{
-    
-    constructor(bot){
-
+time;
+    constructor(){
+        var d = new Date();
+        var year = d.getFullYear();
+        var month = d.getMonth() + 1;
+        var day = d.getDate();
+        var Min = d.getMinutes();
+        var sec = d.getSeconds();
+        var time = month + `.` + day + "." + year +  ".txt"
+        this.time = time;
     }
 
-    OnMessageLogging(bot){
+    OnMessageLogging(ClientInstance = require("../../botInstance").ClientInstace){
+        if(ClientInstance.LoggingFileCreated =false){
+            var HasLoged = false;
+            if(!HasLoged){console.log("log files have not ben created")
+            HasLoged =true;
+        }else{
+            return;
+        }
+        }else {
         const fs = require("fs");
-    bot.on("message", async message =>{
+        var bot = ClientInstance.bot;
+        bot.on("message", async message =>{
   
-        var Writing = fs.createWriteStream(time, {
+        var Writing = fs.createWriteStream("../../../ChatLog/exact/" +this.time, {
             flags: 'a'
            });
           
@@ -25,7 +41,7 @@ exports.OnMessageLogging = class OnMessageLogging{
     
             Writing.end() // close string
     
-            var Writing2 = fs.createWriteStream("Simple" + time, {
+            var Writing2 = fs.createWriteStream("../../../ChatLog/Simple/" +"Simple" + time, {
                 flags: 'a'
                });
               
@@ -43,6 +59,9 @@ exports.OnMessageLogging = class OnMessageLogging{
             
             
             Writing2.end() // close string
+            if(!ClientInstance.LoggingIsInitialised)console.log("Logging has been initialised")
+            ClientInstance.LoggingIsInitialised = true;
     });
+}
 }
 }

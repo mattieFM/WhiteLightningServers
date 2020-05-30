@@ -3,16 +3,25 @@ exports.loggingInit = class loggingInit{
 
     }
 
-    init(botInstance){
+    init(ClientInstance = require("../../botInstance").ClientInstace){
+var d = new Date();
+var year = d.getFullYear();
+var month = d.getMonth() + 1;
+var day = d.getDate();
+var Min = d.getMinutes();
+var sec = d.getSeconds();
+var time = month + `.` + day + "." + year +  ".txt"
+        const Config = require("../../../config_auth/Config.json");
+        var bot = ClientInstance.bot;
         bot.on("ready", async () =>{
-            fs.appendFile(time, "Bot Restarted" + "\r\n", function (err) {
+            fs.appendFile("../../../ChatLog/exact/" +time, "Bot Restarted" + "\r\n", function (err) {
                 if (err) throw err;
-                console.log('Log: ' + time + " Was successfully created ");
+                console.log('Log: ' +"../../../ChatLog/exact" + time + " Was successfully created ");
               });
               
-              fs.appendFile("Simple" + time, "Bot Restarted" + "\r\n", function (err) {
+              fs.appendFile("../../../ChatLog/simple" +"Simple" + time, "Bot Restarted" + "\r\n", function (err) {
                 if (err) throw err;
-                console.log('Log: ' + "Simple" + time + " Was successfully created ");
+                console.log('Log: '+ "../../../ChatLog/simple" + "Simple" + time + " Was successfully created ");
               });
         
           
@@ -71,8 +80,8 @@ exports.loggingInit = class loggingInit{
                     logger.write("-------------Start of Chat Log-----------------------" + "\r\n");
                     logger.end() // close string
         
-        
-        
+                    console.log("Logging files have been created")
+                    ClientInstace.LoggingFileCreated = true;
                 }
             );
     }

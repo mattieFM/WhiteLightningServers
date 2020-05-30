@@ -5,14 +5,16 @@ exports.BotOnMethods = class BotOnMethods{
     }
 
 
-    BotOnReady(client){
+    BotOnReady(ClientInstance = require("./botInstance")){
+        var client = ClientInstance.bot;
         client.on("ready", async () =>{
             console.log(`${client.user.username} is online and is running on ${client.guilds.size} server(s)!`);
             client.user.setActivity("The Pup of Repair", {type: "WATCHING"});
            
         });
     }
-    BotOnMemberAdd(client){
+    BotOnMemberAdd(ClientInstance = require("./botInstance")){
+        var client = ClientInstance.bot;
         client.on("guildMemberAdd", async member => { 
             var guild = member.guild
             if (member.guild.id !== '684538007168090123') {
@@ -24,9 +26,10 @@ exports.BotOnMethods = class BotOnMethods{
         });
     }
 
-    BotOnMessage(ClientInstance){
-
-        var client
+    BotOnCommand(ClientInstance = require("./botInstance")){
+        if(ClientInstance.CommandsAreInitialised){
+        var client = ClientInstance.bot;
+        var Config = require("../config_auth/Config.json");
         client.on("message", async message =>{
 
             if(message.author.client) return;
@@ -39,5 +42,16 @@ exports.BotOnMethods = class BotOnMethods{
           if(cmdFile) cmdFile.run(client, message, args);
         
         });
+    }else{
+        var haslogged = false;
+        if(!haslogged)console.log("a command was sent and recived before commands were initalised");
+        haslogged = true
+        return;
+    }
+    }
+    ClientLogin(ClientInstace){
+        var Config = require("../config_auth/Config.json");
+        var client = ClientInstance.bot;
+        client.login(Config.Token);
     }
 }
