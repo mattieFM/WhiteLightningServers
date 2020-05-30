@@ -24,7 +24,7 @@ time;
         var bot = ClientInstance.bot;
         bot.on("message", async message =>{
   
-        var Writing = fs.createWriteStream("../../../ChatLog/exact/" +this.time, {
+        var Writing = fs.createWriteStream(Config.path + "/ChatLog/exact/Exact" +this.time, {
             flags: 'a'
            });
           
@@ -41,7 +41,7 @@ time;
     
             Writing.end() // close string
     
-            var Writing2 = fs.createWriteStream("../../../ChatLog/Simple/" +"Simple" + time, {
+            var Writing2 = fs.createWriteStream(Config.path + "/ChatLog/simple/" +"Simple" + this.time, {
                 flags: 'a'
                });
               

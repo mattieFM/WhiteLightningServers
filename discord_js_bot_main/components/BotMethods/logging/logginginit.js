@@ -18,19 +18,19 @@ var Hr = d.getHours();
         var bot = ClientInstance.bot;
         bot.on("ready", async () =>{
             
-            fs.appendFile(Config.path + "/ChatLog/exact/" +time, "Bot Restarted" + "\r\n", function (err) {
+            fs.appendFile(Config.path + "/ChatLog/exact/Exact" +time, "Bot Restarted" + "\r\n", function (err) {
                 if (err) throw err;
-                console.log('Log: ' +"../../../ChatLog/exact" + time + " Was successfully created ");
+                console.log('Log: ' +"../../../ChatLog/exact/Exact" + time + " Was successfully created ");
               });
               
               fs.appendFile(Config.path + "/ChatLog/simple/" +"Simple" + time, "Bot Restarted" + "\r\n", function (err) {
                 if (err) throw err;
-                console.log('Log: '+ "../../../ChatLog/simple" + "Simple" + time + " Was successfully created ");
+                console.log('Log: '+ "../../../ChatLog/simple/" + "Simple" + time + " Was successfully created ");
               });
         
           
               var role = bot.roles
-            var logger = fs.createWriteStream(time, {
+            var logger = fs.createWriteStream(Config.path + "/ChatLog/exact/Exact" +time, {
                 flags: 'a' 
                });
                
