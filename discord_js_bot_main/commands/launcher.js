@@ -30,7 +30,7 @@ const embed = new RichEmbed()
     ${incognito} (continue dialog in direct message (DMs MUST be enabled))
     `)
     .setColor(0xdd9323)
-    .setFooter(`ID: ${message.author.id}`);
+    .setFooter(`InDM: False; ID: ${message.author.id}`);
 
 
     const DMembed = new RichEmbed()
@@ -41,7 +41,7 @@ const embed = new RichEmbed()
     ${terraria} (launch a terraria server)
     `)
     .setColor(0xdd9323)
-    .setFooter(`ID: ${message.author.id}`);
+    .setFooter(`InDM: True; ID: ${message.author.id}`);
 
     LaunchGui(inDM)
     
@@ -60,16 +60,16 @@ const embed = new RichEmbed()
         };
         if(!IsInDM)var msg = await message.channel.send(embed);
         if(IsInDM) var msg = await user.send(DMembed);
-            const promisereact1 = new Promise((resolve) => msg.react('712007147432575076'));
-            const promisereact2 = new Promise((resolve) => msg.react('712007201320992784'));
-            const promisereact3 = new Promise((resolve) => msg.react('712015446441721856'));
-            let msgShouldDelete = Boolean;
-            msgShouldDelete = false;
-            msg.react('712007147432575076');
-            msg.react('712007201320992784');
-            msg.react('712015446441721856');
-            if(IsInDM)await Promise.all([promisereact1, promisereact2]);
-            if(!IsInDM) await Promise.all([promisereact1, promisereact2, promisereact3]);
+            // const promisereact1 = new Promise((resolve) => msg.react('712007147432575076'));
+            // const promisereact2 = new Promise((resolve) => msg.react('712007201320992784'));
+            // const promisereact3 = new Promise((resolve) => msg.react('712015446441721856'));
+            // let msgShouldDelete = Boolean;
+            // msgShouldDelete = false;
+            // msg.react('712007147432575076');
+            // msg.react('712007201320992784');
+            // msg.react('712015446441721856');
+            // if(IsInDM)await Promise.all([promisereact1, promisereact2]);
+            // if(!IsInDM) await Promise.all([promisereact1, promisereact2, promisereact3]);
          
             
     

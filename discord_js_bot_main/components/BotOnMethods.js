@@ -28,12 +28,14 @@ exports.BotOnMethods = class BotOnMethods{
 
     async BotOnCommand(ClientInstance = require("./botInstance")){
         
-        var client = ClientInstance.bot;
+        
         var client = ClientInstance.bot;
         var Config = require("../config_auth/Config.json");
         client.on("message", async message =>{
+            var client = ClientInstance.bot;
             if(ClientInstance.CommandsAreInitialised){
-            if(message.author.client) return;
+            if(message.author.id === client.user.id) return;
+            
           let prefix = Config.prefix;
           let msgArray = message.content.toLocaleLowerCase().split(" "); 
           let cmd = msgArray[0];
@@ -55,5 +57,6 @@ exports.BotOnMethods = class BotOnMethods{
         var Config = require("../config_auth/Config.json");
         var client = ClientInstance.bot;
         client.login(Config.Token);
+        ClientInstance.ClientHasLoggedIn = true;
     }
 }

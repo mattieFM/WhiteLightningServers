@@ -30,6 +30,7 @@ time;
         const fs = require("fs");
         const Config = require("../../../config_auth/Config.json");
         var bot = ClientInstance.bot;
+        
         bot.on("message", async message =>{
   
         var Writing = fs.createWriteStream(Config.path + "/ChatLog/exact/Exact" +this.time, {
@@ -67,9 +68,14 @@ time;
             
             
             Writing2.end() // close string
-            if(!ClientInstance.LoggingIsInitialised)console.log("Logging has been initialised")
-            ClientInstance.LoggingIsInitialised = true;
+            
+            
     });
+    if(!ClientInstance.LoggingIsInitialised){
+        console.log("Logging has been initialised")
+        ClientInstance.LoggingIsInitialised = true;
+        }
 }
+
 }
 }

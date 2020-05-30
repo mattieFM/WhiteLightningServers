@@ -9,8 +9,8 @@ StartLogging = require("./BotMethods/logging/loggingOnMessage").OnMessageLogging
         this.Init();
     }
 
-     Init(){
-        var ClientInstace = this.BotInit();
+     async Init(){
+        var ClientInstace = await this.BotInit();
         await this.MainBotInit(ClientInstace);
          this.AWSInit();
          new this.BotOnMethods().ClientLogin(ClientInstace);
@@ -24,14 +24,14 @@ StartLogging = require("./BotMethods/logging/loggingOnMessage").OnMessageLogging
         return ClientInstace; 
     }
     
-     async MainBotInit(ClientInstace){
-        await this.CommandsInit(ClientInstace)
-        var botMethods =  new this.BotOnMethods();
+      MainBotInit(ClientInstace){
+         this.CommandsInit(ClientInstace)
+         var botMethods =  new this.BotOnMethods();
          botMethods.BotOnReady(ClientInstace);
-        await new this.LoggingInit().init(ClientInstace);
-        await new this.StartLogging().OnMessageLogging(ClientInstace);
+         new this.LoggingInit().init(ClientInstace);
+         new this.StartLogging().OnMessageLogging(ClientInstace);
          botMethods.BotOnMemberAdd(ClientInstace);
-        await botMethods.BotOnCommand(ClientInstace);
+         botMethods.BotOnCommand(ClientInstace);
 
     }
 
@@ -60,6 +60,7 @@ StartLogging = require("./BotMethods/logging/loggingOnMessage").OnMessageLogging
                 bot.commands.set(C.help.name, C);
             });
         });
+        ClientInstace.CommandsAreInitialised = true;
     }
 
  
