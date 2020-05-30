@@ -5,7 +5,7 @@ exports.BotOnMethods = class BotOnMethods{
     }
 
 
-    BotOnReady(ClientInstance = require("./botInstance")){
+     BotOnReady(ClientInstance = require("./botInstance")){
         var client = ClientInstance.bot;
         client.on("ready", async () =>{
             console.log(`${client.user.username} is online and is running on ${client.guilds.size} server(s)!`);
@@ -13,7 +13,7 @@ exports.BotOnMethods = class BotOnMethods{
            
         });
     }
-    BotOnMemberAdd(ClientInstance = require("./botInstance")){
+     BotOnMemberAdd(ClientInstance = require("./botInstance")){
         var client = ClientInstance.bot;
         client.on("guildMemberAdd", async member => { 
             var guild = member.guild
@@ -26,12 +26,13 @@ exports.BotOnMethods = class BotOnMethods{
         });
     }
 
-    BotOnCommand(ClientInstance = require("./botInstance")){
-        if(ClientInstance.CommandsAreInitialised){
+    async BotOnCommand(ClientInstance = require("./botInstance")){
+        
+        var client = ClientInstance.bot;
         var client = ClientInstance.bot;
         var Config = require("../config_auth/Config.json");
         client.on("message", async message =>{
-
+            if(ClientInstance.CommandsAreInitialised){
             if(message.author.client) return;
           let prefix = Config.prefix;
           let msgArray = message.content.toLocaleLowerCase().split(" "); 
@@ -40,16 +41,17 @@ exports.BotOnMethods = class BotOnMethods{
           let cmdFile = client.commands.get(cmd.slice(prefix.length));
         
           if(cmdFile) cmdFile.run(client, message, args);
-        
+            }  else{
+                var haslogged = false;
+                if(!haslogged)console.log("a command was sent and recived before commands were initalised");
+                haslogged = true
+                return;
+            }
         });
-    }else{
-        var haslogged = false;
-        if(!haslogged)console.log("a command was sent and recived before commands were initalised");
-        haslogged = true
-        return;
+  
+    
     }
-    }
-    ClientLogin(ClientInstance = require("./botInstance")){
+     ClientLogin(ClientInstance = require("./botInstance")){
         var Config = require("../config_auth/Config.json");
         var client = ClientInstance.bot;
         client.login(Config.Token);

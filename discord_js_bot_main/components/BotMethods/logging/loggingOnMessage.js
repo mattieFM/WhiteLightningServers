@@ -11,8 +11,8 @@ time;
         this.time = time;
     }
 
-    OnMessageLogging(ClientInstance = require("../../botInstance").ClientInstace){
-        if(ClientInstance.LoggingFileCreated =false){
+    async OnMessageLogging(ClientInstance = require("../../botInstance").ClientInstace){
+        if(ClientInstance.LoggingFileCreated == false){
             var HasLoged = false;
             if(!HasLoged){console.log("log files have not ben created")
             HasLoged =true;
@@ -20,7 +20,15 @@ time;
             return;
         }
         }else {
+            var d = new Date();
+        var year = d.getFullYear();
+        var month = d.getMonth() + 1;
+        var day = d.getDate();
+        var Min = d.getMinutes();
+        var sec = d.getSeconds();
+        var time = month + `.` + day + "." + year +  ".txt"
         const fs = require("fs");
+        const Config = require("../../../config_auth/Config.json");
         var bot = ClientInstance.bot;
         bot.on("message", async message =>{
   
