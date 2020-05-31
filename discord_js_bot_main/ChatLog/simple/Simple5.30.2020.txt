@@ -202,3 +202,17 @@ Bot Restarted
 <Gamers At Yellow_tables, Spam Pigeon Overlord > :  
 <Gamers At Yellow_tables, brownsugarpup > :  !launch
 <Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Message = DM, brownsugarpup > :  !launch
+<Message = DM, Spam Pigeon Overlord > :  
+<Message = DM, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original message
+Bot Restarted
+<Message = DM, brownsugarpup > :  !launch
+<Message = DM, Spam Pigeon Overlord > :  
+<Message = DM, brownsugarpup > :  !launch
+<Message = DM, Spam Pigeon Overlord > :  
+<Message = DM, brownsugarpup > :  !launch
+<Message = DM, Spam Pigeon Overlord > :  
+<Message = DM, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original message
+<Message = DM, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original message
+<Message = DM, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original message
