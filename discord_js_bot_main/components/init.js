@@ -5,6 +5,9 @@ BotInstance = require("./botInstance").ClientInstace;
 BotOnMethods = require("./BotOnMethods").BotOnMethods;
 LoggingInit = require("./BotMethods/logging/logginginit").loggingInit;
 StartLogging = require("./BotMethods/logging/loggingOnMessage").OnMessageLogging;
+NetSoketInit = require("./Network/NetSocketInit");
+netTest = require("./Network/netclient/test");
+
     constructor(){
         this.Init();
     }
@@ -13,8 +16,10 @@ StartLogging = require("./BotMethods/logging/loggingOnMessage").OnMessageLogging
         var ClientInstace = await this.BotInit();
         await this.MainBotInit(ClientInstace);
          this.AWSInit();
-         this.JavaBotInit();
+         //this.JavaBotInit();
          new this.BotOnMethods().ClientLogin(ClientInstace);
+         new this.NetSoketInit.NetSocketInit();
+        
     }
 
     async BotInit(){
@@ -25,12 +30,12 @@ StartLogging = require("./BotMethods/logging/loggingOnMessage").OnMessageLogging
         return ClientInstace; 
     }
     
-    JavaBotInit(ClientInstace){
+    JavaBotInit(ClientInstace1){
         
         var child = new this.ChildProccesCreator().CreateChildShell();
         child.write("cd \"C:\\Users\\mmful\\Desktop\\discord bot\\WhiteLightningServers\\JavaBuilds\" \r");
         child.write("java -jar JavaDiscord4J-1.0-SNAPSHOT.jar\r");
-        ClientInstace.JavaBotHasInitialised = true;
+        ClientInstace1.JavaBotHasInitialised = true;
     }
       MainBotInit(ClientInstace){
          this.CommandsInit(ClientInstace)
