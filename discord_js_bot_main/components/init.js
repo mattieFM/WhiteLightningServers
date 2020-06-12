@@ -16,7 +16,7 @@ netTest = require("./Network/netclient/test");
         var ClientInstace = await this.BotInit();
         await this.MainBotInit(ClientInstace);
          this.AWSInit();
-         //this.JavaBotInit();
+         this.JavaBotInit();
          new this.BotOnMethods().ClientLogin(ClientInstace);
          new this.NetSoketInit.NetSocketInit();
         

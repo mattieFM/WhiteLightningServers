@@ -15,7 +15,7 @@ function rollDice(max, amount) {
 
 module.exports.run = async(bot, message, args) => {
     console.log(args[0] + "arg zero" + args[1]);
-    
+    var minus;
     if(!args[1])args[1]=1;
     let die = args[0].replace('d', ' ');
     var array = die.split(" ");
@@ -69,6 +69,13 @@ module.exports.run = async(bot, message, args) => {
         var title = args[0] + "+"+args[1];
   var result =  parseFloat(randdice[0]) +parseFloat(args[1]);
   args[1] = args[1].substr(1)
+}else if(args[1].toString().includes("-")){
+  console.log("args 1 : "+args[1]);
+  console.log('here' + args.length);
+  var title = args[0] + "-"+args[1];
+var result =  parseFloat(randdice[0]) -parseFloat(args[1]);
+args[1] = args[1].substr(1)
+minus = true;
 }else{
     console.log("args 0 : "+args[0]);
     console.log("args 1 : "+args[1]);
@@ -80,6 +87,7 @@ module.exports.run = async(bot, message, args) => {
     
     console.log(randdice);
     ;
+    
     message.channel.send({embed: {
         color: 3447003,
         title: args[0] + "+"+args[1],

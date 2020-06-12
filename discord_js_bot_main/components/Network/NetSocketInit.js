@@ -14,7 +14,10 @@ exports.NetSocketInit = class NetSocketInit {
             console.log(`TCP server listening on ${host}:${port}`); 
         })
 const clientinsance = require("./ClientInstance").clientInstance; 
-        server.on("connection",  (socket) => { 
+        server.on("connection",  (socket) => {
+            const CleintConfigJSON = require("../../config_auth/ClientConfig.json");
+            var ClientConfig = JSON.stringify(CleintConfigJSON);
+            socket.write("SendingConfig: &split&" + ClientConfig + "&split&")
             var clientAddress = `${socket.remoteAddress}:${socket.remotePort}`; 
             console.log(`new client connected: ${clientAddress}`); 
             sockets.push(new clientinsance(socket, sockets.length+1));
@@ -22,7 +25,7 @@ const clientinsance = require("./ClientInstance").clientInstance;
             socket.on('data', (data) => { 
                 console.log(`Client ${clientAddress}: ${data}`); 
                 sockets.forEach((Socket) =>{
-                    Socket.write(socket.remoteAddress + ':' + socket.remotePort + " said " + data + '\n'); 
+                    Socket.Socket.write(socket.remoteAddress + ':' + socket.remotePort + " said " + data + '\n'); 
                 });
                 socket.on('close', (data) => { 
                     let index = sockets.findIndex((o) => { 

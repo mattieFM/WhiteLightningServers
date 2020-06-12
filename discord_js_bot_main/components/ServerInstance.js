@@ -1,42 +1,40 @@
-
-
-
 exports.serverinstance = class ServerInstance {
 GAMETYPES = require("./enums/GAMETYPES");
+//data the will be filled before fileSystemController
+
+//settings for the game server
+GameSettings;
+
+//type of game
 Game;
-Index;
+
+//discord owner ID
 OwnerID;
+
+//how long till the game session will close
+SessionTimeTillClose;
+
+//if aplicable
 Password;
-childinstance;
-Output;
-Array = [];
 
 
-constructor(args = [], game, ChildInstance) {
+//file system will fill
+
+//Total index of all servers running (number of this server in realtion to all servers)
+Index;
+//if common server, index within all common servers
+CommonIndex
+//the number in realtion to all servers the owner currently owns, active or inactive (but not deleted)
+OwnerServerIndex;
+//
+
+
+
+constructor(game) {
   
    
         this.Game = game;
-        this.childinstance = ChildInstance;
-   
-        //return console.log('--SERVERINSTANCE constructor -- game should be a type of GAMETYPES');
-    
- 
 }
-
-async cleanUp() {
-        this.childinstance.kill;
-        this.Array.splice(this.Index);
-        this.reMapArrayIndex(this.Array);
-
-}
-
-async reMapArrayIndex(array) {
-        let i;
-        for(i; i < array.length; i++){
-                array[i].Index = i;
-        }
-}
-
 
  
 
