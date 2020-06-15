@@ -1,3 +1,4 @@
+const Config = require("../config_auth/Config.json");
 exports.init = class init{
 Discord = require('discord.js');
 ChildProccesCreator = require("./ChildProccessCreate").ChildShell;
@@ -5,6 +6,7 @@ BotInstance = require("./botInstance").ClientInstace;
 BotOnMethods = require("./BotOnMethods").BotOnMethods;
 LoggingInit = require("./BotMethods/logging/logginginit").loggingInit;
 StartLogging = require("./BotMethods/logging/loggingOnMessage").OnMessageLogging;
+
 NetSoketInit = require("./Network/NetSocketInit");
 netTest = require("./Network/netclient/test");
 
@@ -15,6 +17,13 @@ netTest = require("./Network/netclient/test");
 
     //the main initialisation function
      async Init(){
+        //pulls directories from args
+   
+
+        if(process.argv.length > 0){
+        Config.path = process.argv[2]; 
+        var path = process.argv[3];
+        }
          //create a Client/Bot Instance, then pass it to main bot init(), 
         var ClientInstace = await this.BotInit();
         //main bot init --the function responsible for the megority of bot setup
@@ -26,7 +35,7 @@ netTest = require("./Network/netclient/test");
          //netSocket initialisation
          new this.NetSoketInit.NetSocketInit();
          //launch the java bot inside a node-pty shell
-         this.JavaBotInit();
+         this.JavaBotInit(ClientInstace, path);
         
     }
 
@@ -40,10 +49,10 @@ netTest = require("./Network/netclient/test");
         return ClientInstace; 
     }
     
-    JavaBotInit(ClientInstace1){
+    JavaBotInit(ClientInstace1, path){
         //the main init function for the java bot (launching the java bot inside a node-pty shell)
         var child = new this.ChildProccesCreator().CreateChildShell();
-        child.write("cd \"C:\\Users\\mmful\\Desktop\\discord bot\\WhiteLightningServers\\JavaBuilds\" \r");
+        child.write("cd \""+path+"\" \r");
         child.write("java -jar JavaDiscord4J-1.0-SNAPSHOT.jar\r");
         ClientInstace1.JavaBotHasInitialised = true;
     }
