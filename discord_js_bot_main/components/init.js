@@ -8,41 +8,56 @@ StartLogging = require("./BotMethods/logging/loggingOnMessage").OnMessageLogging
 NetSoketInit = require("./Network/NetSocketInit");
 netTest = require("./Network/netclient/test");
 
+//custructor fires on new object, thus triggering Init()
     constructor(){
         this.Init();
     }
 
+    //the main initialisation function
      async Init(){
+         //create a Client/Bot Instance, then pass it to main bot init(), 
         var ClientInstace = await this.BotInit();
-        await this.MainBotInit(ClientInstace);
+        //main bot init --the function responsible for the megority of bot setup
+         this.MainBotInit(ClientInstace);
+         //AWS init() the functipn responsible for setting any golbal settings for aws
          this.AWSInit();
-         this.JavaBotInit();
-         new this.BotOnMethods().ClientLogin(ClientInstace);
+         //the client must login before the java bot attempts to log in.
+         await new this.BotOnMethods().ClientLogin(ClientInstace);
+         //netSocket initialisation
          new this.NetSoketInit.NetSocketInit();
+         //launch the java bot inside a node-pty shell
+         this.JavaBotInit();
         
     }
 
     async BotInit(){
+        //the function that will return a usable bot/client instance
         const Discord = require('discord.js');
         var bot = new Discord.Client({disableEveryone: true});
+        //create new client/bot instance
         var ClientInstace = new this.BotInstance(bot);
         bot.commands = new Discord.Collection();
         return ClientInstace; 
     }
     
     JavaBotInit(ClientInstace1){
-        
+        //the main init function for the java bot (launching the java bot inside a node-pty shell)
         var child = new this.ChildProccesCreator().CreateChildShell();
         child.write("cd \"C:\\Users\\mmful\\Desktop\\discord bot\\WhiteLightningServers\\JavaBuilds\" \r");
         child.write("java -jar JavaDiscord4J-1.0-SNAPSHOT.jar\r");
         ClientInstace1.JavaBotHasInitialised = true;
     }
       MainBotInit(ClientInstace){
+        //the main discord bot initalistation function
+        //load commands
          this.CommandsInit(ClientInstace)
          var botMethods =  new this.BotOnMethods();
+         //load BotOnReady
          botMethods.BotOnReady(ClientInstace);
+         //start logging
          new this.LoggingInit().init(ClientInstace);
          new this.StartLogging().OnMessageLogging(ClientInstace);
+         //other "on" commands
          botMethods.BotOnMemberAdd(ClientInstace);
          botMethods.BotOnCommand(ClientInstace);
 
@@ -50,6 +65,7 @@ netTest = require("./Network/netclient/test");
 
 
      AWSInit(){
+         //set any global config that aws needs
         const AWS = require("aws-sdk");
         const Config = require("../config_auth/Config.json");
         AWS.config.loadFromPath(Config.path +'\\config_auth\\awsconfig.json');

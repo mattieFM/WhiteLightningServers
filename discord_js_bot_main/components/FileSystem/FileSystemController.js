@@ -1,13 +1,14 @@
 const { Server } = require("http");
 const { UserInfoInstance } = require("./UserInfoInstance");
 const { userInfo } = require("os");
+const { Config } = require("aws-sdk");
 const GAMETYPES = require("../../enums/GAMETYPES").gametypes;
 const UserInfo = require("./UserInfoInstance").UserInfoInstance;
 let GenericUserInfo = new UserInfo();
-const REJECTIONREASON = require("../../enums/RejectionReason").RejectionReason;
+const ServerRequestStatus = require("../../enums/ServerRequestStatus").Status;
 const SavedFileInstance = require("./SavedFileInstance").SavedFileInstance;
 const ServerRequest = require("../ServerRequest").ServerRequest;
-let genericServerRequest = new ServerRequest(GAMETYPES.GENERIC);
+const Config32  = require("../../config_auth/Config.json");
 exports.FileSystemController = class FileSystemControllerserver {
 
 //arrays
@@ -141,7 +142,7 @@ FSInit(){
 async ServerRequstProccesser(ServerRequest){
 let UserInfo = ServerRequest.UserInfo;
     await this.CheckUserServerEligibilityFromUserInfo(ServerRequest);
-    if(ServerRequest.Rejected === REJECTIONREASON.NOTREJECTED){
+    if(ServerRequest.Status === ServerRequestStatus.ACCEPTED){
         //if it is not rejected, launch an ec2 instance, add ec2 instance to active servers, convert server request into server instance
 
     }else{
@@ -169,15 +170,15 @@ async FindOrCreateUserInfoFromServerRequest(ServerRequest){
     
     let UserInfo
     //checking if user has any info file created,
-    if(this.CheckUserInfoByID(ServerRequest.AuthorID)){
+    if(await this.CheckUserInfoByID(ServerRequest.OwnerID) === true){
+        UserInfo = await this.GetUserInfoByID(ServerRequest.OwnerID);
         //if it does, it will grab the UserInfo file
-            UserInfo = await this.GetUserInfoByID(ServerRequest.AuthorID);
         }else{
         //if the user does not have a UserInfo file one will be created
         //currently using random Patron Teir before that is implemented
-        await this.CreateUserInfoFromServerRequest(ServerRequest, Math.floor(Math.random() * 4));
-            UserInfo = await this.GetUserInfoByID(ServerRequest.AuthorID);
+        UserInfo = await this.CreateUserInfoFromServerRequest(ServerRequest, Math.floor(Math.random() * 4));
         }
+       
 
     return UserInfo
 }
@@ -193,15 +194,21 @@ async CreateUserInfoFromServerRequest(ServerRequest, patronTeir){
     //temperiar patron tier setter
     UserInfo.PatronTeir = patronTeir;
     //patreon info getter -- get patreon tier, then set UserInfo.Patrontier
-    return await this.CreateUserInfoFileFromUserInfo(UserInfo);
+    let path = await this.CreateUserInfoFileFromUserInfo(UserInfo);
+
+    return await this.GetUserInfoByID(ServerRequest.OwnerID);
 }
 
 async CreateUserInfoFileFromUserInfo(UserInfo){
     const fs = require("fs");
     let json = JSON.stringify(UserInfo);
-    fs.writeFile("./SavedData/UserFiles/" +UserInfo.UserID+".json", json);
-    console.log("UserFile: \"" + "./SavedData/UserFiles/" +UserInfo.UserID+".json" +"\" has been created")
-    return "./SavedData/UserFiles/" +UserInfo.UserID+".json"
+    
+    fs.writeFileSync(Config32.path + "/components/FileSystem/SavedData/UserFiles/" +UserInfo.UserID+".json", json, (err) => {
+        if (err) throw err;
+        console.log('The file has been saved!');
+      });
+    console.log("UserFile: \"" + "../" +UserInfo.UserID+".json" +"\" has been created")
+    return Config32.path + "/components/FileSystem/SavedData/UserFiles/" +UserInfo.UserID+".json"
 }
 
 async CheckUserServerEligibilityFromUserInfo(ServerRequest){
@@ -211,35 +218,45 @@ async CheckUserServerEligibilityFromUserInfo(ServerRequest){
     let MaxServers = await this.GetMaxServersFromUserInfo(UserInfo);
     let MaxUptimePerDay = await this.GetMaxUptimePerDayFromUserInfo(UserInfo);
     if(this.TotalActiveServers.length >= this.MaxTotalActiveServers){
-        ServerRequest.Rejected = REJECTIONREASON.MAXTOTALSERVERS;
+        ServerRequest.Status = ServerRequestStatus.MAXTOTALSERVERS;
     };
     if(this.ActiveCommonServers >= this.MaxActiveCommonServers){
-        ServerRequest.Rejected = REJECTIONREASON.MAXCOMMONSERVERS
+        ServerRequest.Status = ServerRequestStatus.MAXCOMMONSERVERS
     };
     if(UserInfo.ActiveServers.length >= MaxActiveServers){
-        ServerRequest.Rejected = REJECTIONREASON.USERMAXACTIVESERVERS;
+        ServerRequest.Status = ServerRequestStatus.USERMAXACTIVESERVERS;
     };
     if(UserInfo.InactiveServers.length >= MaxServers){
-        ServerRequest.Rejected = REJECTIONREASON.USERMAXSERVERS;
+        ServerRequest.Status = ServerRequestStatus
     };
     if(UserInfo.MaxUptimePerDay >= MaxUptimePerDay){
-        ServerRequest.Rejected = REJECTIONREASON.USERMAXUPTIMEPERDAY;
+        ServerRequest.Status = ServerRequestStatus.USERMAXUPTIMEPERDAY;
+    };
+
+    if(ServerRequest.Status = ServerRequestStatus.NOTREJECTED){
+        ServerRequest.Status = ServerRequestStatus.ACCEPTED;
     };
 }
 async CheckUserInfoByID(AuthorID){
-    var UserInfoExists;
-    this.fs.access(File, (err) =>{
-                if (err){
-                    UserInfoExists = false;
-                } else{
-                    UserInfoExists = true;
-                }
-})
+    var UserInfoExists = undefined;
+    while(UserInfoExists == undefined){
+    if(this.fs.existsSync(Config32.path + "/components/FileSystem/SavedData/UserFiles/" + AuthorID +".json")){
+        UserInfoExists = true;
+        console.log("userexists")
+    }else{
+        console.log("user does not exists")
+        UserInfoExists = false;
+    }
+                
+                
+}      
 return UserInfoExists;
+
 }
 async GetUserInfoByID(AuthorID){
-    var UserInfo = JSON.parse("./SavedData/UserFiles/" + ServerRequest.AuthorID +".json");
-    return UserInfo
+    var UserInfo22 = require(Config32.path + "/components/FileSystem/SavedData/UserFiles/" + AuthorID +".json");
+    console.log(JSON.stringify(UserInfo22));
+    return UserInfo22
 }
 GetMaxServersFromUserInfo(UserInfo){
     let MaxServers;

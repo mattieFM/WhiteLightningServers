@@ -2,6 +2,7 @@ module.exports.avalibilityZones = {
     OHIO: "us-east-2",
     NVIRGINIA: "us-east-1",
     NCALIFORNIA: "us-west-1",
+    OREGON: "us-west-2",
     CAPETOWN: "af-south-1",
     HONGKONG: "ap-east-1",
     MUMBAI: "ap-south-1",

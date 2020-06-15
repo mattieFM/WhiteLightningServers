@@ -13,13 +13,20 @@ exports.NetSocketInit = class NetSocketInit {
             
             console.log(`TCP server listening on ${host}:${port}`); 
         })
+        //Client instance, a net client instance, not a bot instance, a net client instance
 const clientinsance = require("./ClientInstance").clientInstance; 
+
+//on connection of a client do stuff
         server.on("connection",  (socket) => {
+            //stuff
+            //ClientConfigJSON, is the file that will be sent to each client to set global client config
             const CleintConfigJSON = require("../../config_auth/ClientConfig.json");
             var ClientConfig = JSON.stringify(CleintConfigJSON);
+            //send client config with the prefix and proper split charectors such that it can be parsed on the client
             socket.write("SendingConfig: &split&" + ClientConfig + "&split&")
             var clientAddress = `${socket.remoteAddress}:${socket.remotePort}`; 
             console.log(`new client connected: ${clientAddress}`); 
+            //push the net socket into a array containing all sockets
             sockets.push(new clientinsance(socket, sockets.length+1));
             
             socket.on('data', (data) => { 

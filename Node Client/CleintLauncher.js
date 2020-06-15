@@ -2,13 +2,11 @@ const Discord = require("discord.js");
 const Config = require("../config_auth/Config.json");
 const { RichEmbed } = require("discord.js");
 var bot = new Discord.Client({disableEveryone: true});
-const ServerController = require("../components/ServerController").ServerController;
+const server = require("../components/servercontroler");
 const GAMETYPES = require("../enums/GAMETYPES.js");
 const AWS = require("aws-sdk");
 var activeServers = [];
 var inDM = Boolean;
-const ServerRequest = require("../components/ServerRequest").ServerRequest;
-const ServerRequestStatus = require("../enums/ServerRequestStatus").Status;
 
 module.exports.run = async(bot, message, args) => {
     inDM = false;
@@ -65,8 +63,8 @@ const embed = new RichEmbed()
             // const promisereact1 = new Promise((resolve) => msg.react('712007147432575076'));
             // const promisereact2 = new Promise((resolve) => msg.react('712007201320992784'));
             // const promisereact3 = new Promise((resolve) => msg.react('712015446441721856'));
-            let msgShouldDelete;
-             msgShouldDelete = false;
+            // let msgShouldDelete = Boolean;
+            // msgShouldDelete = false;
             // msg.react('712007147432575076');
             // msg.react('712007201320992784');
             // msg.react('712015446441721856');
@@ -82,18 +80,14 @@ const embed = new RichEmbed()
             }).then(collected =>{
     
                 const reaction = collected.first();
-                const ServerControler = new ServerController();
+                const ServerControler = new server.server();
                 var gametypes = GAMETYPES.gametypes;
-                var genericServerRequest = new ServerRequest(gametypes.GENERIC, "InternalUser", null);
-                var launchingserver = ServerControler.LaunchGameServer(genericServerRequest);
+                var launchingserver = ServerControler.launchGame(gametypes.GENERIC);
                     switch (reaction.emoji.id){
                         //minecraft
                         case '712007147432575076':
                             message.channel.send('launching mincraft');
-                            var severRequest = new ServerRequest(gametypes.MINECRAFT, message.author.id, null);
-                            //hard coding accepting request
-                            severRequest.Status = ServerRequestStatus.ACCEPTED;
-                            launchingserver = ServerControler.LaunchGameServer(severRequest);
+                            ServerControler.LaunchOptions(gametypes.MINECRAFT, message, false)
                             break;
                         //terraria
                         case '712007201320992784':
@@ -117,21 +111,21 @@ const embed = new RichEmbed()
                     
                 
                 
-                // if(activeServers && activeServers.length > 0){launchingserver.Index = activeServers.length + 1}else{
-                //     launchingserver.Index = 0;
-                // }
-                //launchingserver.OwnerID = message.author.id;
-                // var fs = require('fs');
-                // var wstream = fs.createWriteStream('C:\\Users\\Administrator\\Desktop\\MattEthan\\'+launchingserver.OwnerID + 'Output'  +'.txt');
-                // launchingserver.Output = wstream;
-                // launchingserver.Array = activeServers;
+                if(activeServers && activeServers.length > 0){launchingserver.Index = activeServers.length + 1}else{
+                    launchingserver.Index = 0;
+                }
+                launchingserver.OwnerID = message.author.id;
+                var fs = require('fs');
+                var wstream = fs.createWriteStream('C:\\Users\\Administrator\\Desktop\\MattEthan\\'+launchingserver.OwnerID + 'Output'  +'.txt');
+                launchingserver.Output = wstream;
+                launchingserver.Array = activeServers;
                 
-                // activeServers.push(launchingserver);
+                activeServers.push(launchingserver);
                 if(msgShouldDelete)msg.delete(5000); 
             }).catch(collected => {
                 msgShouldDelete = true
                 if(msgShouldDelete)msg.delete(5000);
-                return message.channel.send(errormessage + ' -- deleting original message' + collected).then(m => m.delete(5000));
+                return message.channel.send(errormessage + ' -- deleting original message').then(m => m.delete(5000));
                 
             })
             
@@ -145,5 +139,5 @@ const embed = new RichEmbed()
 
 exports.activeServers = activeServers;
 module.exports.help = {
-    name: "launch"
+    name: "clientlaunch"
 }

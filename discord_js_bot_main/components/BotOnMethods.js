@@ -53,7 +53,7 @@ exports.BotOnMethods = class BotOnMethods{
   
     
     }
-     ClientLogin(ClientInstance = require("./botInstance")){
+     async ClientLogin(ClientInstance = require("./botInstance")){
         var Config = require("../config_auth/Config.json");
         var client = ClientInstance.bot;
         client.login(Config.Token);

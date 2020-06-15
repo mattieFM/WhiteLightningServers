@@ -1,0 +1,227 @@
+Bot Restarted
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original message
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original message
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original message
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot read property 'length' of undefined
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot read property 'length' of undefined
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageReferenceError: standard is not defined
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageReferenceError: instanceParams is not defined
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot set property 'Index' of undefined
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot set property 'Index' of undefined
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot set property 'Index' of undefined
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot set property 'Index' of undefined
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot set property 'Index' of undefined
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot set property 'Index' of undefined
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot set property 'Index' of undefined
+<Gamers At Yellow_tables, brownsugarpup > :  !launchj
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot set property 'Index' of undefined
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot set property 'Index' of undefined
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot set property 'OwnerID' of undefined
+<Gamers At Yellow_tables, Summerpup > :  
+<Gamers At Yellow_tables, Summerpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot set property 'OwnerID' of undefined
+Bot Restarted
+<Gamers At Yellow_tables, Summerpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot read property 'OwnerID' of undefined
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot read property 'OwnerID' of undefined
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot read property 'OwnerID' of undefined
+Bot Restarted
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot read property 'OwnerID' of undefined
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot read property 'OwnerID' of undefined
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot read property 'OwnerID' of undefined
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot read property 'OwnerID' of undefined
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot read property 'OwnerID' of undefined
+Bot Restarted
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot read property 'OwnerID' of undefined
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot read property 'OwnerID' of undefined
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot read property 'OwnerID' of undefined
+Bot Restarted
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageTypeError: Cannot read property 'OwnerID' of undefined
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  you did not respone within two minutes  -- deleting original messageReferenceError: msgShouldDelete is not defined
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !launch
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  launching mincraft
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  I probably can’t make it to dnd tonight
+<Gamers At Yellow_tables, SacredSpaceDuck > :  B ruh
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  I’m racing I’m sorry
+<Gamers At Yellow_tables, SacredSpaceDuck > :  Hi racing I'm dad
+<Gamers At Yellow_tables, SacredSpaceDuck > :  Stupid raceist
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  
+<Gamers At Yellow_tables, SacredSpaceDuck > :  Y u a raceist?
+<Gamers At Yellow_tables, Papa John Is Best Girl > :  I’m not I believe that black cars matter
+<Gamers At Yellow_tables, SacredSpaceDuck > :  They have riots and stuff about races for some reason smh
+<Gamers At Yellow_tables, goblinsasscrack > :  I'm still not going to be able to make it tonight
+<Gamers At Yellow_tables, existenceisinferred > :  So.....we still meeting at 5?
+<Gamers At Yellow_tables, brownsugarpup > :  yes
+<Gamers At Yellow_tables, brownsugarpup > :  sorry, i kinda just woke up, in case anyone is confused, @everyone D&D tonight, from 5-10
+<Gamers At Yellow_tables, existenceisinferred > :  Cool.
+<Gamers At Yellow_tables, brownsugarpup > :  @everyone  this should be a channel that only i can post to, unless stated otherwise (in this channel) for the foreseeable future d&d will be 5-10, as that seems to work for most of you (most of the time).
+
+As such, D&D today 5-10
+<Gamers At Yellow_tables, existenceisinferred > :  What’s the food plan?
+<Gamers At Yellow_tables, MuppetsWillKillAll > :  We will grab chips
+<Gamers At Yellow_tables, SacredSpaceDuck > :  I'll grab cold drinks
+<Gamers At Yellow_tables, existenceisinferred > :  As in, whiskey?
+<Gamers At Yellow_tables, brownsugarpup > :  ill make food
+<Gamers At Yellow_tables, existenceisinferred > :  Perfect.
+<Gamers At Yellow_tables, SacredSpaceDuck > :  Sorry mates, I'm gonna be lates
