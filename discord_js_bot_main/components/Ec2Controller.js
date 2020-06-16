@@ -28,7 +28,13 @@ constructor(avalibilityZone){
     async LaunchOnDemandEc2Instance(Ec2Request){
         
      this.ec2 = new AWS.EC2({apiVersion: '2016-11-15', region: this.zone});
-    
+      var userdata = Buffer.from(`<script> 
+      echo Current date and time >> %SystemRoot%\\Temp\\test.log 
+      echo %DATE% %TIME% >> %SystemRoot%\\Temp\\test.log 
+      cd C:\\Users\\Administrator\\Desktop\\bot\\WhiteLightningServers\\discord_js_bot_main 
+      start launch.bat
+      </script> 
+      <persist>true</persist>`).toString('base64')
      this.instanceParams = {
         // BlockDeviceMappings: [
         //     {
@@ -44,14 +50,15 @@ constructor(avalibilityZone){
         //     },
           
         //   ],
-        ImageId: 'ami-0680463ce38049706', 
+        ImageId: 'ami-0cce4a0a958affeb2', 
         InstanceType: 't2.micro',
-        KeyName: 'MinecraftCloud',
+        KeyName: 'ClientGameServerKey',
         MinCount: 1,
         MaxCount: 1,
         SecurityGroupIds: [
-            "sg-95cacfef"
-         ]
+            "sg-0514f961dbeed621f"
+         ],
+         UserData: userdata
      };
 
     
@@ -108,8 +115,9 @@ constructor(avalibilityZone){
                      
                      InstanceType: Ec2Request.InstanceType, 
                      SecurityGroupIds: [
-                        "sg-95cacfef"
-                     ], 
+                        "sg-0514f961dbeed621f"
+                     ],
+                     UserData: ``
                      
                     }, 
                     SpotPrice: "0.020", 
