@@ -20,7 +20,7 @@ async LaunchEc2Server(serverRequest){
     let ec2Launcher = new EC2Launcher(AvalibilityZones.OREGON);
 if(serverRequest.Status === ServerStatus.ACCEPTED){
     serverRequest.Ec2Request = new ec2Request("t2.micro", 8, true);
-    serverRequest.Ec2Request.IsOnDemandInstance = true;
+    serverRequest.Ec2Request.IsSpotInstance = true;
 ec2Launcher.LaunchEc2Instance(serverRequest.Ec2Request);
 }else{
     return console.log("a server request that was not accepted attempted to launch")

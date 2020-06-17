@@ -93,31 +93,41 @@ constructor(avalibilityZone){
             }
 
             async LaunchEc2SpotInstance(Ec2Request){
+              var userdata = Buffer.from(`<script> 
+      echo Current date and time >> %SystemRoot%\\Temp\\test.log 
+      echo %DATE% %TIME% >> %SystemRoot%\\Temp\\test.log 
+      cd C:\\Users\\Administrator\\Desktop\\bot\\WhiteLightningServers\\discord_js_bot_main 
+      start launch.bat
+      </script> 
+      <persist>true</persist>`).toString('base64')
                 var ec2 = new AWS.EC2({apiVersion: '2016-11-15', region: this.zone});
                 var params = {
                     InstanceCount: 1, 
                     LaunchSpecification: {
-                        BlockDeviceMappings: [
-                            {
-                              DeviceName: '/dev/sdh',
-                              Ebs: {
-                                DeleteOnTermination: Ec2Request.VolumeShouldTerminateOnClose,
-                                Encrypted: false,
-                                //SnapshotId: 'STRING_VALUE',
-                                VolumeSize: Ec2Request.VolumeSize,
-                                VolumeType: standard
-                              },
-                             // NoDevice: 'STRING_VALUE',
-                            },
-                            /* more items */
-                          ],
+                        // BlockDeviceMappings: [
+                        //     {
+                        //       DeviceName: '/dev/sdh',
+                        //       Ebs: {
+                        //         DeleteOnTermination: Ec2Request.VolumeShouldTerminateOnClose,
+                        //         Encrypted: false,
+                        //         //SnapshotId: 'STRING_VALUE',
+                        //         VolumeSize: Ec2Request.VolumeSize,
+                        //         VolumeType: "standard"
+                        //       },
+                        //      // NoDevice: 'STRING_VALUE',
+                        //     },
+                        //     /* more items */
+                        //   ],
                      
                      
                      InstanceType: Ec2Request.InstanceType, 
+                     ImageId: 'ami-0904bde069069fec8', 
+                     InstanceType: 't2.micro',
+                     KeyName: 'ClientGameServerKey',
                      SecurityGroupIds: [
-                        "sg-0514f961dbeed621f"
-                     ],
-                     UserData: ``
+                         "sg-0514f961dbeed621f"
+                      ],
+                      UserData: userdata
                      
                     }, 
                     SpotPrice: "0.020", 
