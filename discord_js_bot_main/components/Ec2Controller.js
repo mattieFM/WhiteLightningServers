@@ -32,7 +32,7 @@ constructor(avalibilityZone){
       echo Current date and time >> %SystemRoot%\\Temp\\test.log 
       echo %DATE% %TIME% >> %SystemRoot%\\Temp\\test.log 
       cd C:\\Users\\Administrator\\Desktop\\bot\\WhiteLightningServers\\discord_js_bot_main 
-      start launch.bat
+      start launch.bat ${Ec2Request.NetIdentifyer} ${Ec2Request.port} ${Ec2Request.host}
       </script> 
       <persist>true</persist>`).toString('base64')
      this.instanceParams = {
@@ -97,7 +97,7 @@ constructor(avalibilityZone){
       echo Current date and time >> %SystemRoot%\\Temp\\test.log 
       echo %DATE% %TIME% >> %SystemRoot%\\Temp\\test.log 
       cd C:\\Users\\Administrator\\Desktop\\bot\\WhiteLightningServers\\discord_js_bot_main 
-      start launch.bat
+      start launch.bat ${Ec2Request.NetIdentifyer} ${Ec2Request.port} ${Ec2Request.host}
       </script> 
       <persist>true</persist>`).toString('base64')
                 var ec2 = new AWS.EC2({apiVersion: '2016-11-15', region: this.zone});

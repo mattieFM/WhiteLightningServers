@@ -9,7 +9,10 @@ IsOnDemandInstance;
 //weathor or not the on demand instance should stop or terminate
 OnDemandInstanceShouldStop;
 
-NetIdentifyer
+NetIdentifyer;
+port;
+host;
+
 InstanceType;
 VolumeSize;
 VolumeShouldTerminateOnClose;

@@ -157,11 +157,13 @@ let UserInfo = ServerRequest.UserInfo;
 
         
     }
-async ParseDataFromClient(data){
-
+async ParseDataFromClient(data, LaunchIndex){
+var ServerRequest = this.LaunchingEc2Servers[LaunchIndex];
+ServerRequest.Status = ServerRequestStatus.EC2LAUNCHED;
 }
 async AddLaunchingEC2Server(ServerRequest){
     if(ServerRequest.Status === ServerRequestStatus.EC2LAUNCHING){
+        ServerRequest.LaunchIndex = this.LaunchingEc2Servers.length +1;
 this.LaunchingEc2Servers.push(ServerRequest);
 }
 }

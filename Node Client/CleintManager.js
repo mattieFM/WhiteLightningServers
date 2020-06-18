@@ -67,7 +67,7 @@ exports.clientServerManager = class clientServerManager{
             port: port, 
             host: host
             })
-        client.write(`${NetIdentifyer} is connected`);
+        client.write(`${NetIdentifyer} &split& is connected`);
         
         client.on('data', (data) => { 
 

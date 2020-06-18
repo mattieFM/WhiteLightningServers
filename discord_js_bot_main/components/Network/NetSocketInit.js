@@ -39,7 +39,7 @@ const clientinsance = require("./ClientInstance").clientInstance;
 
                 FileSystemController.LaunchingEc2Servers.forEach(request => {
                     if(data.startsWith(request.NetIdentifyer)){
-                        FileSystemController.ParseDataFromClient(data);
+                        FileSystemController.ParseDataFromClient(data, request.LaunchIndex);
                     }
                 });
                

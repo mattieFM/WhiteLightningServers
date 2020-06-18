@@ -41,6 +41,8 @@ exports.ServerRequest = class ServerRequest {
         OwnerServerIndex;
         //an enum with errors/reasons that the request was regected
         Status;
+
+        LaunchIndex;
         
 
         NetIdentifyer;
