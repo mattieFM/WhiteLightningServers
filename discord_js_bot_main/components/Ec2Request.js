@@ -9,12 +9,14 @@ IsOnDemandInstance;
 //weathor or not the on demand instance should stop or terminate
 OnDemandInstanceShouldStop;
 
+NetIdentifyer
 InstanceType;
 VolumeSize;
 VolumeShouldTerminateOnClose;
 
 Status;
-        constructor(InstanceType, VolumeSize, VolumeShouldTerminateOnClose) {
+        constructor(InstanceType, VolumeSize, VolumeShouldTerminateOnClose, NetIdentifyer) {
+                this.NetIdentifyer = NetIdentifyer;
                 this.InstanceType = InstanceType;
                 this.VolumeSize = VolumeSize;
                 this.VolumeShouldTerminateOnClose = VolumeShouldTerminateOnClose;

@@ -17,28 +17,44 @@ netTest = require("./Network/netclient/test");
 
     //the main initialisation function
      async Init(){
-        //pulls directories from args
-   
-
+        //checks if launching server or client
         if(process.argv.length > 0){
-        Config.path = process.argv[2]; 
-        var path = process.argv[3];
+            switch (process.argv[2]) {
+                //launching a client
+                case "client":
+                    this.clientInit();
+                    break;
+
+                    //launching a server
+                case "server":
+                    //pulls directories from args
+                    Config.path = process.argv[3]; 
+                    var path = process.argv[4];
+                    this.serverInit(path);
+                    break;
+            }
+        
         }
-         //create a Client/Bot Instance, then pass it to main bot init(), 
-        var ClientInstace = await this.BotInit();
-        //main bot init --the function responsible for the megority of bot setup
-         this.MainBotInit(ClientInstace);
-         //AWS init() the functipn responsible for setting any golbal settings for aws
-         this.AWSInit();
-         //the client must login before the java bot attempts to log in.
-         await new this.BotOnMethods().ClientLogin(ClientInstace);
-         //netSocket initialisation
-         new this.NetSoketInit.NetSocketInit();
-         //launch the java bot inside a node-pty shell
-         this.JavaBotInit(ClientInstace, path);
         
     }
+    async clientInit(){
 
+    }
+    async serverInit(path){
+         //create a Client/Bot Instance, then pass it to main bot init(), 
+         var ClientInstace = await this.BotInit();
+         //main bot init --the function responsible for the megority of bot setup
+          this.MainBotInit(ClientInstace);
+          //AWS init() the functipn responsible for setting any golbal settings for aws
+          this.AWSInit();
+          //the client must login before the java bot attempts to log in.
+          await new this.BotOnMethods().ClientLogin(ClientInstace);
+          //netSocket initialisation
+          new this.NetSoketInit.NetSocketInit();
+          //launch the java bot inside a node-pty shell
+          this.JavaBotInit(ClientInstace, path);
+         
+    }
     async BotInit(){
         //the function that will return a usable bot/client instance
         const Discord = require('discord.js');

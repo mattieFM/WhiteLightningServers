@@ -128,7 +128,6 @@ constructor(avalibilityZone){
                          "sg-0514f961dbeed621f"
                       ],
                       UserData: userdata
-                     
                     }, 
                     SpotPrice: "0.020", 
                     Type: "one-time"

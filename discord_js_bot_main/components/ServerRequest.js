@@ -43,6 +43,8 @@ exports.ServerRequest = class ServerRequest {
         Status;
         
 
+        NetIdentifyer;
+
         //date and time of request
         TimeOfRequest;
         DateOfRequest;
@@ -60,7 +62,10 @@ exports.ServerRequest = class ServerRequest {
                 this.OwnerID = OwnerID;
                 this.GameSettings = GameSettings;
                 this.Game = game;
+                this.NetIdentifyer = this.OwnerID + "_" + this.OwnerUniqueIdenifyer + "_" + this.OwnerServerIndex;
                 this.ContructorAsync();
+
+                
                 
                 
         }

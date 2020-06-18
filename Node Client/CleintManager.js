@@ -1,13 +1,14 @@
+const Config = require("../discord_js_bot_main/config_auth/ClientConfig.json");
 exports.clientServerManager = class clientServerManager{
     GAMETYPES = require("../discord_js_bot_main/enums/GAMETYPES").gametypes;
     constructor(){
-       
+    
     }
     
     test(port, host){
         var fs = require('fs');
-       
-       
+        
+
         var net = require("net");
     //var port = 7777;
     //var host = "localhost";
@@ -20,12 +21,12 @@ exports.clientServerManager = class clientServerManager{
         client.write(`Client: is loaded`);
         
         client.on('data', (data) => { 
-            
+            //reciving config
             if(data.toString().startsWith('SendingConfig: ')){
                 var datarr = data.toString().split("&split&");
                 var ClientConfigData = datarr[1];
                 console.log(ClientConfigData);
-                fs.writeFileSync("ClientConfig.json", ClientConfigData, (err) =>{
+                fs.writeFileSync(Config.path + "//Node Client//ClientConfig.json", ClientConfigData, (err) =>{
                     if(err){
                         console.error(err)
                         throw err
@@ -53,7 +54,7 @@ exports.clientServerManager = class clientServerManager{
     }
 
 
-    NetCLientInit(host, port){
+    NetCLientInit(host, port, NetIdentifyer){
         var fs = require('fs');
        
        
@@ -66,15 +67,16 @@ exports.clientServerManager = class clientServerManager{
             port: port, 
             host: host
             })
-        client.write(`Client: is connected`);
+        client.write(`${NetIdentifyer} is connected`);
         
         client.on('data', (data) => { 
-            
+
+            //reciving config
             if(data.toString().startsWith('SendingConfig: ')){
                 var datarr = data.toString().split("&split&");
                 var ClientConfigData = datarr[1];
                 console.log(ClientConfigData);
-                fs.writeFileSync("ClientConfig.json", ClientConfigData, (err) =>{
+                fs.writeFileSync(Config.path + "//Node Client//ClientConfig.json", ClientConfigData, (err) =>{
                     if(err){
                         console.error(err)
                         throw err

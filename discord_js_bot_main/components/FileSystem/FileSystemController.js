@@ -15,6 +15,8 @@ exports.FileSystemController = class FileSystemControllerserver {
 ActiveCommonServers;
 ActivePatronServers;
 RelaunchingServers;
+LaunchingEc2Servers;
+LaunchingGameServers;
 InactiveServers;
 DeepStorageServers;
 FirstTierPatrons;
@@ -33,6 +35,8 @@ AllPatronsFile = require("./SavedData/AllPatrons.json");
 FirstTierPatronsFile= require("./SavedData/FirstTierPatrons.json");
 SecondTierPatronsFile= require("./SavedData/SecondTierPatrons.json");
 ThirdTierPatronsFile= require("./SavedData/ThirdTierPatrons.json");
+LaunchingEc2Servers = require("./SavedData/LaunchingEc2Servers.json");
+LaunchingGameServers = require("./SavedData/LaunchingGameServers.json");
 
 
 //how many active common servers may be running
@@ -153,8 +157,17 @@ let UserInfo = ServerRequest.UserInfo;
 
         
     }
+async ParseDataFromClient(data){
 
+}
+async AddLaunchingEC2Server(ServerRequest){
+    if(ServerRequest.Status === ServerRequestStatus.EC2LAUNCHING){
+this.LaunchingEc2Servers.push(ServerRequest);
+}
+}
+async FinishServerRequest(ServerRequest){
 
+}
 async AddServerTeirFromUserInfo(ServerRequest, UserInfo){
     if(UserInfo.PatronTier === 0){
         ServerRequest.ServerTier = 0;
@@ -211,7 +224,7 @@ async CreateUserInfoFileFromUserInfo(UserInfo){
     return Config32.path + "/components/FileSystem/SavedData/UserFiles/" +UserInfo.UserID+".json"
 }
 
-async CheckUserServerEligibilityFromUserInfo(ServerRequest){
+async CheckUserServerEligibilityFromServerRequest(ServerRequest){
     let UserInfo = ServerRequest.UserInfo;
     //checks UserInfo file for patron teir and thus determins MaxActiveServers
     let MaxActiveServers = await this.GetMaxActiveServersFromUserInfo(UserInfo);
@@ -232,10 +245,13 @@ async CheckUserServerEligibilityFromUserInfo(ServerRequest){
     if(UserInfo.MaxUptimePerDay >= MaxUptimePerDay){
         ServerRequest.Status = ServerRequestStatus.USERMAXUPTIMEPERDAY;
     };
-
     if(ServerRequest.Status = ServerRequestStatus.NOTREJECTED){
         ServerRequest.Status = ServerRequestStatus.ACCEPTED;
     };
+
+    while(ServerRequest.Status != ServerRequestStatus.NOTREJECTED){
+        return ServerRequest;
+    }
 }
 async CheckUserInfoByID(AuthorID){
     var UserInfoExists = undefined;

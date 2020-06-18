@@ -91,8 +91,6 @@ const embed = new RichEmbed()
                         case '712007147432575076':
                             message.channel.send('launching mincraft');
                             var severRequest = new ServerRequest(gametypes.MINECRAFT, message.author.id, null);
-                            //hard coding accepting request
-                            severRequest.Status = ServerRequestStatus.ACCEPTED;
                             launchingserver = ServerControler.LaunchGameServer(severRequest);
                             break;
                         //terraria

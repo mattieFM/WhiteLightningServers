@@ -1,3 +1,5 @@
+const FileSysControl = require("../FileSystem/FileSystemController").FileSystemController;
+const FileSystemController = new FileSysControl();
 exports.NetSocketInit = class NetSocketInit {
     constructor(){
         var sockets = [];
@@ -21,9 +23,9 @@ const clientinsance = require("./ClientInstance").clientInstance;
             //stuff
             //ClientConfigJSON, is the file that will be sent to each client to set global client config
             const CleintConfigJSON = require("../../config_auth/ClientConfig.json");
-            var ClientConfig = JSON.stringify(CleintConfigJSON);
+            let SentClientConfig = JSON.stringify(CleintConfigJSON);
             //send client config with the prefix and proper split charectors such that it can be parsed on the client
-            socket.write("SendingConfig: &split&" + ClientConfig + "&split&")
+            //socket.write("SendingConfig: &split&" + SentClientConfig + "&split&");
             var clientAddress = `${socket.remoteAddress}:${socket.remotePort}`; 
             console.log(`new client connected: ${clientAddress}`); 
             //push the net socket into a array containing all sockets
@@ -34,6 +36,13 @@ const clientinsance = require("./ClientInstance").clientInstance;
                 sockets.forEach((Socket) =>{
                     Socket.Socket.write(socket.remoteAddress + ':' + socket.remotePort + " said " + data + '\n'); 
                 });
+
+                FileSystemController.LaunchingEc2Servers.forEach(request => {
+                    if(data.startsWith(request.NetIdentifyer)){
+                        FileSystemController.ParseDataFromClient(data);
+                    }
+                });
+               
                 socket.on('close', (data) => { 
                     let index = sockets.findIndex((o) => { 
                     return o.remoteAddress === socket.remoteAddress && o.remotePort === socket.remotePort; 
@@ -67,7 +76,7 @@ const clientinsance = require("./ClientInstance").clientInstance;
     }
 
 
-    
+
 }
 
 
