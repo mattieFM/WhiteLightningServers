@@ -3,6 +3,7 @@ const FileSystemController = new FileSysControl();
 exports.NetSocketInit = class NetSocketInit {
 sockets;
     constructor(){
+        var tempSocket;
         var sockets = [];
         var net = require("net"); 
         var server = net.createServer(); 
@@ -23,6 +24,7 @@ const clientinsance = require("./ClientInstance").clientInstance;
 
 //on connection of a client do stuff
         server.on("connection",  async (socket) => {
+            this.sockets = sockets;
             //stuff
             //ClientConfigJSON, is the file that will be sent to each client to set global client config
             const CleintConfigJSON = require("../../config_auth/ClientConfig.json");
@@ -32,18 +34,38 @@ const clientinsance = require("./ClientInstance").clientInstance;
             var clientAddress = `${socket.remoteAddress}:${socket.remotePort}`; 
             console.log(`new client connected: ${clientAddress}`); 
             //push the net socket into a array containing all sockets
-            sockets.push(new clientinsance(socket, sockets.length+1, await data.split("&split&")[0]));
-            this.sockets = sockets;
-            await this.WriteSocketsToFile();
+            if(sockets.length != 0)
+                sockets.push(new clientinsance(socket, sockets.length,"waiting"));
+                if(sockets.length === 0)
+                sockets.push(new clientinsance(socket, sockets.length,"waiting"));
+            
             socket.on('data', (data) => { 
+                ;
                 console.log(`Client ${clientAddress}: ${data}`); 
                 sockets.forEach((Socket) =>{
                     Socket.Socket.write(socket.remoteAddress + ':' + socket.remotePort + " said " + data + '\n'); 
-                });
+                    var dataarr = data.toString().split("&split&")
+                    if(dataarr[1].includes("cleint has connected, and should be initalised into storage")){
+                   if(Socket.Identifyer === "waiting"){
+                            Socket.Identifyer = dataarr[0];
+                   }
+                    
+                    this.sockets = sockets;
+                 this.WriteSocketsToFile();
+                }
+               
+                
+                
+                })
+                
+                
+                
 
-                FileSystemController.LaunchingEc2Servers.forEach(request => {
-                    if(data.startsWith(request.NetIdentifyer)){
-                        FileSystemController.ParseDataFromClient(data, request.LaunchIndex, sockets);
+                FileSystemController.UpdateAllFiles();
+                FileSystemController.LaunchingEc2Servers.forEach(async request => {
+                   
+                    if(data.toString().startsWith(request.NetIdentifyer)){
+                     FileSystemController.ParseDataFromClient(data, request.LaunchIndex, sockets);
                     }
                 });
                
@@ -79,13 +101,16 @@ const clientinsance = require("./ClientInstance").clientInstance;
         return
     }
 
-    async WriteSocketsToFile(){
+    WriteSocketsToFile(){
+        var fs = require("fs");
+        var Config = require("../../config_auth/Config.json");
         fs.writeFileSync(Config.path + "//components//FileSystem//SavedData//Sockets.json", JSON.stringify(this.sockets), (err) =>{
                     if(err){
                         console.error(err)
                         throw err
                     }
     });
+    console.log("file has been wrote")
 
 }
 

@@ -14,7 +14,7 @@ exports.UserInfoInstance = class UserInfoInstance {
 
     InactiveServers = [];
     ActiveServers = [];
-    ServerRequests = [];
+
     //the amount of time in a 24 hour period that the user has had a active server running
     MaxUptimePerDay;
 

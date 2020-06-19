@@ -1,7 +1,8 @@
 const USERINFO = require("./FileSystem/UserInfoInstance").UserInfoInstance;
 const StatusREASON = require("../enums/ServerRequestStatus").Status;
-const BFileSystemController = require("./FileSystem/FileSystemController").FileSystemController;
+const BFileSystemController = require("../components/FileSystem/FileSystemController").FileSystemController;
 let FileSystemController = new BFileSystemController();
+
 exports.ServerRequest = class ServerRequest {
         GAMETYPES = require("../enums/GAMETYPES").gametypes;
         //data the will be filled before fileSystemController

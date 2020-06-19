@@ -1,4 +1,5 @@
-const Config = require("../discord_js_bot_main/config_auth/ClientConfig.json");
+const path = process.argv[3];
+const Config = require("./ClientConfig.json");
 const { cleint } = require("./ClientInit");
 const commands = require("./commandEnum").commands;
 const msg = require("./clientMsg").CleintMsg;
@@ -39,8 +40,8 @@ exports.clientServerManager = class clientServerManager{
             var MsgIdentifyer = datarr2[0];
             var MsgCommand = datarr2[1];
             var MsgSetting = datarr2[2];
-            if(dataarr2[3]){
-            var optionaldata = dataarr2[3];
+            if(datarr2[3]){
+            var optionaldata = datarr2[3];
             }
             if(MsgIdentifyer === "SERVER"){
                 switch (MsgCommand) {

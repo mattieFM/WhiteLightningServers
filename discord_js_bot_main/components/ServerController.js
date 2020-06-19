@@ -1,4 +1,3 @@
-const ServerRequest = require("./ServerRequest");
 const ServerStatus = require("../enums/ServerRequestStatus").Status;
 const EC2Launcher = require("./Ec2Controller").ec2launch;
 const AvalibilityZones = require("../enums/avalibility zones").avalibilityZones;
@@ -32,10 +31,10 @@ serverRequest.Status = ServerStatus.EC2LAUNCHING;
 }
 //takes a serverRequest sends it to the FileSystemController
 async LaunchGameServer(serverRequest){
-    const commands = require("../../../Node Client/commandEnum").commands;
-const settings = require("../../../Node Client/SettingsEnum").Settings;
-const clientconfig = require("../../config_auth/ClientConfig.json");
-const msg = require("../../Node Client/clientMsg").CleintMsg;
+    const commands = require("../../../WhiteLightningServers/Node Client/commandEnum").commands;
+const settings = require("../../../WhiteLightningServers/Node Client/SettingsEnum").Settings;
+const clientconfig = require("../../WhiteLightningServers/config_auth/ClientConfig.json");
+const msg = require("../../WhiteLightningServers/Node Client/clientMsg").CleintMsg;
 //launch ec2 and then net server if one does not exist
 if(serverRequest.ConfigHasBeenSent === false){
 await FileSystemController.UpdateAllFiles();
@@ -61,7 +60,7 @@ SendCommandToGameServer(){
 
 
 }
-SendCommandToLaunchGameServer(sendmsg){
+async SendCommandToLaunchGameServer(sendmsg){
     var netidentifyer = sendmsg.UniqueIdentifyer;
 await FileSystemController.UpdateAllFiles();
 FileSystemController.Sockets.forEach(sock => {

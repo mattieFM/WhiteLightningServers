@@ -19,7 +19,10 @@ netTest = require("./Network/netclient/test");
      async Init(){
         //checks if launching server or client
         if(process.argv.length > 0){
-            switch (process.argv[2]) {
+           
+            
+            console.log(process.argv)
+            switch (process.argv[4]) {
                 //launching a client
                 case "client":
                     this.clientInit();
@@ -28,8 +31,8 @@ netTest = require("./Network/netclient/test");
                     //launching a server
                 case "server":
                     //pulls directories from args
-                    Config.path = process.argv[3]; 
-                    var path = process.argv[4];
+                    Config.path = process.argv[2]; 
+                    var path = process.argv[3];
                     this.serverInit(path);
                     break;
             }
