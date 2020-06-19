@@ -9,7 +9,7 @@ exports.clientServerManager = class clientServerManager{
     
     }
 
-    NetCLientInit(host, port, NetIdentifyer){
+    async NetCLientInit(host, port, NetIdentifyer){
         var fs = require('fs');
        
        
@@ -22,9 +22,9 @@ exports.clientServerManager = class clientServerManager{
             port: port, 
             host: host
             })
-        client.write(await new msg (NetIdentifyer, commands.CONNECTED, settings.None).msg);
-       
-        client.on('data', (data) => { 
+        client.write(new msg (NetIdentifyer, commands.CONNECTED, settings.None).msg);
+    
+        client.on('data', async (data) => { 
 
             //reciving config
       
