@@ -9,6 +9,7 @@ const ServerRequestStatus = require("../../enums/ServerRequestStatus").Status;
 const SavedFileInstance = require("./SavedFileInstance").SavedFileInstance;
 const ServerRequest = require("../ServerRequest").ServerRequest;
 const Config32  = require("../../config_auth/Config.json");
+const { ServerController } = require("../ServerController");
 exports.FileSystemController = class FileSystemControllerserver {
 
 //arrays
@@ -22,21 +23,25 @@ DeepStorageServers;
 FirstTierPatrons;
 SecondTierPatrons;
 ThirdTierPatrons;
+Sockets;
 
 //FileSystemStorage
-LoggingFolder = "./SavedData/Logging";
-ActiveCommonServersFile = require("./SavedData/ActiveCommonServers.json");
-ActivePatronServersFile= require("./SavedData/ActivePatronServers.json");
+async UpdateAllFiles(){
+    this.LoggingFolder = "./SavedData/Logging";
+    this.ActiveCommonServersFile = require("./SavedData/ActiveCommonServers.json");
+    this.ActivePatronServersFile= require("./SavedData/ActivePatronServers.json");
 //servers that should relaunch if the bot restarts
-RelaunchingServersFile= require("./SavedData/RelaunchingServers.json");
-InactiveServersFile= require("./SavedData/InactiveServers.json");
-DeepStorageServersFile= require("./SavedData/DeepStorageServers.json");
-AllPatronsFile = require("./SavedData/AllPatrons.json");
-FirstTierPatronsFile= require("./SavedData/FirstTierPatrons.json");
-SecondTierPatronsFile= require("./SavedData/SecondTierPatrons.json");
-ThirdTierPatronsFile= require("./SavedData/ThirdTierPatrons.json");
-LaunchingEc2Servers = require("./SavedData/LaunchingEc2Servers.json");
-LaunchingGameServers = require("./SavedData/LaunchingGameServers.json");
+this.RelaunchingServersFile= require("./SavedData/RelaunchingServers.json");
+this.InactiveServersFile= require("./SavedData/InactiveServers.json");
+this.DeepStorageServersFile= require("./SavedData/DeepStorageServers.json");
+this.AllPatronsFile = require("./SavedData/AllPatrons.json");
+this.FirstTierPatronsFile= require("./SavedData/FirstTierPatrons.json");
+this.SecondTierPatronsFile= require("./SavedData/SecondTierPatrons.json");
+this.ThirdTierPatronsFile= require("./SavedData/ThirdTierPatrons.json");
+this.LaunchingEc2Servers = require("./SavedData/LaunchingEc2Servers.json");
+this.LaunchingGameServers = require("./SavedData/LaunchingGameServers.json");
+this.Sockets = require("./SavedData/Sockets.json");
+}
 
 
 //how many active common servers may be running
@@ -157,9 +162,51 @@ let UserInfo = ServerRequest.UserInfo;
 
         
     }
-async ParseDataFromClient(data, LaunchIndex){
+
+async ParseDataFromClient(data, LaunchIndex, sockets){
+const commands = require("../../../Node Client/commandEnum").commands;
+const settings = require("../../../Node Client/SettingsEnum").Settings;
+const clientconfig = require("../../config_auth/ClientConfig.json");
+const msg = require("../../../Node Client/clientMsg").CleintMsg;
 var ServerRequest = this.LaunchingEc2Servers[LaunchIndex];
 ServerRequest.Status = ServerRequestStatus.EC2LAUNCHED;
+var datarr = await data.toString().split("&split&");
+var MsgIdentifyer = datarr[0];
+var MsgCommand = datarr[1];
+var MsgSetting = datarr[2];
+var optionalData;
+if(datarr[3]){
+optionalData = datarr[3];
+}
+
+if(ServerRequest.ConfigHasBeenSent === false){
+await sockets.forEach(async Socket => {
+    if(Socket.Identifyer === MsgIdentifyer){
+        var sendmsg = new msg("SERVER", commands.SENDINGCONFIG, settings.None)
+        sendmsg.data = JSON.stringify(clientconfig);
+        await sendmsg.addData();
+        Socket.Socket.write(sendmsg.msg);
+    }
+})
+}
+await this.CleintCommandProcceser(MsgCommand, ServerRequest, optionalData);
+}
+//proccesses commands from client
+async CleintCommandProcceser(command, ServerRequest, optionalData){
+    const commands = require("../../../Node Client/commandEnum").commands;
+    switch (command) {
+        case commands.CONNECTED:
+            ServerRequest.Status = ServerRequestStatus.NETSERVERCONECTED;
+            new ServerController().LaunchGameServer(ServerRequest);
+            break;
+        case commands.SENDINGSERVERREQUESTBACKTOSEREVR:
+            
+
+            break;
+        
+        default:
+            break;
+    }
 }
 async AddLaunchingEC2Server(ServerRequest){
     if(ServerRequest.Status === ServerRequestStatus.EC2LAUNCHING){

@@ -42,6 +42,7 @@ exports.ServerRequest = class ServerRequest {
         //an enum with errors/reasons that the request was regected
         Status;
 
+        ConfigHasBeenSent = false;
         LaunchIndex;
         
 
@@ -54,7 +55,8 @@ exports.ServerRequest = class ServerRequest {
         IndexOfRequestByUser;
         IndexOfRequest;
         
-        
+        //if it is still an active or inactive server
+        ClientServerInstance;
         constructor(game, OwnerID, GameSettings) {
                 this.Status = StatusREASON.NOTREJECTED;
                 

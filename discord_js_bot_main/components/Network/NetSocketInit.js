@@ -1,6 +1,7 @@
 const FileSysControl = require("../FileSystem/FileSystemController").FileSystemController;
 const FileSystemController = new FileSysControl();
 exports.NetSocketInit = class NetSocketInit {
+sockets;
     constructor(){
         var sockets = [];
         var net = require("net"); 
@@ -18,8 +19,10 @@ exports.NetSocketInit = class NetSocketInit {
         //Client instance, a net client instance, not a bot instance, a net client instance
 const clientinsance = require("./ClientInstance").clientInstance; 
 
+
+
 //on connection of a client do stuff
-        server.on("connection",  (socket) => {
+        server.on("connection",  async (socket) => {
             //stuff
             //ClientConfigJSON, is the file that will be sent to each client to set global client config
             const CleintConfigJSON = require("../../config_auth/ClientConfig.json");
@@ -29,8 +32,9 @@ const clientinsance = require("./ClientInstance").clientInstance;
             var clientAddress = `${socket.remoteAddress}:${socket.remotePort}`; 
             console.log(`new client connected: ${clientAddress}`); 
             //push the net socket into a array containing all sockets
-            sockets.push(new clientinsance(socket, sockets.length+1));
-            
+            sockets.push(new clientinsance(socket, sockets.length+1, await data.split("&split&")[0]));
+            this.sockets = sockets;
+            await this.WriteSocketsToFile();
             socket.on('data', (data) => { 
                 console.log(`Client ${clientAddress}: ${data}`); 
                 sockets.forEach((Socket) =>{
@@ -39,7 +43,7 @@ const clientinsance = require("./ClientInstance").clientInstance;
 
                 FileSystemController.LaunchingEc2Servers.forEach(request => {
                     if(data.startsWith(request.NetIdentifyer)){
-                        FileSystemController.ParseDataFromClient(data, request.LaunchIndex);
+                        FileSystemController.ParseDataFromClient(data, request.LaunchIndex, sockets);
                     }
                 });
                
@@ -75,7 +79,13 @@ const clientinsance = require("./ClientInstance").clientInstance;
         return
     }
 
-
+    async WriteSocketsToFile(){
+        fs.writeFileSync(Config.path + "//components//FileSystem//SavedData//Sockets.json", JSON.stringify(this.sockets), (err) =>{
+                    if(err){
+                        console.error(err)
+                        throw err
+                    }
+    });
 
 }
 
@@ -85,3 +95,4 @@ const clientinsance = require("./ClientInstance").clientInstance;
 
 
 
+}

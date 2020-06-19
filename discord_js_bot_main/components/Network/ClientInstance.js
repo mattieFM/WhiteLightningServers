@@ -3,8 +3,10 @@ exports.clientInstance = class clientInstance{
     Index;
     name;
     AuthorId;
-    constructor(socket, Index){
+    Identifyer;
+    constructor(socket, Index, Identifyer){
         this.Socket = socket;
         this.Index = Index;
+        this.Identifyer = Identifyer;
     }
 }

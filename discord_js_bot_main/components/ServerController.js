@@ -32,8 +32,26 @@ serverRequest.Status = ServerStatus.EC2LAUNCHING;
 }
 //takes a serverRequest sends it to the FileSystemController
 async LaunchGameServer(serverRequest){
+    const commands = require("../../../Node Client/commandEnum").commands;
+const settings = require("../../../Node Client/SettingsEnum").Settings;
+const clientconfig = require("../../config_auth/ClientConfig.json");
+const msg = require("../../Node Client/clientMsg").CleintMsg;
+//launch ec2 and then net server if one does not exist
+if(serverRequest.ConfigHasBeenSent === false){
+await FileSystemController.UpdateAllFiles();
 await FileSystemController.CheckUserServerEligibilityFromServerRequest(serverRequest);
 await this.LaunchEc2Server(serverRequest);
+}
+//once a net server has connected -- contuine
+if(serverRequest.ConfigHasBeenSent === true){
+var sendmsg = new msg(serverRequest.NetIdentifyer, commands.LAUNCHSERVER, settings.None);
+sendmsg.data = serverRequest;
+await sendmsg.addData();
+await FileSystemController.UpdateAllFiles();
+this.SendCommandToLaunchGameServer(sendmsg)
+
+}
+
 
 
 
@@ -43,7 +61,15 @@ SendCommandToGameServer(){
 
 
 }
-
+SendCommandToLaunchGameServer(sendmsg){
+    var netidentifyer = sendmsg.UniqueIdentifyer;
+await FileSystemController.UpdateAllFiles();
+FileSystemController.Sockets.forEach(sock => {
+    if(sock.Identifyer === netidentifyer){
+        sock.Socket.write(sendmsg.msg);
+    }
+});
+}
 CloseGameServer(){
 
 

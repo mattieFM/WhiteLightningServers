@@ -27,13 +27,12 @@ CommonIndex
 //the number in realtion to all servers the owner currently owns, active or inactive (but not deleted)
 OwnerServerIndex;
 //
+Child;
 
 
-
-constructor(game) {
-  
-   
-        this.Game = game;
+constructor(ServerRequest, child) {
+        this.Game = ServerRequest.Game;
+        this.Child = child;
 }
 
  

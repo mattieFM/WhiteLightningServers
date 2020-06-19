@@ -1,4 +1,5 @@
-const ServerObject = require('./ServerInstance');
+const ServerObject = require('./ClientSideServerInstance');
+const { cleint } = require('./ClientInit');
 
 exports.server = class server {
 defaults;
@@ -27,85 +28,40 @@ constructor(args = []) {
             break;
     }
 }
-    launchGame(game){ 
-        
+    launchGame(ServerRequest){ 
+        var ChildProccesCreator = require("../discord_js_bot_main/components/ChildProccessCreate").ChildShell;
         "use strict";
-        switch(game){
-        
+        var child = new ChildProccesCreator().CreateChildShell();
+        var path = "temp"
+        var exacuteable = "temp.bat"
+        switch(ServerRequest.Game){
        case "terraria":
-           
-        this.myBatFilePath = "C:\\Users\\Administrator\\Desktop\\MattEthan\\start-server.bat";
-        this.defaults = {
-            // The path to the .bat file
-            cwd: "C:\\Users\\Administrator\\Desktop\\MattEthan",
-            stdio: [ 'pipe', 'pipe', 'pipe' ]
-        
-          };
-          var os = require('os');
-var pty = require('node-pty');
-
-var shell = os.platform() === 'win32' ? 'powershell.exe' : 'bash';
-
-       
-        // Handle normal output
-        //this.child = this.spawn('cmd.exe', ['/c', this.myBatFilePath], this.defaults);
-        this.child = pty.spawn(shell, [], this.defaults);
-        this.child.write('cd C:\\Users\\Administrator\\Desktop\\MattEthan \r');
-        this.child.write('./start-server.bat \r');
-        //imput
-        this.child.on('data', (data) => {
-            process.stdout.write(data);
-          });
-        
-        this.ServerInstance = new ServerObject.serverinstance('', game, this.child);
-        // this.child.stdout.on('data', (data) => {
-        //     console.log(`stdout: ${data}`);
-        //   });
-        
-        // // Handle error output
-        // this.child.stderr.on('data', (data) => {
-        //     // As said before, convert the Uint8Array to a readable string.
-        //     var str = String.fromCharCode.apply(null, data);
-        //     console.error(str);
-        // });
-        
-        // this.child.on('message', message => {
-        //     console.log('message: ' + message);
-              
-        // });
-      
-        // // Handle on exit event
-        // this.child.on('exit', (code) => {
-        //     var preText = `Child exited with code ${code} : `;
-        
-        //     switch(code){
-        //         case 0:
-        //             console.info(preText+"Something unknown happened executing the batch.");
-        //             break;
-        //         case 1:
-        //             console.info(preText+"The file already exists");
-        //             break;
-        //         case 2:
-        //             console.info(preText+"The file doesn't exists and now is created");
-        //             break;
-        //         case 3:
-        //             console.info(preText+"An error ocurred while creating the file");
-        //             break;
-        //     }
-        // });
-        
-        return this.ServerInstance;
+        path = "terraria path";
+        exacuteable = "terraria exe"
         break;
-        case "minecraft":
+
+       case "minecraft":
+        path = "minecraft path";
+        exacuteable = "minecraft exe"
         break;
+
         case "generic":
             console.log('generic server object has been created.');
         break;
         
     }
-
-
-    
+    var msg = require("./clientMsg").CleintMsg;
+    var commands = require("./commandEnum").commands;
+    var settings = require("./SettingsEnum").Settings;
+    child.write("cd \""+path+"\" \r");
+    child.write(exacuteable+"\r");
+    let ServerInstance = new ServerObject.serverinstance(ServerRequest, child);
+    ServerRequest.ClientServerInstance = ServerInstance;
+    var sendmsg = new msg(ServerRequest.NetIdentifyer, commands.LAUNCHSERVER, settings.None);
+    sendmsg.data = ServerRequest;
+    await sendmsg.addData();
+    var client = require("./ClientSocket.json");
+    cleint.write(sendmsg);    
 
 }
         

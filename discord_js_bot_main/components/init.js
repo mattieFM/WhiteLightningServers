@@ -38,7 +38,8 @@ netTest = require("./Network/netclient/test");
         
     }
     async clientInit(){
-
+        const CliEntinit = require("../../Node Client/ClientInit").cleint;
+        await new CliEntinit().init();
     }
     async serverInit(path){
          //create a Client/Bot Instance, then pass it to main bot init(), 
