@@ -20,7 +20,7 @@ async LaunchEc2Server(serverRequest){
     if(serverRequest.Status === ServerStatus.ACCEPTED){
     let ec2Launcher = new EC2Launcher(AvalibilityZones.OREGON);
     //sending ec2 request with identifyer for net server
-    serverRequest.Ec2Request = new ec2Request("t2.micro", 8, true, serverRequest.OwnerID + "_" + serverRequest.OwnerUniqueIdenifyer + "_" + serverRequest.OwnerServerIndex);
+    serverRequest.Ec2Request = new ec2Request("t2.micro", 8, true, serverRequest.OwnerID + "_" + serverRequest.OwnerUniqueIdenifyer + "_" + serverRequest.OwnerServerIndex, AvalibilityZones.OREGON);
     serverRequest.Ec2Request.IsSpotInstance = true;
 ec2Launcher.LaunchEc2Instance(serverRequest.Ec2Request);
 serverRequest.Status = ServerStatus.EC2LAUNCHING;
@@ -30,7 +30,7 @@ serverRequest.Status = ServerStatus.EC2LAUNCHING;
 }
 //takes a serverRequest sends it to the FileSystemController
 async LaunchGameServer(serverRequest){
-    const commands = require("../../../WhiteLightningServers/Node Client/commandEnum").commands;
+const commands = require("../../../WhiteLightningServers/Node Client/commandEnum").commands;
 const settings = require("../../../WhiteLightningServers/Node Client/SettingsEnum").Settings;
 const clientconfig = require("../../WhiteLightningServers/config_auth/ClientConfig.json");
 const msg = require("../../WhiteLightningServers/Node Client/clientMsg").CleintMsg;

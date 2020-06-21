@@ -30,6 +30,7 @@ exports.ServerRequest = class ServerRequest {
         
         //file system will fill
         Ec2Request;
+        Ec2RequestStatus;
         //common server or 1-3 patreon servers; (0-3)
         ServerTier;
         //if not a patron this will be zero, else 1-3

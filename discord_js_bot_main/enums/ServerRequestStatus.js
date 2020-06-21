@@ -8,6 +8,8 @@ module.exports.Status = {
     ACCEPTED: "server request has passed all checks and should begen launching",
     EC2LAUNCHING: "EC2 server is activly launching",
     EC2LAUNCHED: "EC2 server has launched and has a ec2 server instance attached",
+    EC2TERMINATED: "ec2 server has been terminated",
+    EC2HASBEENSTORED: "ec2 server has already been initaliased into the filesystem",
     NETSERVERCONECTED: "the net server has connected to the main server",
     GAMELAUNCHING: "The game server is activly launching on a ec2 instance",
     LAUNCHED: "the game server is online and there is a ServerInstance for it",

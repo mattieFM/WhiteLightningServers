@@ -14,6 +14,27 @@ zone;
 constructor(avalibilityZone){
     this.zone = avalibilityZone;
 }
+async GetEC2ServerData(Ec2Request){
+    let Params ={
+        Filters: [
+            {
+           Name: "tag:Name", 
+           Values: [
+              Ec2Request.Name
+           ]
+          }
+         ]
+        };
+    return Promise(resolve => {
+        new AWS.EC2({apiVersion: '2016-11-15', region: Ec2Request.zone}).describeInstances(Params, (err, data) =>{
+            if(err){
+                console.log("Error", err.stack);
+            } else {
+                resolve(data);
+            }
+        });
+    });
+}
     async LaunchEc2Instance(Ec2Request){
       GenericEc2Request.IsOnDemandInstance
       if(Ec2Request.IsSpotInstance){
@@ -24,6 +45,31 @@ constructor(avalibilityZone){
         await this.LaunchOnDemandEc2Instance(Ec2Request);
         return;
       }
+    }
+    async makeid(l)
+    {
+        return new Promise(resolve => {
+            const FileSystemControler = require("../index").init.FileSystemController;
+            var text = "";
+            var char_list = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+            for(var i=0; i < l; i++ )
+            {  
+            text += char_list.charAt(Math.floor(Math.random() * char_list.length));
+            }
+            await FileSystemControler.UpdateAllFiles();
+            FileSystemControler.ActiveEC2Servers.forEach(EC2ServerInstance => {
+                if(text === EC2ServerInstance.name){
+                    let text2
+                    let i =0;
+                    while(text === EC2ServerInstance.name){
+                        text2 = text + "-"+i;
+                        i++;
+                    }
+                    text = text2;
+                }
+            });
+            resolve(text);
+        });
     }
     async LaunchOnDemandEc2Instance(Ec2Request){
         
@@ -74,7 +120,7 @@ constructor(avalibilityZone){
              this.tagParams = {Resources: [this.instanceId], Tags: [
                 {
                 Key: 'Name',
-                Value: 'BigGay'
+                Value: Ec2Request.Name
                 }
             ]};
              this.tagPromise = new AWS.EC2({apiVersion: '2016-11-15', region: this.zone}).createTags(this.tagParams).promise();
@@ -99,7 +145,7 @@ constructor(avalibilityZone){
       cd C:\\Users\\Administrator\\Desktop\\bot\\WhiteLightningServers\\discord_js_bot_main 
       start launch.bat ${Ec2Request.NetIdentifyer} ${Ec2Request.port} ${Ec2Request.host}
       </script> 
-      <persist>true</persist>`).toString('base64')
+      <persist>true</persist>`).toString('base64');
                 var ec2 = new AWS.EC2({apiVersion: '2016-11-15', region: this.zone});
                 var params = {
                     InstanceCount: 1, 
@@ -132,17 +178,30 @@ constructor(avalibilityZone){
                     SpotPrice: "0.020", 
                     Type: "one-time"
                    };
-                   ec2.requestSpotInstances(params, function(err, data) {
+                   var SpotInstancePromise = ec2.requestSpotInstances(params, function(err, data) {
                      if (err) console.log(err, err.stack); // an error occurred
                      else     console.log(data);           // successful response
                      /*
                      data = {
                      }
                      */
-                   });
+                   }).promise()
+                   this.tagParams = {Resources: [this.instanceId], Tags: [
+                    {
+                    Key: 'Name',
+                    Value: Ec2Request.Name
+                    }
+                ]};
+                   SpotInstancePromise.then(this.tagPromise);
+
+            }
+
+            async InitialiseEc2ServerIntoStorage(Ec2Request){
 
             }
 }
+
+
 
 module.exports.help = {
     name: "aws"

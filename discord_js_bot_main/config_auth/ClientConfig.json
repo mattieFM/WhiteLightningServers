@@ -1,6 +1,13 @@
-
 {
+<<<<<<< HEAD
 "host": "localhost",
 "port": "7777",
 "path":"C:\\Users\\mmful\\Desktop\\discorbot\\WhiteLightningServers"
 }
+=======
+    "host":"localhost",
+    "port":"7777",
+    "path":"C:\\Users\\mmful\\Desktop\\discorbot\\WhiteLightningServers",
+	"lel":"lol"
+}
+>>>>>>> f7c402f39608dd9d53148dee3a88ac201bff90b8

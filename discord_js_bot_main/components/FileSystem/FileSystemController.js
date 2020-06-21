@@ -24,6 +24,7 @@ module.exports.FileSystemController = class FileSystemControllerserver {
   SecondTierPatrons;
   ThirdTierPatrons;
   AllPatrons;
+  ActiveEC2Servers;
   Sockets;
 
   //FileSystemStorage
@@ -41,6 +42,7 @@ module.exports.FileSystemController = class FileSystemControllerserver {
   test11;
   test12;
   test13;
+  test14;
    async UpdateAllFiles() {
     return new Promise(async resolve =>{
       this.test2 = false;
@@ -55,6 +57,7 @@ module.exports.FileSystemController = class FileSystemControllerserver {
       this.test11 = false;
       this.test12 = false;
       this.test13 = false;
+      this.test14 = false;
 
       var fs = require("fs");
     this.LoggingFolder = "./SavedData/Logging";
@@ -126,6 +129,12 @@ module.exports.FileSystemController = class FileSystemControllerserver {
         if(logging)console.log(this.LaunchingGameServers);
         this.test12 = true;
     });
+    fs.readFile(Config32.path +"\\components\\FileSystem\\SavedData\\ActiveEC2Servers.json", (err, data) => {
+        if (err) throw err;
+        this.ActiveEC2Servers = JSON.parse(data);
+        if(logging)console.log(this.ActiveEC2Servers);
+        this.test14 = true;
+    });
   
     //if sockets should load from file
     // fs.readFile(Config32.path +"\\components\\FileSystem\\SavedData\\Sockets.json", (err, data) => {
@@ -153,7 +162,7 @@ module.exports.FileSystemController = class FileSystemControllerserver {
             var repet = setInterval(() =>{
                 let logging = false;
                 if(logging)console.log("here2");
-                if(this.test2 && this.test3 && this.test4 && this.test5 && this.test6 && this.test7 && this.test8 && this.test9 && this.test10 && this.test11 && this.test12 && this.test13){
+                if(this.test2 && this.test3 && this.test4 && this.test5 && this.test6 && this.test7 && this.test8 && this.test9 && this.test10 && this.test11 && this.test12 && this.test13 && this.test14){
                     clearInterval(repet);
                     if(logging)console.log("here3");
                     finished = true;
@@ -287,14 +296,28 @@ module.exports.FileSystemController = class FileSystemControllerserver {
         }
         
         await this.ConfigSendPromise(data, LaunchIndex).then(
-            this.InitaliseEc2ServerInstance()
+            this.InitaliseEc2ServerInstance(ServerRequest)
         );
         await this.CleintCommandProcceser(MsgCommand, ServerRequest, optionalData);
         resolve(true);
       })
   }
-  async InitaliseEc2ServerInstance(){
-    
+  async InitaliseEc2ServerInstance(ServerRequest){
+    return new Promise(resolve => {
+        let Statuses = require("../../enums/ServerRequestStatus").Status;
+        let EC2Request = ServerRequest.Ec2Request;
+        if(EC2Request.Status != Statuses.EC2HASBEENSTORED && EC2Request.Status != Statuses.EC2TERMINATED){
+        let Ec2ServerInstance = require("../Ec2ServerInstance").serverinstance;
+        let Ec2Server = new Ec2ServerInstance(EC2Request);
+        await this.UpdateAllFiles();
+        Ec2Server.Index =this.ActiveEC2Servers.length;
+        this.ActiveEC2Servers.push(Ec2Server);
+        if(this.ActiveEC2Servers[Ec2Server.Index].name === Ec2Server.name){
+        Ec2Server.Status = Statuses.EC2HASBEENSTORED;
+        resolve(true);
+        }
+        }
+    })
   }
   async ConfigSendPromise(data, LaunchIndex){
     var ServerRequest = this.LaunchingEc2Servers[LaunchIndex];
@@ -341,8 +364,12 @@ module.exports.FileSystemController = class FileSystemControllerserver {
     const commands = require("../../../Node Client/commandEnum").commands;
     switch (command) {
       case commands.CONNECTED:
+        ServerRequest.Ec2Request.Status = ServerRequestStatus.EC2LAUNCHED;
+        ServerRequest.Ec2RequestStatus = ServerRequestStatus.EC2LAUNCHED;
         ServerRequest.Status = ServerRequestStatus.NETSERVERCONECTED;
-        new this.ServerController().LaunchGameServer(ServerRequest);
+        await this.InitaliseEc2ServerInstance();
+        //launch server on connection
+        //new this.ServerController().LaunchGameServer(ServerRequest);
         break;
       case commands.SENDINGSERVERREQUESTBACKTOSEREVR:
         break;
