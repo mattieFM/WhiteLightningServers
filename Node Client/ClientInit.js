@@ -8,7 +8,7 @@ const Host =process.argv[7];
 module.exports.cleint = class client{
 
     async init(){
-        console.log("Here")
+        //console.log("Here")
         CleintManager.NetCLientInit(Host, Port, NetIdentifyer);
     }
 

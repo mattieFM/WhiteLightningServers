@@ -1,3 +1,5 @@
+const { resolve } = require("path");
+
 exports.CleintMsg = class CleintMsg{
     UniqueIdentifyer;
     Command;
@@ -7,11 +9,17 @@ exports.CleintMsg = class CleintMsg{
 
 
     constructor(UniqueIdentifyer, Command, Settings){
-        this.msg = `${UniqueIdentifyer} &split& ${Command} &split& ${Settings} `;
+        this.msg = `${UniqueIdentifyer}&split&${Command}&split&${Settings}`;
         
     }
 
     async addData(){
-        if(this.data) this.msg = this.msg + "&split& " + this.data;
+        return new Promise(resolve =>{
+            if(this.data) this.msg = this.msg + "&split& " + this.data;
+            if(this.msg.includes(this.data)){
+                resolve(true);
+            }
+        })
+        
     }
 }

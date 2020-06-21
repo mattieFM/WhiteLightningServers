@@ -2,8 +2,7 @@ const ServerStatus = require("../enums/ServerRequestStatus").Status;
 const EC2Launcher = require("./Ec2Controller").ec2launch;
 const AvalibilityZones = require("../enums/avalibility zones").avalibilityZones;
 const ec2Request = require("./Ec2Request").ServerRequest;
-const FSControl = require("../components/FileSystem/FileSystemController").FileSystemController;
-const FileSystemController = new FSControl();
+const FileSystemController = require("../../discord_js_bot_main/index.js").init.FileSystemController;
 
 exports.ServerController = class ServerController {
 defaults;

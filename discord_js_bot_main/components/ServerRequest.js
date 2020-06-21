@@ -1,9 +1,9 @@
 const USERINFO = require("./FileSystem/UserInfoInstance").UserInfoInstance;
 const StatusREASON = require("../enums/ServerRequestStatus").Status;
-const BFileSystemController = require("../components/FileSystem/FileSystemController").FileSystemController;
-let FileSystemController = new BFileSystemController();
+
 
 exports.ServerRequest = class ServerRequest {
+        
         GAMETYPES = require("../enums/GAMETYPES").gametypes;
         //data the will be filled before fileSystemController
         
@@ -59,6 +59,7 @@ exports.ServerRequest = class ServerRequest {
         //if it is still an active or inactive server
         ClientServerInstance;
         constructor(game, OwnerID, GameSettings) {
+                
                 this.Status = StatusREASON.NOTREJECTED;
                 
                 if(game = this.GAMETYPES.GENERIC){
@@ -76,6 +77,7 @@ exports.ServerRequest = class ServerRequest {
         }
 
         async ContructorAsync(){
+                const FileSystemController = require("../index").init.FileSystemController;
                 var d = new Date();
                 this.UserInfo = await FileSystemController.FindOrCreateUserInfoFromServerRequest(this);
                 await FileSystemController.AddServerTeirFromUserInfo(this, this.UserInfo);
@@ -84,7 +86,8 @@ exports.ServerRequest = class ServerRequest {
                 this.DateAndTimeOfRequest = this.TimeOfRequest + "/"+ this.DateOfRequest + "/" + d.getMonth() + "/" + d.getFullYear();
               
                 this.IndexOfRequestByUser = this.UserInfo.ServerRequests.length +1;
-                this.UserInfo.ServerRequests.push(this);
+                //brakes everything --infinte loop o data
+                //this.UserInfo.ServerRequests.push(this);
         }
         
          

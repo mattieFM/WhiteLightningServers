@@ -1,13 +1,15 @@
 const { UserInfoInstance } = require("./UserInfoInstance");
 const ServerRequestStatus = require("../../enums/ServerRequestStatus").Status;
 const Config32 = require("../../config_auth/Config.json");
+const { resolve } = require("path");
 
 module.exports.FileSystemController = class FileSystemControllerserver {
   ServerController;
-
+  NetServer; 
 
   constructor() {
-    this.ServerController = require("../ServerController");
+    this.NetServer = require("../../index.js").init.NetServer;
+    this.ServerController = require("../ServerController").ServerController;
     this.UpdateAllFiles();
   }
   //arrays
@@ -56,84 +58,92 @@ module.exports.FileSystemController = class FileSystemControllerserver {
 
       var fs = require("fs");
     this.LoggingFolder = "./SavedData/Logging";
+    let logging = false;
     fs.readFile(Config32.path +"\\components\\FileSystem\\SavedData\\ActiveCommonServers.json", (err, data) => {
         if (err) throw err;
         this.ActiveCommonServers = JSON.parse(data);
-        console.log(this.ActiveCommonServers);
+        if(logging)console.log(this.ActiveCommonServers);
         this.test2 = true;
     });
     fs.readFile(Config32.path +"\\components\\FileSystem\\SavedData\\ActivePatronServers.json", (err, data) => {
         if (err) throw err;
         this.ActivePatronServers = JSON.parse(data);
-        console.log(this.ActivePatronServers);
+        if(logging)console.log(this.ActivePatronServers);
         this.test3 = true;
     });
     //servers that should relaunch if the bot restarts
     fs.readFile(Config32.path +"\\components\\FileSystem\\SavedData\\RelaunchingServers.json", (err, data) => {
         if (err) throw err;
         this.RelaunchingServers = JSON.parse(data);
-        console.log(this.RelaunchingServers);
+        if(logging) console.log(this.RelaunchingServers);
         this.test4 = true;
     });
     fs.readFile(Config32.path +"\\components\\FileSystem\\SavedData\\InactiveServers.json", (err, data) => {
         if (err) throw err;
         this.InactiveServers = JSON.parse(data);
-        console.log(this.InactiveServers);
+        if(logging)console.log(this.InactiveServers);
         this.test5 = true;
     });
     fs.readFile(Config32.path +"\\components\\FileSystem\\SavedData\\DeepStorageServers.json", (err, data) => {
         if (err) throw err;
         this.DeepStorageServers = JSON.parse(data);
-        console.log(this.DeepStorageServers);
+        if(logging)console.log(this.DeepStorageServers);
         this.test6 = true;
     });
     fs.readFile(Config32.path +"\\components\\FileSystem\\SavedData\\AllPatrons.json", (err, data) => {
         if (err) throw err;
         this.AllPatrons = JSON.parse(data);
-        console.log(this.AllPatrons);
+        if(logging)console.log(this.AllPatrons);
         this.test7 = true;
     });
     fs.readFile(Config32.path +"\\components\\FileSystem\\SavedData\\FirstTierPatrons.json", (err, data) => {
         if (err) throw err;
         this.FirstTierPatrons = JSON.parse(data);
-        console.log(this.FirstTierPatrons);
+        if(logging)console.log(this.FirstTierPatrons);
         this.test8 = true;
     });
     fs.readFile(Config32.path +"\\components\\FileSystem\\SavedData\\SecondTierPatrons.json", (err, data) => {
         if (err) throw err;
         this.SecondTierPatrons = JSON.parse(data);
-        console.log(this.SecondTierPatrons);
+        if(logging)console.log(this.SecondTierPatrons);
         this.test9 = true;
     });
     fs.readFile(Config32.path +"\\components\\FileSystem\\SavedData\\ThirdTierPatrons.json", (err, data) => {
         if (err) throw err;
         this.ThirdTierPatrons = JSON.parse(data);
-        console.log(this.ThirdTierPatrons);
+        if(logging)console.log(this.ThirdTierPatrons);
         this.test10 = true;
     });
     fs.readFile(Config32.path +"\\components\\FileSystem\\SavedData\\LaunchingEc2Servers.json", (err, data) => {
         if (err) throw err;
         this.LaunchingEc2Servers = JSON.parse(data);
-        console.log(this.LaunchingEc2Servers);
+        if(logging)console.log(this.LaunchingEc2Servers);
         this.test11 = true;
     });
     fs.readFile(Config32.path +"\\components\\FileSystem\\SavedData\\LaunchingGameServers.json", (err, data) => {
         if (err) throw err;
         this.LaunchingGameServers = JSON.parse(data);
-        console.log(this.LaunchingGameServers);
+        if(logging)console.log(this.LaunchingGameServers);
         this.test12 = true;
     });
   
-    fs.readFile(Config32.path +"\\components\\FileSystem\\SavedData\\Sockets.json", (err, data) => {
-        if (err) throw err;
-        this.Sockets = JSON.parse(data);
-        console.log(this.Sockets);
-        this.test13 = true;
-    });
+    //if sockets should load from file
+    // fs.readFile(Config32.path +"\\components\\FileSystem\\SavedData\\Sockets.json", (err, data) => {
+    //     if (err) throw err;
+    //     this.Sockets = JSON.parse(data);
+    //     if(logging)console.log(this.Sockets);
+    //     this.test13 = true;
+    // });
+
+    //if not
+
+    this.test13 = await this.NetServer.WriteSocketsToFileSystemMemory();
+
     let finished = false;
     console.log("test");
      finished = await this.fixerthingymbaye(finished)
-     console.log("here1");
+     if(logging)console.log("here1");
+     console.log("updateddata")
      if(finished) resolve(finished);
 });
   }
@@ -141,10 +151,11 @@ module.exports.FileSystemController = class FileSystemControllerserver {
         return new Promise(resolve =>{
            
             var repet = setInterval(() =>{
-                console.log("here2");
+                let logging = false;
+                if(logging)console.log("here2");
                 if(this.test2 && this.test3 && this.test4 && this.test5 && this.test6 && this.test7 && this.test8 && this.test9 && this.test10 && this.test11 && this.test12 && this.test13){
                     clearInterval(repet);
-                    console.log("here3");
+                    if(logging)console.log("here3");
                     finished = true;
                     resolve(finished);
                 }
@@ -256,15 +267,41 @@ module.exports.FileSystemController = class FileSystemControllerserver {
     }
   }
 
-  async ParseDataFromClient(data, LaunchIndex, sockets) {
-    await this.UpdateAllFiles();
+  async ParseDataFromClient(data, LaunchIndex) {
+      return new Promise(async resolve => {
+        await this.UpdateAllFiles();
+        const commands = require("../../../Node Client/commandEnum").commands;
+        const settings = require("../../../Node Client/SettingsEnum").Settings;
+        const clientconfig = require("../../config_auth/ClientConfig.json");
+        const msg = require("../../../Node Client/clientMsg").CleintMsg;
+        var ServerRequest = this.LaunchingEc2Servers[LaunchIndex];
+        console.log("server request = launchindex of " + LaunchIndex);
+        ServerRequest.Status = ServerRequestStatus.EC2LAUNCHED;
+        var datarr = await data.toString().split("&split&");
+        var MsgIdentifyer = datarr[0];
+        var MsgCommand = datarr[1];
+        var MsgSetting = datarr[2];
+        var optionalData;
+        if (datarr[3]) {
+          optionalData = datarr[3];
+        }
+        
+        await this.ConfigSendPromise(data, LaunchIndex).then(
+            this.InitaliseEc2ServerInstance()
+        );
+        await this.CleintCommandProcceser(MsgCommand, ServerRequest, optionalData);
+        resolve(true);
+      })
+  }
+  async InitaliseEc2ServerInstance(){
+    
+  }
+  async ConfigSendPromise(data, LaunchIndex){
+    var ServerRequest = this.LaunchingEc2Servers[LaunchIndex];
     const commands = require("../../../Node Client/commandEnum").commands;
     const settings = require("../../../Node Client/SettingsEnum").Settings;
     const clientconfig = require("../../config_auth/ClientConfig.json");
     const msg = require("../../../Node Client/clientMsg").CleintMsg;
-    var ServerRequest = this.LaunchingEc2Servers[LaunchIndex];
-    console.log("server request = launchindex of " + LaunchIndex);
-    ServerRequest.Status = ServerRequestStatus.EC2LAUNCHED;
     var datarr = await data.toString().split("&split&");
     var MsgIdentifyer = datarr[0];
     var MsgCommand = datarr[1];
@@ -273,24 +310,31 @@ module.exports.FileSystemController = class FileSystemControllerserver {
     if (datarr[3]) {
       optionalData = datarr[3];
     }
-
-    if (ServerRequest.ConfigHasBeenSent === false) {
-        await this.UpdateAllFiles();
-        console.log("number of sockets " + this.Sockets.length)
-      await this.Sockets.forEach(async (Sock) => {
-        if (Sock.Identifyer === MsgIdentifyer) {
-          var sendmsg = new msg(
-            "SERVER",
-            commands.SENDINGCONFIG,
-            settings.None
-          );
-          sendmsg.data = JSON.stringify(clientconfig);
-          await sendmsg.addData();
-          Sock.Socket.write(sendmsg.msg);
+    let i = 0;
+    return new Promise(async resolve => {
+        if (ServerRequest.ConfigHasBeenSent === false) {
+            await this.UpdateAllFiles();
+            console.log("number of sockets " + this.Sockets.length)
+            
+          await this.Sockets.forEach(async (Sock) => {
+              i++;
+            var net = require("net");
+            if (Sock.Identifyer === MsgIdentifyer) {
+              var sendmsg = new msg(
+                "SERVER",
+                commands.SENDINGCONFIG,
+                settings.None
+              );
+              sendmsg.data = JSON.stringify(clientconfig);
+              await sendmsg.addData();
+              Sock.Socket.write(sendmsg.msg);
+            }
+          });
+          if(i === this.Sockets.length){
+              resolve(true);
+          }
         }
-      });
-    }
-    await this.CleintCommandProcceser(MsgCommand, ServerRequest, optionalData);
+      })
   }
   //proccesses commands from client
   async CleintCommandProcceser(command, ServerRequest, optionalData) {
@@ -308,17 +352,26 @@ module.exports.FileSystemController = class FileSystemControllerserver {
     }
   }
   async AddLaunchingEC2Server(ServerRequest) {
-    console.log("before");
-    await this.UpdateAllFiles();
-    console.log("after");
-    if (ServerRequest.Status === ServerRequestStatus.EC2LAUNCHING) {
-      if(this.LaunchingEc2Servers != 0)
-        ServerRequest.LaunchIndex = this.LaunchingEc2Servers.length;
-        if(this.LaunchingEc2Servers.length === 0)
-        ServerRequest.LaunchIndex = 0;
-      this.LaunchingEc2Servers.push(ServerRequest);
-      this.fs.writeFileSync(Config32.path + "\\components\\FileSystem\\SavedData\\LaunchingEc2Servers.json", JSON.stringify(this.LaunchingEc2Servers));
-      return;
+      return new Promise(async resolve => {
+        console.log("before");
+        this.UpdateAllFiles();
+        console.log("after");
+        await this.UpdateAllFiles();
+        if (ServerRequest.Status === ServerRequestStatus.EC2LAUNCHING) {
+          if(this.LaunchingEc2Servers != 0)
+            ServerRequest.LaunchIndex = this.LaunchingEc2Servers.length;
+            if(this.LaunchingEc2Servers.length === 0)
+            ServerRequest.LaunchIndex = 0;
+          this.LaunchingEc2Servers.push(ServerRequest);
+          this.fs.writeFile(Config32.path + "\\components\\FileSystem\\SavedData\\LaunchingEc2Servers.json", JSON.stringify(this.LaunchingEc2Servers), (err)=>{
+            resolve(true);
+            console.log("resolveed");
+          });
+
+        }    
+      });
+      
+    }
       //var finished = false;
 
     //   while(!finished){
@@ -338,8 +391,8 @@ module.exports.FileSystemController = class FileSystemControllerserver {
     //       return true;
     //   }
 
-    }
-  }
+    
+  
   async FinishServerRequest(ServerRequest) {}
   async AddServerTeirFromUserInfo(ServerRequest, UserInfo) {
     if (UserInfo.PatronTier === 0) {

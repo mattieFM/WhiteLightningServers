@@ -9,7 +9,10 @@ StartLogging = require("./BotMethods/logging/loggingOnMessage").OnMessageLogging
 
 NetSoketInit = require("./Network/NetSocketInit");
 netTest = require("./Network/netclient/test");
-
+FSControl = require("../components/FileSystem/FileSystemController").FileSystemController;
+FILESYS = require("../components/FileSystem/FileSystem").FileSystem;
+FileSystemController;
+NetServer;
 //custructor fires on new object, thus triggering Init()
     constructor(){
         this.Init();
@@ -21,7 +24,7 @@ netTest = require("./Network/netclient/test");
         if(process.argv.length > 0){
            
             
-            console.log(process.argv)
+            //console.log(process.argv)
             switch (process.argv[4]) {
                 //launching a client
                 case "client":
@@ -54,7 +57,9 @@ netTest = require("./Network/netclient/test");
           //the client must login before the java bot attempts to log in.
           await new this.BotOnMethods().ClientLogin(ClientInstace);
           //netSocket initialisation
-          new this.NetSoketInit.NetSocketInit();
+          this.NetServer = new this.NetSoketInit.NetSocketInit();
+          this.FileSystemController = new this.FSControl();;
+          this.NetServer.DefineFileSys();
           //launch the java bot inside a node-pty shell
           this.JavaBotInit(ClientInstace, path);
          

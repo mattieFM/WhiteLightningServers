@@ -1,5 +1,6 @@
-const path = process.argv[3];
+//const path = process.argv[3];
 const Config = require("./ClientConfig.json");
+const path = require("./ClientPath.json").path;
 const { cleint } = require("./ClientInit");
 const commands = require("./commandEnum").commands;
 const msg = require("./clientMsg").CleintMsg;
@@ -26,6 +27,7 @@ exports.clientServerManager = class clientServerManager{
         client.write(new msg (NetIdentifyer, commands.CONNECTED, settings.None).msg);
     
         client.on('data', async (data) => { 
+            console.log(data.toString());
 
             //reciving config
       
@@ -46,7 +48,7 @@ exports.clientServerManager = class clientServerManager{
             if(MsgIdentifyer === "SERVER"){
                 switch (MsgCommand) {
                     case commands.SENDINGCONFIG:
-                        fs.writeFileSync(Config.path + "//Node Client//ClientConfig.json", JSON.stringify(optionaldata), (err) =>{
+                        fs.writeFileSync(path + "//Node Client//ClientConfig.json", JSON.stringify(optionaldata), (err) =>{
                     if(err){
                         console.error(err)
                         throw err
@@ -65,7 +67,7 @@ exports.clientServerManager = class clientServerManager{
                 }
             }
         });  
-        fs.writeFileSync(Config.path + "//Node Client//ClientSocket.json", JSON.stringify(client), (err) =>{
+        fs.writeFileSync(path + "//Node Client//ClientSocket.json", JSON.stringify(client), (err) =>{
             if(err){
                 console.error(err)
                 throw err

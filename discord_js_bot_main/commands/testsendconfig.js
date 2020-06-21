@@ -1,8 +1,7 @@
 module.exports.run = async(bot, message, args) => {
        
         var childLauncher = require("../components/ChildProccessCreate").ChildShell;
-        const fileSys = require("../components/FileSystem/FileSystemController").FileSystemController;
-        const FileSystemController  = new fileSys();
+        const FileSystemController = require("../../discord_js_bot_main/index.js").init.FileSystemController;
         const serverRequest = require("../components/ServerRequest").ServerRequest;
         const ServerStatus = require("../enums/ServerRequestStatus").Status;
         //Clientmanager.test(7777, "localhost");

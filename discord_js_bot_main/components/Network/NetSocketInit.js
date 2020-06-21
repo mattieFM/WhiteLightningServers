@@ -1,8 +1,15 @@
-const FileSysControl = require("../FileSystem/FileSystemController").FileSystemController;
-const FileSystemController = new FileSysControl();
+const { resolve } = require("path"); 
+//const FileSystemController = require("../../index").init.FileSystemController;
+
+const logging = false;
 exports.NetSocketInit = class NetSocketInit {
 sockets;
+FileSystemController;
+async DefineFileSys(){
+    this.FileSystemController = require("../../index").init.FileSystemController;
+}
     constructor(){
+        
         var tempSocket;
         var sockets = [];
         var net = require("net"); 
@@ -23,7 +30,8 @@ const clientinsance = require("./ClientInstance").clientInstance;
 
 
 //on connection of a client do stuff
-        server.on("connection",  async (socket) => {
+        server.on("connection",  (socket) => {
+            
             this.sockets = sockets;
             //stuff
             //ClientConfigJSON, is the file that will be sent to each client to set global client config
@@ -39,43 +47,63 @@ const clientinsance = require("./ClientInstance").clientInstance;
                 if(sockets.length === 0)
                 sockets.push(new clientinsance(socket, sockets.length,"waiting"));
             
-            socket.on('data', (data) => { 
-                ;
+            socket.on('data', async (data) => { 
+                
                 console.log(`Client ${clientAddress}: ${data}`); 
-                sockets.forEach((Socket) =>{
-                    Socket.Socket.write(socket.remoteAddress + ':' + socket.remotePort + " said " + data + '\n'); 
-                    var dataarr = data.toString().split("&split&")
-                    if(dataarr[1].includes("cleint has connected, and should be initalised into storage")){
-                   if(Socket.Identifyer === "waiting"){
-                            Socket.Identifyer = dataarr[0];
-                   }
-                    
-                    this.sockets = sockets;
-                 this.WriteSocketsToFile();
-                }
-               
-                
-                
-                })
-                
-                
-                
-
-                FileSystemController.UpdateAllFiles();
-                FileSystemController.LaunchingEc2Servers.forEach(async request => {
-                   
-                    if(data.toString().startsWith(request.NetIdentifyer)){
-                     FileSystemController.ParseDataFromClient(data, request.LaunchIndex, sockets);
+                await new Promise(resolve => {
+                    if(logging)console.log("FIrstPromise1");
+                    sockets.forEach(async (Socket) =>{
+                        if(logging)console.log("FIrstPromiseInLoop");
+                        Socket.Socket.write(data + '\n'); 
+                        var dataarr = data.toString().split("&split&")
+                        if(dataarr[1].includes("cleint has connected, and should be initalised into storage")){
+                       if(Socket.Identifyer === "waiting"){
+                                Socket.Identifyer = dataarr[0];
+                       }
+                        
+                        this.sockets = sockets;
+                        if(logging)console.log("FIrstPromiseIn2");
+                        var writen = await this.WriteSocketsToFile();
+                        if(writen = true)
+                        if(logging)console.log("ResolveFirstPrimse");
+                        resolve(true);
                     }
+                }) 
+            })
+                await new Promise(resolve => {
+                    if(logging)console.log("secondPromise1");
+                    let i = 0;
+                    this.FileSystemController.UpdateAllFiles().then( () =>{
+                        if(logging)console.log("secondPromise2");
+                        this.FileSystemController.LaunchingEc2Servers.forEach(async request => {
+                            if(logging) console.log("secondPromiseInLoop");
+                            i++;
+                            if(data.toString().startsWith(request.NetIdentifyer)){
+                                this.FileSystemController.ParseDataFromClient(data, request.LaunchIndex);
+                            }
+                        })
+                        if(logging)console.log("secondPromise3");
+                    } 
+                    ).then(()=>{
+                        if(i === this.FileSystemController.LaunchingEc2Servers.length){
+                            if(logging)console.log("secondPromisresolve");
+                            resolve(true);
+
+                        }else{
+                            resolve(false);
+                        }
+                    });
                 });
-               
+                
+                
+            
                 socket.on('close', (data) => { 
                     let index = sockets.findIndex((o) => { 
                     return o.remoteAddress === socket.remoteAddress && o.remotePort === socket.remotePort; 
                             }) 
                             if (index !== -1) sockets.splice(index, 1); 
                             sockets.forEach((sock) => { 
-                            sock.write(`${clientAddress} disconnected\n`); 
+                            sock.Socket.write(`${clientAddress} disconnected\n`); 
                             }); 
                             console.log(`connection closed: ${clientAddress}`); 
                                }); 
@@ -102,17 +130,27 @@ const clientinsance = require("./ClientInstance").clientInstance;
     }
 
     WriteSocketsToFile(){
-        var fs = require("fs");
-        var Config = require("../../config_auth/Config.json");
-        fs.writeFileSync(Config.path + "//components//FileSystem//SavedData//Sockets.json", JSON.stringify(this.sockets), (err) =>{
-                    if(err){
-                        console.error(err)
-                        throw err
-                    }
-    });
-    console.log("file has been wrote")
-
+        return new Promise(resolve => {
+            var fs = require("fs");
+            var Config = require("../../config_auth/Config.json");
+            fs.writeFileSync(Config.path + "//components//FileSystem//SavedData//Sockets.json", JSON.stringify(this.sockets), (err) =>{
+                        if(err){
+                            console.error(err)
+                            throw err
+                        }
+        });
+        console.log("file has been wrote")
+        resolve(true);
+        })
 }
+    WriteSocketsToFileSystemMemory(){
+        return new Promise(resolve =>{
+            this.FileSystemController.Sockets = this.sockets;
+            if(this.FileSystemController.Sockets === this.sockets)
+            resolve(true);
+        })
+        
+    }
 
 
 
