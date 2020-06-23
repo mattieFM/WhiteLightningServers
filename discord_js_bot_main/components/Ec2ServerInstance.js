@@ -26,9 +26,12 @@ VolumeShouldTerminateOnClose;
 Status;
 name;
 Zone;
+ServerRequest;
 
 
-constructor(Ec2Request) {
+constructor(ServerRequest) {
+        var Ec2Request = ServerRequest.Ec2Request;
+        this.ServerRequest = ServerRequest;
         this.Zone = Ec2Request.Zone;
         this.NetIdentifyer = Ec2Request.NetIdentifyer;
         this.InstanceType = Ec2Request.InstanceType;

@@ -56,10 +56,27 @@ exports.clientServerManager = class clientServerManager{
                     
                 });
                         break;
-                    
+                        case commands.SENDINGSERVERREQUEST:
+                            fs.writeFileSync(path + "//Node Client//ServerRequest.json", JSON.stringify(optionaldata), (err) =>{
+                        if(err){
+                            console.error(err)
+                            throw err
+                        }
+                        
+                    });
+                            break;
                     case commands.LAUNCHSERVER:
+                        if(optionaldata){
+                            var ServerRequest = JSON.parse(optionaldata.toString());
+                        }else{
+                        fs.readFile(path + "//Node Client//ServerRequest.json", (err, data) => {
+                            if (err) throw err;
+                            var ServerRequest = JSON.parse(data);
+                            if(logging)console.log(this.LaunchingGameServers);
+                            
+                        });
+                        }
                         var GAMETYPES = require("../discord_js_bot_main/enums/GAMETYPES").gametypes;
-                        var ServerRequest = optionaldata;
                         const ClinetServerControler = require("./CleintServerControler").server;
                         new ClinetServerControler().launchGame(ServerRequest);
                     default:

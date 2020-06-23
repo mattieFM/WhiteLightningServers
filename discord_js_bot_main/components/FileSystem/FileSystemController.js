@@ -2,6 +2,7 @@ const { UserInfoInstance } = require("./UserInfoInstance");
 const ServerRequestStatus = require("../../enums/ServerRequestStatus").Status;
 const Config32 = require("../../config_auth/Config.json");
 const { resolve } = require("path");
+const { gametypes } = require("../../enums/GAMETYPES");
 
 module.exports.FileSystemController = class FileSystemControllerserver {
   ServerController;
@@ -13,6 +14,7 @@ module.exports.FileSystemController = class FileSystemControllerserver {
     this.UpdateAllFiles();
   }
   //arrays
+  
   ActiveCommonServers;
   ActivePatronServers;
   RelaunchingServers;
@@ -303,17 +305,20 @@ module.exports.FileSystemController = class FileSystemControllerserver {
       })
   }
   async InitaliseEc2ServerInstance(ServerRequest){
-    return new Promise(resolve => {
+    return new Promise(async resolve => {
+        await this.LaanchGameServerIfApplicableForAllEc2Server();
         let Statuses = require("../../enums/ServerRequestStatus").Status;
         let EC2Request = ServerRequest.Ec2Request;
         if(EC2Request.Status != Statuses.EC2HASBEENSTORED && EC2Request.Status != Statuses.EC2TERMINATED){
         let Ec2ServerInstance = require("../Ec2ServerInstance").serverinstance;
-        let Ec2Server = new Ec2ServerInstance(EC2Request);
+        let Ec2Server = new Ec2ServerInstance(ServerRequest);
         await this.UpdateAllFiles();
         Ec2Server.Index =this.ActiveEC2Servers.length;
         this.ActiveEC2Servers.push(Ec2Server);
         if(this.ActiveEC2Servers[Ec2Server.Index].name === Ec2Server.name){
         Ec2Server.Status = Statuses.EC2HASBEENSTORED;
+        ServerRequest.EC2ID = Ec2Server.InstanceID;
+        ServerRequest.Status = Statuses.GAMESHOULDLAUNCH;
         resolve(true);
         }
         }
@@ -351,6 +356,14 @@ module.exports.FileSystemController = class FileSystemControllerserver {
               sendmsg.data = JSON.stringify(clientconfig);
               await sendmsg.addData();
               Sock.Socket.write(sendmsg.msg);
+              var sendmsg2 = new msg(
+                "SERVER",
+                commands.SENDINGSERVERREQUEST,
+                settings.None
+              );
+              sendmsg.data = JSON.stringify(ServerRequest);
+              await sendmsg.addData();
+              Sock.Socket.write(sendmsg2.msg);
             }
           });
           if(i === this.Sockets.length){
@@ -377,6 +390,35 @@ module.exports.FileSystemController = class FileSystemControllerserver {
       default:
         break;
     }
+  }
+  async LaanchGameServerIfApplicableForAllEc2Server(){
+      return new Promise(async resolve => {
+        let Statuses = require("../../enums/ServerRequestStatus").Status;
+        ActiveEC2Servers.forEach(async Ec2Server => {
+            if(Ec2Server.ServerRequest.Status = Statuses.GAMESHOULDLAUNCH){
+                var ServerRequest = Ec2Server.ServerRequest;
+                await this.Sockets.forEach(async (Sock) => {
+                    i++;
+                  var net = require("net");
+                  if (Sock.Identifyer === ServerRequest.NetIdentifyer) {
+                    const commands = require("../../../Node Client/commandEnum").commands;
+                    const settings = require("../../../Node Client/SettingsEnum").Settings;
+                    var sendmsg = new msg(
+                      "SERVER",
+                      commands.LAUNCHSERVER,
+                      settings.None
+                    );
+                    sendmsg.data = JSON.stringify(ServerRequest);
+                    await sendmsg.addData();
+                    Sock.Socket.write(sendmsg.msg);
+                  }
+                });
+                if(i === this.Sockets.length){
+                    resolve(true);
+                }
+            }
+        });
+      });
   }
   async AddLaunchingEC2Server(ServerRequest) {
       return new Promise(async resolve => {

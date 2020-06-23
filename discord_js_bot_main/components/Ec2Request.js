@@ -20,13 +20,18 @@ Zone;
 //unique name of this ec2 server
 Name;
         constructor(InstanceType, VolumeSize, VolumeShouldTerminateOnClose, NetIdentifyer, Zone) {
-                let controller = require("./Ec2Controller").ec2launch;
+                const controller = require("./Ec2Controller").ec2launch;
                 this.Zone = Zone;
-                this.Name = new controller(null).makeid(200);
                 this.NetIdentifyer = NetIdentifyer;
                 this.InstanceType = InstanceType;
                 this.VolumeSize = VolumeSize;
                 this.VolumeShouldTerminateOnClose = VolumeShouldTerminateOnClose;
+                this.asyncsontructuror();
+        }
+
+        async asyncsontructuror(){
+                var name = await new controller(null).makeid(200);
+                this.Name = name;
         }
 
          

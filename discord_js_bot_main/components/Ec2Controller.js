@@ -48,7 +48,7 @@ async GetEC2ServerData(Ec2Request){
     }
     async makeid(l)
     {
-        return new Promise(resolve => {
+        return new Promise(async resolve => {
             const FileSystemControler = require("../index").init.FileSystemController;
             var text = "";
             var char_list = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";

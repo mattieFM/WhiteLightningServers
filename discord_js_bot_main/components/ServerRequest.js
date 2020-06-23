@@ -44,6 +44,9 @@ exports.ServerRequest = class ServerRequest {
         //an enum with errors/reasons that the request was regected
         Status;
 
+        //if active -- ec2 instance id
+        EC2ID;
+
         ConfigHasBeenSent = false;
         LaunchIndex;
         
