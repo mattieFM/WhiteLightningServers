@@ -13,6 +13,7 @@ FSControl = require("../components/FileSystem/FileSystemController").FileSystemC
 FILESYS = require("../components/FileSystem/FileSystem").FileSystem;
 FileSystemController;
 NetServer;
+NetClient;
 //custructor fires on new object, thus triggering Init()
     constructor(){
         this.Init();
@@ -28,7 +29,7 @@ NetServer;
             switch (process.argv[4]) {
                 //launching a client
                 case "client":
-                    this.clientInit();
+                    this.NetClient = await this.clientInit();
                     break;
 
                     //launching a server
@@ -45,7 +46,9 @@ NetServer;
     }
     async clientInit(){
         const CliEntinit = require("../../Node Client/ClientInit").cleint;
-        await new CliEntinit().init();
+        var client = new CliEntinit();
+        await client.init();
+        return client;
     }
     async serverInit(path){
          //create a Client/Bot Instance, then pass it to main bot init(), 

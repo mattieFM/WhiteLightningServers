@@ -91,7 +91,7 @@ const embed = new RichEmbed()
                         case '712007147432575076':
                             message.channel.send('launching mincraft');
                             var severRequest = new ServerRequest(gametypes.MINECRAFT, message.author.id, null);
-                            launchingserver = ServerControler.LaunchGameServer(severRequest, null);
+                            launchingserver = ServerControler.LaunchGameServer(severRequest);
                             break;
                         //terraria
                         case '712007201320992784':

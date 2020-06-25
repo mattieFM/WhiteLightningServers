@@ -17,11 +17,14 @@ async DefineFileSys(){
         var host = 'localhost';
         var port = "7777"
         server.listen({
-        host: host,
         port: port,
         exclusive: true
         }, ()=> {
-            
+            // var client = new net.Socket(); 
+            // client.connect({
+            //     host: host,
+            //     port: port
+            // });
             console.log(`TCP server listening on ${host}:${port}`); 
         })
         //Client instance, a net client instance, not a bot instance, a net client instance

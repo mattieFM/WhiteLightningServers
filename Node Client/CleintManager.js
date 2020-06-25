@@ -13,8 +13,6 @@ exports.clientServerManager = class clientServerManager{
 
     async NetCLientInit(host, port, NetIdentifyer){
         var fs = require('fs');
-       
-       
         var net = require("net");
     //var port = 7777;
     //var host = "localhost";

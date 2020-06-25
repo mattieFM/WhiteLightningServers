@@ -32,7 +32,7 @@ serverRequest.Status = ServerStatus.EC2LAUNCHING;
 async LaunchGameServer(serverRequest){
 const commands = require("../../../WhiteLightningServers/Node Client/commandEnum").commands;
 const settings = require("../../../WhiteLightningServers/Node Client/SettingsEnum").Settings;
-const clientconfig = require("../../WhiteLightningServers/config_auth/ClientConfig.json");
+const clientconfig = require("../../discord_js_bot_main/config_auth/ClientConfig.json");
 const msg = require("../../WhiteLightningServers/Node Client/clientMsg").CleintMsg;
 //launch ec2 and then net server if one does not exist
 if(serverRequest.ConfigHasBeenSent === false){

@@ -1,5 +1,6 @@
 const ServerObject = require('./ClientSideServerInstance');
 const { cleint } = require('./ClientInit');
+const { Status } = require('../discord_js_bot_main/enums/ServerRequestStatus').Status;
 
 exports.server = class server {
 defaults;
@@ -10,7 +11,7 @@ args;
 GAMETYPES;
 ServerInstance;
 constructor(args = []) {
-    this.GAMETYPES = require("./enums/GAMETYPES");
+    this.GAMETYPES = require("../discord_js_bot_main/enums/GAMETYPES");
     this.spawn = require('child_process').spawn;
     
     
@@ -28,10 +29,11 @@ constructor(args = []) {
             break;
     }
 }
-    launchGame(ServerRequest){ 
+     launchGame(ServerRequest){ 
         var ChildProccesCreator = require("../discord_js_bot_main/components/ChildProccessCreate").ChildShell;
         "use strict";
         var child = new ChildProccesCreator().CreateChildShell();
+        var stream = require("stream").Writable;
         var path = "temp"
         var exacuteable = "temp.bat"
         switch(ServerRequest.Game){
@@ -41,8 +43,8 @@ constructor(args = []) {
         break;
 
        case "minecraft":
-        path = "minecraft path";
-        exacuteable = "minecraft exe"
+        path = "C:\\Users\\mmful\\Desktop\\minecraft";
+        exacuteable = "ServerStart.bat"
         break;
 
         case "generic":
@@ -56,13 +58,27 @@ constructor(args = []) {
     child.write("cd \""+path+"\" \r");
     child.write(exacuteable+"\r");
     let ServerInstance = new ServerObject.serverinstance(ServerRequest, child);
+    
     ServerRequest.ClientServerInstance = ServerInstance;
-    var sendmsg = new msg(ServerRequest.NetIdentifyer, commands.LAUNCHSERVER, settings.None);
+    ServerRequest.Status = Status.GAMELAUNCHING;
+    child.on("data", async (data) => {
+        if(data.toLocaleLowerCase().includes("preparing spawn area:")){
+            ServerInstance.Status = Status.GAMELAUNCHING;
+        } 
+        if(data.toLocaleLowerCase().includes("done")){
+            ServerInstance.Status = Status.GAMELAUNCHED;
+        }
+        if(ServerInstance.Status === Status.GAMELAUNCHED){
+            var sendmsg = new msg(ServerRequest.NetIdentifyer, commands.SERVERLAUNCED, settings.None);
+    var client = require("../discord_js_bot_main/index").init.NetClient.NetCLient;
+    client.write(sendmsg); 
+        }
+     });
+    var sendmsg = new msg(ServerRequest.NetIdentifyer, commands.SENDINGSERVERREQUESTBACKTOSEREVR, settings.None);
     sendmsg.data = ServerRequest;
-    await sendmsg.addData();
-    var client = require("./ClientSocket.json");
-    cleint.write(sendmsg);    
-
+     sendmsg.addData();
+    var client = require("../discord_js_bot_main/index").init.NetClient.NetCLient;
+    client.write(sendmsg);    
 }
         
        

@@ -1,5 +1,5 @@
 exports.serverinstance = class ServerInstance {
-GAMETYPES = require("./enums/GAMETYPES");
+GAMETYPES = require("../enums/GAMETYPES");
 
 
 //Info Obtained from Ec2Controller --> InitialiseEc2ServerIntoStorage(); /or/ filesystemcontroller

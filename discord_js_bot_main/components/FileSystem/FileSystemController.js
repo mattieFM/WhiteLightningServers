@@ -14,7 +14,7 @@ module.exports.FileSystemController = class FileSystemControllerserver {
     this.UpdateAllFiles();
   }
   //arrays
-  
+  ActiveServerRequests;
   ActiveCommonServers;
   ActivePatronServers;
   RelaunchingServers;
@@ -45,6 +45,7 @@ module.exports.FileSystemController = class FileSystemControllerserver {
   test12;
   test13;
   test14;
+  test15;
    async UpdateAllFiles() {
     return new Promise(async resolve =>{
       this.test2 = false;
@@ -60,6 +61,7 @@ module.exports.FileSystemController = class FileSystemControllerserver {
       this.test12 = false;
       this.test13 = false;
       this.test14 = false;
+      this.test15 = false;
 
       var fs = require("fs");
     this.LoggingFolder = "./SavedData/Logging";
@@ -137,6 +139,14 @@ module.exports.FileSystemController = class FileSystemControllerserver {
         if(logging)console.log(this.ActiveEC2Servers);
         this.test14 = true;
     });
+    fs.readFile(Config32.path +"\\components\\FileSystem\\SavedData\\ActiveServerRequests.json", (err, data) => {
+        if (err) throw err;
+        this.ActiveServerRequests = JSON.parse(data);
+        if(logging)console.log(this.ActiveServerRequests);
+        this.test15 = true;
+    });
+
+    
   
     //if sockets should load from file
     // fs.readFile(Config32.path +"\\components\\FileSystem\\SavedData\\Sockets.json", (err, data) => {
@@ -298,17 +308,16 @@ module.exports.FileSystemController = class FileSystemControllerserver {
         }
         
         await this.ConfigSendPromise(data, LaunchIndex).then(
-            this.InitaliseEc2ServerInstance(ServerRequest)
+            this.InitaliseEc2ServerInstance(this.LaunchingEc2Servers[LaunchIndex])
         );
-        await this.CleintCommandProcceser(MsgCommand, ServerRequest, optionalData);
+        await this.CleintCommandProcceser(MsgCommand, ServerRequest, optionalData, MsgIdentifyer);
         resolve(true);
       })
   }
   async InitaliseEc2ServerInstance(ServerRequest){
     return new Promise(async resolve => {
-        await this.LaanchGameServerIfApplicableForAllEc2Server();
         let Statuses = require("../../enums/ServerRequestStatus").Status;
-        let EC2Request = ServerRequest.Ec2Request;
+        let EC2Request = ServerRequest.Ec2Request; 
         if(EC2Request.Status != Statuses.EC2HASBEENSTORED && EC2Request.Status != Statuses.EC2TERMINATED){
         let Ec2ServerInstance = require("../Ec2ServerInstance").serverinstance;
         let Ec2Server = new Ec2ServerInstance(ServerRequest);
@@ -319,6 +328,7 @@ module.exports.FileSystemController = class FileSystemControllerserver {
         Ec2Server.Status = Statuses.EC2HASBEENSTORED;
         ServerRequest.EC2ID = Ec2Server.InstanceID;
         ServerRequest.Status = Statuses.GAMESHOULDLAUNCH;
+        await this.LaanchGameServerIfApplicableForAllEc2Server();
         resolve(true);
         }
         }
@@ -361,8 +371,8 @@ module.exports.FileSystemController = class FileSystemControllerserver {
                 commands.SENDINGSERVERREQUEST,
                 settings.None
               );
-              sendmsg.data = JSON.stringify(ServerRequest);
-              await sendmsg.addData();
+              sendmsg2.data = JSON.stringify(ServerRequest);
+              await sendmsg2.addData();
               Sock.Socket.write(sendmsg2.msg);
             }
           });
@@ -373,20 +383,34 @@ module.exports.FileSystemController = class FileSystemControllerserver {
       })
   }
   //proccesses commands from client
-  async CleintCommandProcceser(command, ServerRequest, optionalData) {
+  async CleintCommandProcceser(command, ServerRequest, optionalData, Identifyer) {
     const commands = require("../../../Node Client/commandEnum").commands;
     switch (command) {
       case commands.CONNECTED:
         ServerRequest.Ec2Request.Status = ServerRequestStatus.EC2LAUNCHED;
         ServerRequest.Ec2RequestStatus = ServerRequestStatus.EC2LAUNCHED;
         ServerRequest.Status = ServerRequestStatus.NETSERVERCONECTED;
-        await this.InitaliseEc2ServerInstance();
+        await this.InitaliseEc2ServerInstance(ServerRequest);
         //launch server on connection
         //new this.ServerController().LaunchGameServer(ServerRequest);
         break;
       case commands.SENDINGSERVERREQUESTBACKTOSEREVR:
+        this.ActiveEC2Servers.forEach(server => {
+            var request = server.ServerRequest;
+            if(optionalData.NetIdentifyer === request.NetIdentifyer)
+            server.ServerRequest = optionalData;
+        });
         break;
-
+        case commands.SERVERLAUNCED:
+            this.ActiveEC2Servers.forEach(server => {
+                var request = server.ServerRequest;
+                if(request.NetIdentifyer === Identifyer){
+                    console.log(
+                        server.PublicIpAddress + "is launched running: " + request.Game
+                    )
+                }
+          });
+        break;
       default:
         break;
     }
@@ -394,15 +418,18 @@ module.exports.FileSystemController = class FileSystemControllerserver {
   async LaanchGameServerIfApplicableForAllEc2Server(){
       return new Promise(async resolve => {
         let Statuses = require("../../enums/ServerRequestStatus").Status;
-        ActiveEC2Servers.forEach(async Ec2Server => {
+        this.ActiveEC2Servers.forEach(async Ec2Server => {
             if(Ec2Server.ServerRequest.Status = Statuses.GAMESHOULDLAUNCH){
                 var ServerRequest = Ec2Server.ServerRequest;
+                let i = 0;
                 await this.Sockets.forEach(async (Sock) => {
+                    
                     i++;
                   var net = require("net");
                   if (Sock.Identifyer === ServerRequest.NetIdentifyer) {
                     const commands = require("../../../Node Client/commandEnum").commands;
                     const settings = require("../../../Node Client/SettingsEnum").Settings;
+                    const msg = require("../../../Node Client/clientMsg").CleintMsg;
                     var sendmsg = new msg(
                       "SERVER",
                       commands.LAUNCHSERVER,
