@@ -90,7 +90,10 @@ const embed = new RichEmbed()
                         //minecraft
                         case '712007147432575076':
                             message.channel.send('launching mincraft');
+                            
                             var severRequest = new ServerRequest(gametypes.MINECRAFT, message.author.id, null);
+                            severRequest.OwnerUniqueIdenifyer = message.author.discriminator;
+                            severRequest.OwnerName = message.author.username;
                             launchingserver = ServerControler.LaunchGameServer(severRequest);
                             break;
                         //terraria

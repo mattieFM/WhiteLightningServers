@@ -25,7 +25,8 @@ async LaunchEc2Server(serverRequest){
     //sending ec2 request with identifyer for net server
     serverRequest.Ec2Request = new ec2Request("t2.micro", 8, true, serverRequest.OwnerID + "_" + serverRequest.OwnerUniqueIdenifyer + "_" + serverRequest.OwnerServerIndex, AvalibilityZones.OREGON);
     serverRequest.Ec2Request.IsSpotInstance = true;
-    serverRequest.Ec2Request
+    serverRequest.Ec2Request.port = 7777;
+    serverRequest.Ec2Request.host = "54.184.210.160";
 ec2Launcher.LaunchEc2Instance(serverRequest.Ec2Request);
 serverRequest.Status = ServerStatus.EC2LAUNCHING;
 }else{
