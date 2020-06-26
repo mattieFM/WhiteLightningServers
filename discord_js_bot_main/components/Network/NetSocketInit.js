@@ -72,19 +72,19 @@ const clientinsance = require("./ClientInstance").clientInstance;
                 await new Promise(resolve => {
                     if(logging)console.log("secondPromise1");
                     let i = 0;
-                    this.FileSystem.UpdateAllFiles().then( () =>{
+                    this.FileSystemController.UpdateAllFiles().then( () =>{
                         if(logging)console.log("secondPromise2");
-                        this.FileSystem.LaunchingEc2Servers.forEach(async request => {
+                        this.FileSystemController.LaunchingEc2Servers.forEach(async request => {
                             if(logging) console.log("secondPromiseInLoop");
                             i++;
                             if(data.toString().startsWith(request.NetIdentifyer)){
-                                this.FileSystem.ParseDataFromClient(data, request.LaunchIndex);
+                                this.FileSystemController.ParseDataFromClient(data, request.LaunchIndex);
                             }
                         })
                         if(logging)console.log("secondPromise3");
                     } 
                     ).then(()=>{
-                        if(i === this.FileSystem.LaunchingEc2Servers.length){
+                        if(i === this.FileSystemController.LaunchingEc2Servers.length){
                             if(logging)console.log("secondPromisresolve");
                             resolve(true);
 
