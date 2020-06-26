@@ -84,8 +84,8 @@ const embed = new RichEmbed()
                 const reaction = collected.first();
                 const ServerControler = new ServerController();
                 var gametypes = GAMETYPES.gametypes;
-                var genericServerRequest = new ServerRequest(gametypes.GENERIC, "InternalUser", null);
-                var launchingserver = ServerControler.LaunchGameServer(genericServerRequest);
+                //var genericServerRequest = new ServerRequest(gametypes.GENERIC, "InternalUser", null);
+                //var launchingserver = ServerControler.LaunchGameServer(genericServerRequest);
                     switch (reaction.emoji.id){
                         //minecraft
                         case '712007147432575076':

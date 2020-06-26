@@ -1,7 +1,5 @@
 const Discord = require("discord.js");
 const AWS = require("aws-sdk");
-const genericEC2Request = require("./Ec2Request").ServerRequest;
-const GenericEc2Request = new genericEC2Request("t2.micro", "8", true);
 const avalibilityZones = require('../enums/avalibility zones').avalibilityZones;
 module.exports.ec2launch = class ec2launch {
 ec2;
@@ -36,7 +34,6 @@ async GetEC2ServerData(Ec2Request){
     });
 }
     async LaunchEc2Instance(Ec2Request){
-      GenericEc2Request.IsOnDemandInstance
       if(Ec2Request.IsSpotInstance){
         await this.LaunchEc2SpotInstance(Ec2Request);
         return;
@@ -75,10 +72,7 @@ async GetEC2ServerData(Ec2Request){
         
      this.ec2 = new AWS.EC2({apiVersion: '2016-11-15', region: this.zone});
       var userdata = Buffer.from(`<script> 
-      echo Current date and time >> %SystemRoot%\\Temp\\test.log 
-      echo %DATE% %TIME% >> %SystemRoot%\\Temp\\test.log 
-      cd C:\\Users\\Administrator\\Desktop\\bot\\WhiteLightningServers\\discord_js_bot_main 
-      start launchclientOnEC2Instance.bat ${Ec2Request.NetIdentifyer} ${Ec2Request.port} ${Ec2Request.host}
+      C:\\Users\\Administrator\\Desktop\\bot\\WhiteLightningServers\\discord_js_bot_main\\start launchclientOnEC2Instance.bat ${Ec2Request.NetIdentifyer} ${Ec2Request.port} ${Ec2Request.host}
       </script> 
       <persist>true</persist>`).toString('base64')
      this.instanceParams = {
@@ -111,16 +105,16 @@ async GetEC2ServerData(Ec2Request){
       this.instancePromise = new AWS.EC2({apiVersion: '2016-11-15', region: this.zone}).runInstances(this.instanceParams).promise();
 
      this.instancePromise.then(
-        (data) =>{
+        async (data) =>{
             //log speggettiiiiiiiiii // the entire instance
             //console.log(data);
              this.instanceId = data.Instances[0].InstanceId;
             console.log("created instance", this.instanceId);
-
+            var name =  await Ec2Request.Name.toString();
              this.tagParams = {Resources: [this.instanceId], Tags: [
                 {
                 Key: 'Name',
-                Value: Ec2Request.Name
+                Value: name
                 }
             ]};
              this.tagPromise = new AWS.EC2({apiVersion: '2016-11-15', region: this.zone}).createTags(this.tagParams).promise();
@@ -140,10 +134,7 @@ async GetEC2ServerData(Ec2Request){
 
             async LaunchEc2SpotInstance(Ec2Request){
               var userdata = Buffer.from(`<script> 
-      echo Current date and time >> %SystemRoot%\\Temp\\test.log 
-      echo %DATE% %TIME% >> %SystemRoot%\\Temp\\test.log 
-      cd C:\\Users\\Administrator\\Desktop\\bot\\WhiteLightningServers\\discord_js_bot_main 
-      start launchclientOnEC2Instance.bat ${Ec2Request.NetIdentifyer} ${Ec2Request.port} ${Ec2Request.host}
+      C:\\Users\\Administrator\\Desktop\\bot\\WhiteLightningServers\\discord_js_bot_main\\start launchclientOnEC2Instance.bat ${Ec2Request.NetIdentifyer} ${Ec2Request.port} ${Ec2Request.host}
       </script> 
       <persist>true</persist>`).toString('base64');
                 var ec2 = new AWS.EC2({apiVersion: '2016-11-15', region: this.zone});
@@ -186,15 +177,43 @@ async GetEC2ServerData(Ec2Request){
                      }
                      */
                    }).promise()
+                   var name = await Ec2Request.Name.toString()
                    this.tagParams = {Resources: [this.instanceId], Tags: [
                     {
                     Key: 'Name',
-                    Value: Ec2Request.Name
+                    Value: name
                     }
                 ]};
-                   SpotInstancePromise.then(this.tagPromise);
+        
+                   SpotInstancePromise.then(
+                    (data) =>{
+                        //log speggettiiiiiiiiii // the entire instance
+                        //console.log(data);
+                         this.instanceId = data.Instances[0].InstanceId;
+                        console.log("created spot instance", this.instanceId);
+            
+                         this.tagParams = {Resources: [this.instanceId], Tags: [
+                            {
+                            Key: 'Name',
+                            Value: Ec2Request.Name
+                            }
+                        ]};
+                         this.tagPromise = new AWS.EC2({apiVersion: '2016-11-15', region: this.zone}).createTags(this.tagParams).promise();
+                        this.tagPromise.then(
+                            function(data){
+                                console.log("Instance tagged");
+                        }).catch(
+                            function(err){
+                                console.error(err, err.stack);
+                            });
+                            
+                        }).catch(
+                            function(err){
+                                console.error(err, err.stack);
+                            });
+                        }
 
-            }
+            
 
             async InitialiseEc2ServerIntoStorage(Ec2Request){
 

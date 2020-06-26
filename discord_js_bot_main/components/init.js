@@ -14,6 +14,8 @@ FILESYS = require("../components/FileSystem/FileSystem").FileSystem;
 FileSystemController;
 NetServer;
 NetClient;
+ec2con = require("./Ec2Controller").ec2launch;
+Ec2Controler = new this.ec2con("us-west-2");
 //custructor fires on new object, thus triggering Init()
     constructor(){
         this.Init();
@@ -58,7 +60,7 @@ NetClient;
           //netSocket initialisation
           this.NetServer = new this.NetSoketInit.NetSocketInit();
           this.FileSystemController = new this.FSControl();;
-          this.NetServer.DefineFileSys();
+          await this.NetServer.DefineFileSys();
           //launch the java bot inside a node-pty shell
           this.JavaBotInit(ClientInstace, path);
          

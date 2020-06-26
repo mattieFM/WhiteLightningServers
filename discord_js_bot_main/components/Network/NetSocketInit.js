@@ -20,11 +20,7 @@ async DefineFileSys(){
         port: port,
         exclusive: true
         }, ()=> {
-            // var client = new net.Socket(); 
-            // client.connect({
-            //     host: host,
-            //     port: port
-            // });
+            
             console.log(`TCP server listening on ${host}:${port}`); 
         })
         //Client instance, a net client instance, not a bot instance, a net client instance
@@ -34,7 +30,7 @@ const clientinsance = require("./ClientInstance").clientInstance;
 
 //on connection of a client do stuff
         server.on("connection",  (socket) => {
-            
+            socket.write("exit");
             this.sockets = sockets;
             //stuff
             //ClientConfigJSON, is the file that will be sent to each client to set global client config
@@ -57,7 +53,7 @@ const clientinsance = require("./ClientInstance").clientInstance;
                     if(logging)console.log("FIrstPromise1");
                     sockets.forEach(async (Socket) =>{
                         if(logging)console.log("FIrstPromiseInLoop");
-                        Socket.Socket.write(data + '&split&\n'); 
+                        Socket.Socket.write(socket.remoteAddress + ':' + socket.remotePort + " said " + data + '\n'); 
                         var dataarr = data.toString().split("&split&")
                         if(dataarr[1].includes("cleint has connected, and should be initalised into storage")){
                        if(Socket.Identifyer === "waiting"){
@@ -76,19 +72,19 @@ const clientinsance = require("./ClientInstance").clientInstance;
                 await new Promise(resolve => {
                     if(logging)console.log("secondPromise1");
                     let i = 0;
-                    this.FileSystemController.UpdateAllFiles().then( () =>{
+                    this.FileSystem.UpdateAllFiles().then( () =>{
                         if(logging)console.log("secondPromise2");
-                        this.FileSystemController.LaunchingEc2Servers.forEach(async request => {
+                        this.FileSystem.LaunchingEc2Servers.forEach(async request => {
                             if(logging) console.log("secondPromiseInLoop");
                             i++;
                             if(data.toString().startsWith(request.NetIdentifyer)){
-                                this.FileSystemController.ParseDataFromClient(data, request.LaunchIndex);
+                                this.FileSystem.ParseDataFromClient(data, request.LaunchIndex);
                             }
                         })
                         if(logging)console.log("secondPromise3");
                     } 
                     ).then(()=>{
-                        if(i === this.FileSystemController.LaunchingEc2Servers.length){
+                        if(i === this.FileSystem.LaunchingEc2Servers.length){
                             if(logging)console.log("secondPromisresolve");
                             resolve(true);
 
@@ -147,6 +143,7 @@ const clientinsance = require("./ClientInstance").clientInstance;
         })
 }
     WriteSocketsToFileSystemMemory(){
+        if(this.FileSystemController)
         return new Promise(resolve =>{
             this.FileSystemController.Sockets = this.sockets;
             if(this.FileSystemController.Sockets === this.sockets)

@@ -50,7 +50,7 @@ exports.ServerRequest = class ServerRequest {
         ConfigHasBeenSent = false;
         LaunchIndex;
         
-
+        dontlaunchtwice;
         NetIdentifyer;
 
         //date and time of request

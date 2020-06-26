@@ -24,9 +24,12 @@ async LaunchEc2Server(serverRequest){
     let ec2Launcher = new EC2Launcher(AvalibilityZones.OREGON);
     //sending ec2 request with identifyer for net server
     serverRequest.Ec2Request = new ec2Request("t2.micro", 8, true, serverRequest.OwnerID + "_" + serverRequest.OwnerUniqueIdenifyer + "_" + serverRequest.OwnerServerIndex, AvalibilityZones.OREGON);
-    serverRequest.Ec2Request.IsSpotInstance = true;
+    serverRequest.Ec2Request.IsOnDemandInstance = true;
     serverRequest.Ec2Request.port = 7777;
-    serverRequest.Ec2Request.host = "54.184.210.160";
+    require('dns').lookup(require('os').hostname(), function (err, add, fam) {
+        serverRequest.Ec2Request.host = add;
+      })
+    
 ec2Launcher.LaunchEc2Instance(serverRequest.Ec2Request);
 serverRequest.Status = ServerStatus.EC2LAUNCHING;
 }else{
@@ -41,10 +44,14 @@ const clientconfig = require("../../discord_js_bot_main/config_auth/ClientConfig
 const msg = require("../../Node Client/clientMsg").CleintMsg;
 //launch ec2 and then net server if one does not exist
 if(serverRequest.ConfigHasBeenSent === false){
+    if(serverRequest.dontlaunchtwice === true){
+        return
+    }
 await this.FileSystemController.UpdateAllFiles();
 //await this.FileSystemController.CheckUserServerEligibilityFromServerRequest(serverRequest);
 serverRequest.Status = Status.ACCEPTED;
 await this.LaunchEc2Server(serverRequest);
+serverRequest.dontlaunchtwice = true;
 }
 //once a net server has connected -- contuine
 if(serverRequest.ConfigHasBeenSent === true){
