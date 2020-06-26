@@ -14,8 +14,8 @@ async DefineFileSys(){
         var sockets = [];
         var net = require("net"); 
         var server = net.createServer(); 
-        var host = 'localhost';
-        var port = "7777"
+        var host= process.argv[7]
+        var port = process.argv[6]
         server.listen({
         port: port,
         exclusive: true
