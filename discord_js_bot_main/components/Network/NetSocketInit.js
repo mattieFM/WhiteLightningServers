@@ -17,8 +17,8 @@ async DefineFileSys(){
         var host= process.argv[7]
         var port = process.argv[6]
         server.listen({
-        port: port,
-        exclusive: true
+	    host: host,
+        port: port
         }, ()=> {
             
             console.log(`TCP server listening on ${host}:${port}`); 
