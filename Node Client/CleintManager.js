@@ -82,13 +82,7 @@ exports.clientServerManager = class clientServerManager{
                 }
             }
         });  
-        fs.writeFileSync(path + "//Node Client//ClientSocket.json", JSON.stringify(client), (err) =>{
-            if(err){
-                console.error(err)
-                throw err
-            }
-            
-        });
+
         // Add a 'close' event handler for the client socket 
         client.on('close', () => { 
             console.log('Client closed'); 
