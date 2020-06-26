@@ -78,7 +78,7 @@ async GetEC2ServerData(Ec2Request){
       echo Current date and time >> %SystemRoot%\\Temp\\test.log 
       echo %DATE% %TIME% >> %SystemRoot%\\Temp\\test.log 
       cd C:\\Users\\Administrator\\Desktop\\bot\\WhiteLightningServers\\discord_js_bot_main 
-      start launchclient.bat ${Ec2Request.NetIdentifyer} ${Ec2Request.port} ${Ec2Request.host}
+      start launchclientOnEC2Instance.bat ${Ec2Request.NetIdentifyer} ${Ec2Request.port} ${Ec2Request.host}
       </script> 
       <persist>true</persist>`).toString('base64')
      this.instanceParams = {
@@ -96,7 +96,7 @@ async GetEC2ServerData(Ec2Request){
         //     },
           
         //   ],
-        ImageId: 'ami-0cce4a0a958affeb2', 
+        ImageId: 'ami-0b278443b8e9467bc', 
         InstanceType: 't2.micro',
         KeyName: 'ClientGameServerKey',
         MinCount: 1,
@@ -143,7 +143,7 @@ async GetEC2ServerData(Ec2Request){
       echo Current date and time >> %SystemRoot%\\Temp\\test.log 
       echo %DATE% %TIME% >> %SystemRoot%\\Temp\\test.log 
       cd C:\\Users\\Administrator\\Desktop\\bot\\WhiteLightningServers\\discord_js_bot_main 
-      start launchclient.bat ${Ec2Request.NetIdentifyer} ${Ec2Request.port} ${Ec2Request.host}
+      start launchclientOnEC2Instance.bat ${Ec2Request.NetIdentifyer} ${Ec2Request.port} ${Ec2Request.host}
       </script> 
       <persist>true</persist>`).toString('base64');
                 var ec2 = new AWS.EC2({apiVersion: '2016-11-15', region: this.zone});
@@ -167,7 +167,7 @@ async GetEC2ServerData(Ec2Request){
                      
                      
                      InstanceType: Ec2Request.InstanceType, 
-                     ImageId: 'ami-0904bde069069fec8', 
+                     ImageId: 'ami-0b278443b8e9467bc', 
                      InstanceType: 't2.micro',
                      KeyName: 'ClientGameServerKey',
                      SecurityGroupIds: [
