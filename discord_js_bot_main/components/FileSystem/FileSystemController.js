@@ -324,6 +324,17 @@ module.exports.FileSystemController = class FileSystemControllerserver {
         await this.UpdateAllFiles();
         Ec2Server.Index =this.ActiveEC2Servers.length;
         this.ActiveEC2Servers.push(Ec2Server);
+        this.LaunchingEc2Servers.splice(ServerRequest.LaunchIndex, 1);
+    
+        await this.LaunchingEc2Servers.forEach(ServerRequest => {
+            let index = this.LaunchingEc2Servers.indexOf(ServerRequest);
+            ServerRequest.LaunchIndex = index;
+        });
+        this.fs.writeFile(Config32.path + "\\components\\FileSystem\\SavedData\\LaunchingEc2Servers.json", JSON.stringify(this.LaunchingEc2Servers), (err)=>{
+            resolve(true);
+            console.log("resolveed");
+          });
+
         if(this.ActiveEC2Servers[Ec2Server.Index].name === Ec2Server.name){
         Ec2Server.Status = Statuses.EC2HASBEENSTORED;
         ServerRequest.EC2ID = Ec2Server.InstanceID;
@@ -365,7 +376,7 @@ module.exports.FileSystemController = class FileSystemControllerserver {
               );
               sendmsg.data = JSON.stringify(clientconfig);
               await sendmsg.addData();
-              Sock.Socket.write(sendmsg.msg);
+              Sock.Socket.write(sendmsg.msg + "&split&\n");
               var sendmsg2 = new msg(
                 "SERVER",
                 commands.SENDINGSERVERREQUEST,
@@ -373,7 +384,7 @@ module.exports.FileSystemController = class FileSystemControllerserver {
               );
               sendmsg2.data = JSON.stringify(ServerRequest);
               await sendmsg2.addData();
-              Sock.Socket.write(sendmsg2.msg);
+              Sock.Socket.write(sendmsg2.msg + "&split&\n");
             }
           });
           if(i === this.Sockets.length){
@@ -437,7 +448,7 @@ module.exports.FileSystemController = class FileSystemControllerserver {
                     );
                     sendmsg.data = JSON.stringify(ServerRequest);
                     await sendmsg.addData();
-                    Sock.Socket.write(sendmsg.msg);
+                    Sock.Socket.write(sendmsg.msg + "&split&\n");
                   }
                 });
                 if(i === this.Sockets.length){

@@ -1,5 +1,5 @@
 exports.serverinstance = class ServerInstance {
-GAMETYPES = require("./enums/GAMETYPES");
+GAMETYPES = require("../discord_js_bot_main/enums/GAMETYPES").gametypes;
 //data the will be filled before fileSystemController
 
 //settings for the game server

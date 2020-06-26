@@ -7,10 +7,13 @@ const Port = process.argv[6];
 const Host =process.argv[7];
 module.exports.cleint = class client{
 
-    NetCLient;
+    constructor(){
+        this.init();
+    }
+    NetClient;
     async init(){
         //console.log("Here")
-        this.NetCLient = CleintManager.NetCLientInit(Host, Port, NetIdentifyer);
+        this.NetClient = CleintManager.NetCLientInit(Host, Port, NetIdentifyer);
 
 
         // var rl = readline.createInterface({

@@ -29,7 +29,8 @@ NetClient;
             switch (process.argv[4]) {
                 //launching a client
                 case "client":
-                    this.NetClient = await this.clientInit();
+                    const CliEntinit = require("../../Node Client/ClientInit").cleint;
+                    this.NetClient = new CliEntinit();
                     break;
 
                     //launching a server
@@ -44,12 +45,7 @@ NetClient;
         }
         
     }
-    async clientInit(){
-        const CliEntinit = require("../../Node Client/ClientInit").cleint;
-        var client = new CliEntinit();
-        await client.init();
-        return client;
-    }
+
     async serverInit(path){
          //create a Client/Bot Instance, then pass it to main bot init(), 
          var ClientInstace = await this.BotInit();

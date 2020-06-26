@@ -22,7 +22,7 @@ exports.clientServerManager = class clientServerManager{
             port: port, 
             host: host
             })
-        client.write(new msg (NetIdentifyer, commands.CONNECTED, settings.None).msg);
+        client.write(new msg (NetIdentifyer, commands.CONNECTED, settings.None).msg + "\n");
     
         client.on('data', async (data) => { 
             console.log(data.toString());

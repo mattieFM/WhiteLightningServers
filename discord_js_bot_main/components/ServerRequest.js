@@ -66,7 +66,7 @@ exports.ServerRequest = class ServerRequest {
                 
                 this.Status = StatusREASON.NOTREJECTED;
                 
-                if(game = this.GAMETYPES.GENERIC){
+                if(game === this.GAMETYPES.GENERIC){
                         console.log("a ServerRequest for a generic server has been generated, this kind of server cannot be launched, and should only be used for testing")
                 }
                 this.OwnerID = OwnerID;

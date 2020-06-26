@@ -16,5 +16,6 @@ module.exports.Status = {
     GAMELAUNCHED: "the gameserver is launched and is waiting for a server instance",
     LAUNCHED: "the game server is online and there is a ServerInstance for it",
     INACTIVE: "this server has been moved to storage (it is not activly running but can still be restarted",
-    TERMINATED: "the game server has stoped, the ec2 instance is not active, and no remnaints of the server are left behind (this is not costing any $$$)"
+    TERMINATED: "the game server has stoped, the ec2 instance is not active, and no remnaints of the server are left behind (this is not costing any $$$)",
+    SERVERLAUNCHEDANDHESSENTMSGTOSERVER: "server is launched and has sent confermation to server"
 }

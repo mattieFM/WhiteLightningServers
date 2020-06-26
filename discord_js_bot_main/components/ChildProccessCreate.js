@@ -19,9 +19,9 @@ exports.ChildShell = class ChildShell {
     //this.child = this.spawn('cmd.exe', ['/c', this.myBatFilePath], this.defaults);
     var child = pty.spawn(shell, [], defaults);
 
-    child.on("data", (data) => {
-      process.stdout.write(data);
-    });
+    // child.on("data", (data) => {
+    //   process.stdout.write(data);
+    // });
 
     return child;
   }

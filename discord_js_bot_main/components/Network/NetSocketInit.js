@@ -57,7 +57,7 @@ const clientinsance = require("./ClientInstance").clientInstance;
                     if(logging)console.log("FIrstPromise1");
                     sockets.forEach(async (Socket) =>{
                         if(logging)console.log("FIrstPromiseInLoop");
-                        Socket.Socket.write(data + '\n'); 
+                        Socket.Socket.write(data + '&split&\n'); 
                         var dataarr = data.toString().split("&split&")
                         if(dataarr[1].includes("cleint has connected, and should be initalised into storage")){
                        if(Socket.Identifyer === "waiting"){

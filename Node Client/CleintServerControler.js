@@ -1,6 +1,6 @@
 const ServerObject = require('./ClientSideServerInstance');
 const { cleint } = require('./ClientInit');
-const { Status } = require('../discord_js_bot_main/enums/ServerRequestStatus').Status;
+const Status = require('../discord_js_bot_main/enums/ServerRequestStatus').Status;
 
 exports.server = class server {
 defaults;
@@ -56,12 +56,14 @@ constructor(args = []) {
     var commands = require("./commandEnum").commands;
     var settings = require("./SettingsEnum").Settings;
     child.write("cd \""+path+"\" \r");
-    child.write(exacuteable+"\r");
+    child.write("./" +exacuteable+"\r");
     let ServerInstance = new ServerObject.serverinstance(ServerRequest, child);
     
     ServerRequest.ClientServerInstance = ServerInstance;
     ServerRequest.Status = Status.GAMELAUNCHING;
     child.on("data", async (data) => {
+        process.stdout.write(data);
+        //console.log("i am here testingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtesting");
         if(data.toLocaleLowerCase().includes("preparing spawn area:")){
             ServerInstance.Status = Status.GAMELAUNCHING;
         } 
@@ -70,15 +72,16 @@ constructor(args = []) {
         }
         if(ServerInstance.Status === Status.GAMELAUNCHED){
             var sendmsg = new msg(ServerRequest.NetIdentifyer, commands.SERVERLAUNCED, settings.None);
-    var client = require("../discord_js_bot_main/index").init.NetClient.NetCLient;
-    client.write(sendmsg); 
+    var client = await require("../discord_js_bot_main/index.js").init.NetClient.NetClient;
+    client.write(JSON.stringify(sendmsg) + "\n"); 
+    ServerInstance.Status = Status.SERVERLAUNCHEDANDHESSENTMSGTOSERVER;
         }
      });
     var sendmsg = new msg(ServerRequest.NetIdentifyer, commands.SENDINGSERVERREQUESTBACKTOSEREVR, settings.None);
     sendmsg.data = ServerRequest;
      sendmsg.addData();
     var client = require("../discord_js_bot_main/index").init.NetClient.NetCLient;
-    client.write(sendmsg);    
+    client.write(sendmsg + "\n");    
 }
         
        
