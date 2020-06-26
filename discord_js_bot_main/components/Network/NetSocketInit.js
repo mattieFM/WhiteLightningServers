@@ -62,8 +62,8 @@ const clientinsance = require("./ClientInstance").clientInstance;
                         
                         this.sockets = sockets;
                         if(logging)console.log("FIrstPromiseIn2");
-                        var writen = await this.WriteSocketsToFile();
-                        if(writen = true)
+                        //var writen = await this.WriteSocketsToFile();
+                        //if(writen = true)
                         if(logging)console.log("ResolveFirstPrimse");
                         resolve(true);
                     }
