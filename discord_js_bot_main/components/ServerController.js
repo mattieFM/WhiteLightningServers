@@ -27,7 +27,7 @@ async LaunchEc2Server(serverRequest){
     serverRequest.Ec2Request.IsOnDemandInstance = true;
     serverRequest.Ec2Request.port = process.argv[6]
     const ip = require('ip');
-        serverRequest.Ec2Request.host = ip.address("public", "ipv4");
+        serverRequest.Ec2Request.host = "44.225.20.9";
      
     
 ec2Launcher.LaunchEc2Instance(serverRequest.Ec2Request);
