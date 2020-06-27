@@ -30,7 +30,6 @@ const clientinsance = require("./ClientInstance").clientInstance;
 
 //on connection of a client do stuff
         server.on("connection",  (socket) => {
-            socket.write("exit");
             this.sockets = sockets;
             //stuff
             //ClientConfigJSON, is the file that will be sent to each client to set global client config
@@ -101,9 +100,9 @@ const clientinsance = require("./ClientInstance").clientInstance;
                     return o.remoteAddress === socket.remoteAddress && o.remotePort === socket.remotePort; 
                             }) 
                             if (index !== -1) sockets.splice(index, 1); 
-                            sockets.forEach((sock) => { 
-                            sock.Socket.write(`${clientAddress} disconnected\n`); 
-                            }); 
+//                             sockets.forEach((sock) => { 
+//                             sock.Socket.write(`${clientAddress} disconnected\n`); 
+//                             }); 
                             console.log(`connection closed: ${clientAddress}`); 
                                }); 
             });
