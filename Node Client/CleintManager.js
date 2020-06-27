@@ -2,6 +2,7 @@
 const Config = require("./ClientConfig.json");
 const path = require("./ClientPath.json").path;
 const { cleint } = require("./ClientInit");
+const { Settings } = require("./SettingsEnum");
 const commands = require("./commandEnum").commands;
 const msg = require("./clientMsg").CleintMsg;
 const settings = require("./SettingsEnum").Settings;
@@ -76,7 +77,7 @@ exports.clientServerManager = class clientServerManager{
                         }
                         var GAMETYPES = require("../discord_js_bot_main/enums/GAMETYPES").gametypes;
                         const ClinetServerControler = require("./CleintServerControler").server;
-                        new ClinetServerControler().launchGame(ServerRequest);
+                        new ClinetServerControler().launchGame(ServerRequest, MsgSetting);
                     default:
                         break;
                 }

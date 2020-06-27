@@ -29,13 +29,14 @@ constructor(args = []) {
             break;
     }
 }
-     launchGame(ServerRequest){ 
+     launchGame(ServerRequest, Settings){ 
         var ChildProccesCreator = require("../discord_js_bot_main/components/ChildProccessCreate").ChildShell;
         "use strict";
         var child = new ChildProccesCreator().CreateChildShell();
         var stream = require("stream").Writable;
         var path = "temp"
         var exacuteable = "temp.bat"
+        let args = [];
         switch(ServerRequest.Game){
        case "terraria":
         path = "terraria path";
@@ -43,8 +44,32 @@ constructor(args = []) {
         break;
 
        case "minecraft":
-        path = "C:\\Users\\mmful\\Desktop\\minecraft";
-        exacuteable = "ServerStart.bat"
+        Settings.MinecraftServerArgs.forEach(setting => {
+            if(setting.enabled === true){
+                if(setting.arg != null){
+                var arg = setting.commad + " " + setting.arg;
+                }else{
+                var arg = setting.commad
+                }
+                args.push(arg);
+            }
+        });
+        var max;
+        var min;
+        Settings.JVMargs.forEach(JVMSetting => {
+            if(JVMSetting.includes("MAX")){
+                JVMSetting.replace("MAX", "");
+                max = JVMSetting;
+
+            }else if (JVMSetting.includes("MIN")){
+                JVMSetting.replace("MIN", "");
+                min = JVMSetting;
+            }
+        });
+        path = "D:\\";
+        exacuteable = "server1-16-1.jar"
+        
+        exacuteable = "java " + "-Xmx" +max+ " -Xms" +min+ " -jar "+ exacuteable;
         break;
 
         case "generic":
@@ -52,11 +77,14 @@ constructor(args = []) {
         break;
         
     }
+    var command = exacuteable;
+    args.forEach(arg => {
+        command = command +" " + arg;
+    });
     var msg = require("./clientMsg").CleintMsg;
     var commands = require("./commandEnum").commands;
     var settings = require("./SettingsEnum").Settings;
-    child.write("cd \""+path+"\" \r");
-    child.write("./" +exacuteable+"\r");
+    child.write(command+"\r");
     let ServerInstance = new ServerObject.serverinstance(ServerRequest, child);
     
     ServerRequest.ClientServerInstance = ServerInstance;

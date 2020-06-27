@@ -55,7 +55,12 @@ serverRequest.dontlaunchtwice = true;
 }
 //once a net server has connected -- contuine
 if(serverRequest.ConfigHasBeenSent === true){
-var sendmsg = new msg(serverRequest.NetIdentifyer, commands.LAUNCHSERVER, settings.None);
+    var SpecificSettings = new settings.GameSettings.MINECRAFT();
+    SpecificSettings.MinecraftServerArgs[6] = new SpecificSettings.MinecraftServerArgs[1]();
+    SpecificSettings.MinecraftServerArgs[6].enabled = true;
+    SpecificSettings.MinecraftServerArgs[1] = new SpecificSettings.MinecraftServerArgs[1]();
+    SpecificSettings.MinecraftServerArgs[1].enabled = true;
+var sendmsg = new msg(serverRequest.NetIdentifyer, commands.LAUNCHSERVER, SpecificSettings);
 sendmsg.data = serverRequest;
 await sendmsg.addData();
 await this.FileSystemController.UpdateAllFiles();
