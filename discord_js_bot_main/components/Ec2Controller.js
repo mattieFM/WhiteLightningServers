@@ -92,7 +92,7 @@ async GetEC2ServerData(Ec2Request){
         //     },
           
         //   ],
-        ImageId: 'ami-0a7381b4d27f19b66', 
+        ImageId: 'ami-01d305980be9e0123', 
         InstanceType: 't2.micro',
         KeyName: 'ClientGameServerKey',
         MinCount: 1,
@@ -162,7 +162,7 @@ async GetEC2ServerData(Ec2Request){
                      
                      
                      InstanceType: Ec2Request.InstanceType, 
-                     ImageId: 'ami-0a7381b4d27f19b66', 
+                     ImageId: 'ami-01d305980be9e0123', 
                      InstanceType: 't2.micro',
                      KeyName: 'ClientGameServerKey',
                      SecurityGroupIds: [
