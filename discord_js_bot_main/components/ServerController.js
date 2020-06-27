@@ -26,9 +26,9 @@ async LaunchEc2Server(serverRequest){
     serverRequest.Ec2Request = new ec2Request("t2.micro", 8, true, serverRequest.OwnerID + "_" + serverRequest.OwnerUniqueIdenifyer + "_" + serverRequest.OwnerServerIndex, AvalibilityZones.OREGON);
     serverRequest.Ec2Request.IsOnDemandInstance = true;
     serverRequest.Ec2Request.port = process.argv[6]
-    require('dns').lookup(require('os').hostname(), function (err, add, fam) {
-        serverRequest.Ec2Request.host = add;
-      })
+    var ip = require('ip');
+        serverRequest.Ec2Request.host = ip.address("public", "ipv4");
+     
     
 ec2Launcher.LaunchEc2Instance(serverRequest.Ec2Request);
 serverRequest.Status = ServerStatus.EC2LAUNCHING;

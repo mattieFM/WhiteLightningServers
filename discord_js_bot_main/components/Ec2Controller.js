@@ -34,6 +34,7 @@ async GetEC2ServerData(Ec2Request){
     });
 }
     async LaunchEc2Instance(Ec2Request){
+        
       if(Ec2Request.IsSpotInstance){
         await this.LaunchEc2SpotInstance(Ec2Request);
         return;
@@ -133,6 +134,7 @@ async GetEC2ServerData(Ec2Request){
             }
 
             async LaunchEc2SpotInstance(Ec2Request){
+                
               var userdata = Buffer.from(`<script> 
       C:\\Users\\Administrator\\Desktop\\bot\\WhiteLightningServers\\discord_js_bot_main\\start launchclientOnEC2Instance.bat ${Ec2Request.NetIdentifyer} ${Ec2Request.port} ${Ec2Request.host}
       </script> 
