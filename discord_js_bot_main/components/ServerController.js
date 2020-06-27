@@ -51,6 +51,7 @@ await this.FileSystemController.UpdateAllFiles();
 //await this.FileSystemController.CheckUserServerEligibilityFromServerRequest(serverRequest);
 serverRequest.Status = Status.ACCEPTED;
 await this.LaunchEc2Server(serverRequest);
+await this.FileSystemController.AddLaunchingEC2Server(serverRequest);
 serverRequest.dontlaunchtwice = true;
 }
 //once a net server has connected -- contuine
