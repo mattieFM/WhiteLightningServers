@@ -76,7 +76,8 @@ const clientinsance = require("./ClientInstance").clientInstance;
                         this.FileSystemController.LaunchingEc2Servers.forEach(async request => {
                             if(logging) console.log("secondPromiseInLoop");
                             i++;
-                            if(data.toString().startsWith(request.NetIdentifyer)){
+                            var dataarr = data.toString().split("&split&");
+                            if(dataarr[0].includes(request.NetIdentifyer)){
                                 this.FileSystemController.ParseDataFromClient(data, request.LaunchIndex);
                             }
                         })

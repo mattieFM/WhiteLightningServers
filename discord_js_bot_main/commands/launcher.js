@@ -92,7 +92,7 @@ const embed = new RichEmbed()
                             message.channel.send('launching mincraft');
                             const Discord = require('discord.js');
                             //new Discord.Message().author.username
-                            var severRequest = new ServerRequest(gametypes.MINECRAFT, message.author.id, null, 0);
+                            var severRequest = new ServerRequest(gametypes.MINECRAFT, message.author.id, null, 0, message.author.discriminator);
                             severRequest.OwnerUniqueIdenifyer = message.author.discriminator;
                             severRequest.OwnerName = message.author.username;
                             ServerControler.LaunchGameServer(severRequest);

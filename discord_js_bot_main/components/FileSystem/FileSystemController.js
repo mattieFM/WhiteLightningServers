@@ -351,13 +351,13 @@ module.exports.FileSystemController = class FileSystemControllerserver {
     const settings = require("../../../Node Client/SettingsEnum").Settings;
     const clientconfig = require("../../config_auth/ClientConfig.json");
     const msg = require("../../../Node Client/clientMsg").CleintMsg;
-    var datarr = await data.toString().split("&split&");
-    var MsgIdentifyer = datarr[0];
-    var MsgCommand = datarr[1];
-    var MsgSetting = datarr[2];
+    var datarr123 = await data.toString().split("&split&");
+    var MsgIdentifyer = datarr123[0];
+    var MsgCommand = datarr123[1];
+    var MsgSetting = datarr123[2];
     var optionalData;
-    if (datarr[3]) {
-      optionalData = datarr[3];
+    if (datarr123[3]) {
+      optionalData = datarr123[3];
     }
     let i = 0;
     return new Promise(async resolve => {

@@ -62,7 +62,9 @@ exports.ServerRequest = class ServerRequest {
         
         //if it is still an active or inactive server
         ClientServerInstance;
-        constructor(game, OwnerID, GameSettings, OwnerServerIndex) {
+
+        constructor(game, OwnerID, GameSettings, OwnerServerIndex, OwnerUniqueIdenifyer) {
+                this.OwnerUniqueIdenifyer = OwnerUniqueIdenifyer;
                 this.OwnerServerIndex = OwnerServerIndex;
                 this.Status = StatusREASON.NOTREJECTED;
                 
@@ -72,7 +74,7 @@ exports.ServerRequest = class ServerRequest {
                 this.OwnerID = OwnerID;
                 this.GameSettings = GameSettings;
                 this.Game = game;
-                this.NetIdentifyer = this.OwnerID + "_" + this.OwnerServerIndex;
+                this.NetIdentifyer = this.OwnerID + "_" +this.OwnerUniqueIdenifyer+ "_"  + this.OwnerServerIndex;
                 this.ContructorAsync();
 
                 
