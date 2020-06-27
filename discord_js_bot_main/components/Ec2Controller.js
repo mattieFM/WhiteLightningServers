@@ -74,7 +74,7 @@ async GetEC2ServerData(Ec2Request){
      this.ec2 = new AWS.EC2({apiVersion: '2016-11-15', region: this.zone});
       var userdata = Buffer.from(
           `<script> 
-      start C:\\Users\\Administrator\\Desktop\\bot\\WhiteLightningServers\\discord_js_bot_main\\start launchclientOnEC2Instance.bat ${Ec2Request.NetIdentifyer} ${Ec2Request.port} ${Ec2Request.host}
+      start C:\\Users\\Administrator\\Desktop\\bot\\WhiteLightningServers\\discord_js_bot_main\\launchclientOnEC2Instance.bat ${Ec2Request.NetIdentifyer} ${Ec2Request.port} ${Ec2Request.host}
       </script> 
       <persist>true</persist>`).toString('base64')
      this.instanceParams = {
@@ -138,7 +138,7 @@ async GetEC2ServerData(Ec2Request){
                 
               var userdata = Buffer.from(
       `<script> 
-      start C:\\Users\\Administrator\\Desktop\\bot\\WhiteLightningServers\\discord_js_bot_main\\start launchclientOnEC2Instance.bat ${Ec2Request.NetIdentifyer} ${Ec2Request.port} ${Ec2Request.host}
+      start C:\\Users\\Administrator\\Desktop\\bot\\WhiteLightningServers\\discord_js_bot_main\\launchclientOnEC2Instance.bat ${Ec2Request.NetIdentifyer} ${Ec2Request.port} ${Ec2Request.host}
       </script> 
       <persist>true</persist>`).toString('base64');
                 var ec2 = new AWS.EC2({apiVersion: '2016-11-15', region: this.zone});
