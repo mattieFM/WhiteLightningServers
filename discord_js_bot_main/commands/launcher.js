@@ -93,7 +93,7 @@ const embed = new RichEmbed()
                             
                             var severRequest = new ServerRequest(gametypes.MINECRAFT, message.author.id, null);
                             severRequest.OwnerUniqueIdenifyer = message.author.discriminator;
-                            severRequest.OwnerName = message.author.username;
+                            severRequest.OwnerName = message.author.name;
                             launchingserver = ServerControler.LaunchGameServer(severRequest);
                             break;
                         //terraria

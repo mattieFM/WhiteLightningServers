@@ -5,7 +5,7 @@ module.exports.run = async(bot, message, args) => {
         const ip = require('ip');
 
     console.log('addr: '+ip.address("public", "ipv4"));
-    message.channel.send('addr: '+ip.address("public", "ipv4"));
+    message.channel.send('addr: '+ip.address("private", "ipv4"));
 
 }
 }
