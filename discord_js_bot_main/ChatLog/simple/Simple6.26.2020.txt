@@ -88,3 +88,8 @@ Bot Restarted
 Bot Restarted
 <Gamers At Yellow_tables, brownsugarpup > :  !ippls
 <Gamers At Yellow_tables, Spam Pigeon Overlord > :  addr: 192.168.1.13
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !ippls
+Bot Restarted
+<Gamers At Yellow_tables, brownsugarpup > :  !ippls
+<Gamers At Yellow_tables, Spam Pigeon Overlord > :  addr: 192.168.1.13
