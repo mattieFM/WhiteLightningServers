@@ -90,17 +90,18 @@ const embed = new RichEmbed()
                         //minecraft
                         case '712007147432575076':
                             message.channel.send('launching mincraft');
-                            
-                            var severRequest = new ServerRequest(gametypes.MINECRAFT, message.author.id, null);
+                            const Discord = require('discord.js');
+                            //new Discord.Message().author.username
+                            var severRequest = new ServerRequest(gametypes.MINECRAFT, message.author.id, null, 0);
                             severRequest.OwnerUniqueIdenifyer = message.author.discriminator;
-                            severRequest.OwnerName = message.author.name;
-                            launchingserver = ServerControler.LaunchGameServer(severRequest);
+                            severRequest.OwnerName = message.author.username;
+                            ServerControler.LaunchGameServer(severRequest);
                             break;
                         //terraria
                         case '712007201320992784':
                             message.channel.send('launching terraria');
                             ServerControler.LaunchOptions(gametypes.TERRARIA, message, false)
-                            launchingserver = ServerControler.launchGame(gametypes.TERRARIA);
+                            ServerControler.launchGame(gametypes.TERRARIA);
                            
                             break;
                         case '712015446441721856':
