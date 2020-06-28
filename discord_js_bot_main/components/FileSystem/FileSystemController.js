@@ -307,9 +307,9 @@ module.exports.FileSystemController = class FileSystemControllerserver {
           optionalData = datarr[3];
         }
         
-        await this.ConfigSendPromise(data, LaunchIndex).then(
-            this.InitaliseEc2ServerInstance(this.LaunchingEc2Servers[LaunchIndex])
-        );
+        await this.ConfigSendPromise(data, LaunchIndex);
+        
+        await this.InitaliseEc2ServerInstance(this.LaunchingEc2Servers[LaunchIndex]);
         await this.CleintCommandProcceser(MsgCommand, ServerRequest, optionalData, MsgIdentifyer);
         resolve(true);
       })
@@ -345,13 +345,18 @@ module.exports.FileSystemController = class FileSystemControllerserver {
         }
     })
   }
-  async ConfigSendPromise(data, LaunchIndex){
+  async ConfigSendPromise(data3, LaunchIndex){
+    
     var ServerRequest = this.LaunchingEc2Servers[LaunchIndex];
     const commands = require("../../../Node Client/commandEnum").commands;
     const settings = require("../../../Node Client/SettingsEnum").Settings;
     const clientconfig = require("../../config_auth/ClientConfig.json");
     const msg = require("../../../Node Client/clientMsg").CleintMsg;
-    var datarr123 = await data.toString().split("&split&");
+    
+    let i = 0;
+    return new Promise(async resolve => {
+
+      var datarr123 = await data3.toString().split("&split&");
     var MsgIdentifyer = datarr123[0];
     var MsgCommand = datarr123[1];
     var MsgSetting = datarr123[2];
@@ -359,8 +364,6 @@ module.exports.FileSystemController = class FileSystemControllerserver {
     if (datarr123[3]) {
       optionalData = datarr123[3];
     }
-    let i = 0;
-    return new Promise(async resolve => {
         if (ServerRequest.ConfigHasBeenSent === false) {
             await this.UpdateAllFiles();
             console.log("number of sockets " + this.Sockets.length)

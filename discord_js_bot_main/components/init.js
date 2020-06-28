@@ -104,6 +104,11 @@ Ec2Controler = new this.ec2con("us-west-2");
         const AWS = require("aws-sdk");
         const Config = require("../config_auth/Config.json");
         AWS.config.loadFromPath(Config.path +'\\config_auth\\awsconfig.json');
+        if (!AWS.config.region) {
+            AWS.config.update({
+              region:'us-west-2'
+            });
+          }
     }
 
      async CommandsInit(ClientInstace){

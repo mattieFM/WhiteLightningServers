@@ -26,7 +26,7 @@ Name;
                 this.InstanceType = InstanceType;
                 this.VolumeSize = VolumeSize;
                 this.VolumeShouldTerminateOnClose = VolumeShouldTerminateOnClose;
-                new controller1231231231(null).makeid(200).then((value)=>{
+                new controller1231231231("us-west-2").makeid(200).then((value)=>{
                         this.Name = value;
                 });
                 
