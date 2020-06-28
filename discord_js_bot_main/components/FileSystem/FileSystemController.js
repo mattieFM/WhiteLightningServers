@@ -309,7 +309,6 @@ module.exports.FileSystemController = class FileSystemControllerserver {
         
         await this.ConfigSendPromise(data, LaunchIndex);
         
-        await this.InitaliseEc2ServerInstance(this.LaunchingEc2Servers[LaunchIndex]);
         await this.CleintCommandProcceser(MsgCommand, ServerRequest, optionalData, MsgIdentifyer);
         resolve(true);
       })
@@ -339,7 +338,7 @@ module.exports.FileSystemController = class FileSystemControllerserver {
         Ec2Server.Status = Statuses.EC2HASBEENSTORED;
         ServerRequest.EC2ID = Ec2Server.InstanceID;
         ServerRequest.Status = Statuses.GAMESHOULDLAUNCH;
-        await this.LaanchGameServerIfApplicableForAllEc2Server();
+        
         resolve(true);
         }
         }
@@ -388,6 +387,7 @@ module.exports.FileSystemController = class FileSystemControllerserver {
               sendmsg2.data = JSON.stringify(ServerRequest);
               await sendmsg2.addData();
               Sock.Socket.write(sendmsg2.msg + "&split&\n");
+              ServerRequest.ConfigHasBeenSent = true;
             }
           });
           if(i === this.Sockets.length){
@@ -402,11 +402,11 @@ module.exports.FileSystemController = class FileSystemControllerserver {
     switch (command) {
       case commands.CONNECTED:
         ServerRequest.Ec2Request.Status = ServerRequestStatus.EC2LAUNCHED;
-        ServerRequest.Ec2RequestStatus = ServerRequestStatus.EC2LAUNCHED;
+        //ServerRequest.Ec2RequestStatus = ServerRequestStatus.EC2LAUNCHED;
         ServerRequest.Status = ServerRequestStatus.NETSERVERCONECTED;
         await this.InitaliseEc2ServerInstance(ServerRequest);
         //launch server on connection
-        //new this.ServerController().LaunchGameServer(ServerRequest);
+        await this.LaanchGameServerIfApplicableForAllEc2Server();
         break;
       case commands.SENDINGSERVERREQUESTBACKTOSEREVR:
         this.ActiveEC2Servers.forEach(server => {

@@ -46,8 +46,11 @@ constructor(ServerRequest) {
 }
 async asyncconstructor(Ec2Request){
         let controller = require("./Ec2Controller").ec2launch;
-        let data = await new controller(this.Zone).GetEC2ServerData(Ec2Request);
-        let instance = data.Instances[0];
+        let instance;
+        let data = await new controller(this.Zone).GetEC2ServerData(Ec2Request).then(value => {
+                 instance = value.Instances[0];
+        });
+        
         this.PublicIpAddress = instance.PublicIpAddress;
         this.ImageID = instance.ImageId;
         this.InstanceID = instance.InstanceId;
