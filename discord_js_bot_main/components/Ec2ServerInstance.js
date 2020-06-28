@@ -45,6 +45,16 @@ constructor(ServerRequest) {
         this.asyncconstructor(Ec2Request);
 }
 async asyncconstructor(Ec2Request){
+        let Params ={
+                Filters: [
+                    {
+                   Name: "tag:Name", 
+                   Values: [
+                      Ec2Request.Name
+                   ]
+                  }
+                 ]
+                };
         let controller = require("./Ec2Controller").ec2launch;
         let instance;
         const AWS = require("aws-sdk");
