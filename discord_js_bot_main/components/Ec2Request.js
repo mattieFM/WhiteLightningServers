@@ -15,13 +15,13 @@ InstanceType;
 VolumeSize;
 VolumeShouldTerminateOnClose;
 Status;
-Zone;
+zone;
 
 //unique name of this ec2 server
 Name;
         constructor(InstanceType, VolumeSize, VolumeShouldTerminateOnClose, NetIdentifyer, Zone) {
                 let controller1231231231 =  require("./Ec2Controller").ec2launch;
-                this.Zone = Zone;
+                this.zone = Zone;
                 this.NetIdentifyer = NetIdentifyer;
                 this.InstanceType = InstanceType;
                 this.VolumeSize = VolumeSize;

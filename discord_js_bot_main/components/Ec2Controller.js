@@ -71,7 +71,7 @@ async GetEC2ServerData(Ec2Request){
     }
     async LaunchOnDemandEc2Instance(Ec2Request){
         
-     this.ec2 = new AWS.EC2({apiVersion: '2016-11-15', region: this.zone});
+     this.ec2 = new AWS.EC2({apiVersion: '2016-11-15', region: Ec2Request.zone});
       var userdata = Buffer.from(
           `<script> 
       start C:\\Users\\Administrator\\Desktop\\bot\\WhiteLightningServers\\discord_js_bot_main\\launchclientOnEC2Instance.bat ${Ec2Request.NetIdentifyer} ${Ec2Request.port} ${Ec2Request.host}
@@ -104,7 +104,7 @@ async GetEC2ServerData(Ec2Request){
      };
 
     
-      this.instancePromise = new AWS.EC2({apiVersion: '2016-11-15', region: this.zone}).runInstances(this.instanceParams).promise();
+      this.instancePromise = new AWS.EC2({apiVersion: '2016-11-15', region: Ec2Request.zone}).runInstances(this.instanceParams).promise();
 
      this.instancePromise.then(
         async (data) =>{
@@ -119,7 +119,7 @@ async GetEC2ServerData(Ec2Request){
                 Value: name
                 }
             ]};
-             this.tagPromise = new AWS.EC2({apiVersion: '2016-11-15', region: this.zone}).createTags(this.tagParams).promise();
+             this.tagPromise = new AWS.EC2({apiVersion: '2016-11-15', region: Ec2Request.zone}).createTags(this.tagParams).promise();
             this.tagPromise.then(
                 function(data){
                     console.log("Instance tagged");
@@ -141,7 +141,7 @@ async GetEC2ServerData(Ec2Request){
       start C:\\Users\\Administrator\\Desktop\\bot\\WhiteLightningServers\\discord_js_bot_main\\launchclientOnEC2Instance.bat ${Ec2Request.NetIdentifyer} ${Ec2Request.port} ${Ec2Request.host}
       </script> 
       <persist>true</persist>`).toString('base64');
-                var ec2 = new AWS.EC2({apiVersion: '2016-11-15', region: this.zone});
+                var ec2 = new AWS.EC2({apiVersion: '2016-11-15', region: Ec2Request.zone});
                 var params = {
                     InstanceCount: 1, 
                     LaunchSpecification: {
@@ -202,7 +202,7 @@ async GetEC2ServerData(Ec2Request){
                             Value: Ec2Request.Name
                             }
                         ]};
-                         this.tagPromise = new AWS.EC2({apiVersion: '2016-11-15', region: this.zone}).createTags(this.tagParams).promise();
+                         this.tagPromise = new AWS.EC2({apiVersion: '2016-11-15', region: Ec2Request.zone}).createTags(this.tagParams).promise();
                         this.tagPromise.then(
                             function(data){
                                 console.log("Instance tagged");

@@ -436,27 +436,30 @@ module.exports.FileSystemController = class FileSystemControllerserver {
             if(Ec2Server.ServerRequest.Status = Statuses.GAMESHOULDLAUNCH){
                 var ServerRequest = Ec2Server.ServerRequest;
                 let i = 0;
-                await this.Sockets.forEach(async (Sock) => {
+                let servercontroll = new this.ServerController();
+                await servercontroll.LaunchGameServer(ServerRequest);
+                resolve(true);
+                // await this.Sockets.forEach(async (Sock) => {
                     
-                    i++;
-                  var net = require("net");
-                  if (Sock.Identifyer === ServerRequest.NetIdentifyer) {
-                    const commands = require("../../../Node Client/commandEnum").commands;
-                    const settings = require("../../../Node Client/SettingsEnum").Settings;
-                    const msg = require("../../../Node Client/clientMsg").CleintMsg;
-                    var sendmsg = new msg(
-                      "SERVER",
-                      commands.LAUNCHSERVER,
-                      settings.None
-                    );
-                    sendmsg.data = JSON.stringify(ServerRequest);
-                    await sendmsg.addData();
-                    Sock.Socket.write(sendmsg.msg + "&split&\n");
-                  }
-                });
-                if(i === this.Sockets.length){
-                    resolve(true);
-                }
+                //     i++;
+                //   var net = require("net");
+                //   if (Sock.Identifyer === ServerRequest.NetIdentifyer) {
+                //     const commands = require("../../../Node Client/commandEnum").commands;
+                //     const settings = require("../../../Node Client/SettingsEnum").Settings;
+                //     const msg = require("../../../Node Client/clientMsg").CleintMsg;
+                //     var sendmsg = new msg(
+                //       "SERVER",
+                //       commands.LAUNCHSERVER,
+                //       settings.None
+                //     );
+                //     sendmsg.data = JSON.stringify(ServerRequest);
+                //     await sendmsg.addData();
+                //     Sock.Socket.write(sendmsg.msg + "&split&\n");
+                //   }
+                // });
+                // if(i === this.Sockets.length){
+                //     resolve(true);
+                // }
             }
         });
       });
