@@ -56,9 +56,6 @@ async asyncconstructor(Ec2Request){
                         instance = data.Instances[0];
                 }
             });
-        });
-        
-        
         this.PublicIpAddress = instance.PublicIpAddress;
         this.ImageID = instance.ImageId;
         this.InstanceID = instance.InstanceId;
