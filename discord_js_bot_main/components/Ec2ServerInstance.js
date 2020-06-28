@@ -47,10 +47,15 @@ constructor(ServerRequest) {
 async asyncconstructor(Ec2Request){
         let controller = require("./Ec2Controller").ec2launch;
         let instance;
-        let data = await new controller(this.Zone).GetEC2ServerData(Ec2Request, (err, data) => {
-               if(err){console.error(err);}else{
-                instance = value.Instances[0];
-               }
+        const AWS = require("aws-sdk");
+
+        new AWS.EC2({apiVersion: '2016-11-15', region: Ec2Request.zone}).describeInstances(Params, (err, data) =>{
+                if(err){
+                    console.log("Error", err.stack);
+                } else {
+                        instance = data.Instances[0];
+                }
+            });
         });
         
         
