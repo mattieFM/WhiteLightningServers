@@ -12,7 +12,7 @@ module.exports.run = async(bot, message, args) => {
           }
          ]
         };
-let controller = require("./Ec2Controller").ec2launch;
+//let controller = require("./Ec2Controller").ec2launch;
 let instance;
 const AWS = require("aws-sdk");
 
