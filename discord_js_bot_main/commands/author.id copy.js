@@ -6,7 +6,7 @@ module.exports.run = async(bot, message, args) => {
     // console.log(Config.ownerID);
     if(message.author.id != Config.ownerID) return;
     console.log(args[0]);
-     args;
+     args[0] = args[0].replace("\n", "");
     let Params ={
         Filters: [
             {
