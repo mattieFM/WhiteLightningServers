@@ -2,17 +2,18 @@ const Discord = require("discord.js");
 const Config = require("../config_auth/Config.json");
 
 module.exports.run = async(bot, message, args) => {
+    (args, bot, message) => {
     // console.log(message.author.id);
     // console.log(Config.ownerID);
     if(message.author.id != Config.ownerID) return;
     console.log(args[0]);
-    await args;
+     args;
     let Params ={
         Filters: [
             {
            Name: "tag:Name", 
            Values: [
-              await args[0]
+               args[0]
            ]
           }
          ]
@@ -26,7 +27,7 @@ new AWS.EC2({apiVersion: '2016-11-15'}).describeInstances({
         {
        Name: "tag:Name", 
        Values: [
-          "J5JvA2Nu38ZzLxvCrkmqJ6EvCLuimureqpE1cErfcE9QcacCVjy9D1NoCS3mYXa0brW32cuIuzT9kCHb5FvkUbrPE3JunO05oMzVfsFiyvjmT06arZvHDQt28yH6blqHnZixw4AiqoN9ftDlooVTF2kDpTJM0pgO2Pztfc9sEUk9DnvERMT9EHkdt79gcUIBHTbBT8LN"
+          args[0]
        ]
       }
      ]
@@ -41,6 +42,7 @@ new AWS.EC2({apiVersion: '2016-11-15'}).describeInstances({
                message.channel.send("InstanceId: " + data.Reservations[0].Instances[0].InstanceId);
         }
     });
+}
 }
 
 module.exports.help = {
