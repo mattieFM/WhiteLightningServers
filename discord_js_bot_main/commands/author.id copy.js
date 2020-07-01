@@ -2,6 +2,8 @@ const Discord = require("discord.js");
 const Config = require("../config_auth/Config.json");
 
 module.exports.run = async(bot, message, args) => {
+    console.log(message.author.id);
+    console.log(Config.ownerID);
     if(message.author.id != Config.ownerID) return;
     let Params ={
         Filters: [
