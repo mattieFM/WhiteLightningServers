@@ -33,5 +33,5 @@ new AWS.EC2({apiVersion: '2016-11-15'}).describeInstances(Params, (err, data) =>
 }
 
 module.exports.help = {
-    name: "TestPullAWSInfo"
+    name: "testpullawsinfo"
 }
