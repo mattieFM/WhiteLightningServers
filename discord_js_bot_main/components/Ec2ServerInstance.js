@@ -56,21 +56,22 @@ async asyncconstructor(Ec2Request){
                  ]
                 };
         let controller = require("./Ec2Controller").ec2launch;
-        let instance;
+       
         const AWS = require("aws-sdk");
 
         await new AWS.EC2({apiVersion: '2016-11-15'}).describeInstances(Params, (err, data) =>{
                 if(err){
                     console.log("Error", err.stack);
                 } else {
-                       instance = data.Reservations[0].Instances[0];
-                }
-            });
-        this.PublicIpAddress = instance.PublicIpAddress;
+                       let instance = data.Reservations[0].Instances[0];
+                       this.PublicIpAddress = instance.PublicIpAddress;
         this.ImageID = instance.ImageId;
         this.InstanceID = instance.InstanceId;
         this.KeyName = instance.KeyName;
         this.LaunchTime = instance.LaunchTime;
+                }
+            });
+        
 }
 
  
