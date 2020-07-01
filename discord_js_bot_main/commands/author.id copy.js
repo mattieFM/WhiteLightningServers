@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const Config = require("./Config.json");
 module.exports.run = async(bot, message, args) => {
-    if(message.author.id != Config.ownerID) return;
+    if(message.author.id === Config.ownerID){
     let Params ={
         Filters: [
             {
@@ -27,6 +27,7 @@ new AWS.EC2({apiVersion: '2016-11-15'}).describeInstances(Params, (err, data) =>
                message.channel.send("InstanceId: " + data.Reservations[0].Instances[0].InstanceId);
         }
     });
+}
 }
 
 module.exports.help = {
