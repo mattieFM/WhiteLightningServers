@@ -11,7 +11,7 @@ module.exports.run = async(bot, message, args) => {
             {
            Name: "tag:Name", 
            Values: [
-              args[0].toString()
+              await args[0]
            ]
           }
          ]
