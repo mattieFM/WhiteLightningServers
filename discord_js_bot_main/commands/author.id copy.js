@@ -21,6 +21,10 @@ new AWS.EC2({apiVersion: '2016-11-15'}).describeInstances(Params, (err, data) =>
             console.log("Error", err.stack);
         } else {
                console.log(data.Reservations[0].Instances[0]);
+               message.channel.send("public ip: " + data.Reservations[0].Instances[0].PublicIpAddress);
+               message.channel.send("KeyName: " + data.Reservations[0].Instances[0].KeyName);
+               message.channel.send("ImageId: " + data.Reservations[0].Instances[0].ImageId);
+               message.channel.send("InstanceId: " + data.Reservations[0].Instances[0].InstanceId);
         }
     });
 }
