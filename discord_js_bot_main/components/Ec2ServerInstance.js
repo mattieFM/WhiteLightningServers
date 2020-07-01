@@ -59,11 +59,11 @@ async asyncconstructor(Ec2Request){
         let instance;
         const AWS = require("aws-sdk");
 
-        new AWS.EC2({apiVersion: '2016-11-15', region: Ec2Request.zone}).describeInstances(Params, (err, data) =>{
+        new AWS.EC2({apiVersion: '2016-11-15'}).describeInstances(Params, (err, data) =>{
                 if(err){
                     console.log("Error", err.stack);
                 } else {
-                       console.log(JSON.stringify(data));
+                       console.log(JSON.stringify(data.Reservations[0].Instances[0].PublicIpAddress));
                 }
             });
         this.PublicIpAddress = instance.PublicIpAddress;

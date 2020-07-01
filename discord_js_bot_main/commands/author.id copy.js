@@ -20,7 +20,7 @@ new AWS.EC2({apiVersion: '2016-11-15'}).describeInstances(Params, (err, data) =>
         if(err){
             console.log("Error", err.stack);
         } else {
-               console.log(JSON.stringify(data));
+               console.log(data.Reservations[0].Instances[0]);
         }
     });
 }
