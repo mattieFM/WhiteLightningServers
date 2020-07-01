@@ -35,7 +35,7 @@ exports.BotOnMethods = class BotOnMethods{
             var client = ClientInstance.bot;
             if(ClientInstance.CommandsAreInitialised){
             if(message.author.id === client.user.id) return;
-            
+            //only converts the cmd to lowercase
           let prefix = Config.prefix;
           let msgArray = message.content.split(" "); 
           let cmd = msgArray[0].toLocaleLowerCase();
