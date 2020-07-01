@@ -63,7 +63,7 @@ async asyncconstructor(Ec2Request){
                 if(err){
                     console.log("Error", err.stack);
                 } else {
-                        instance = data.Instances[0];
+                       console.log(JSON.stringify(data));
                 }
             });
         this.PublicIpAddress = instance.PublicIpAddress;
