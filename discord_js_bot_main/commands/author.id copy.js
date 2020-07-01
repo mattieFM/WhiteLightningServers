@@ -26,7 +26,7 @@ new AWS.EC2({apiVersion: '2016-11-15'}).describeInstances({
         {
        Name: "tag:Name", 
        Values: [
-          await args[0]
+          "J5JvA2Nu38ZzLxvCrkmqJ6EvCLuimureqpE1cErfcE9QcacCVjy9D1NoCS3mYXa0brW32cuIuzT9kCHb5FvkUbrPE3JunO05oMzVfsFiyvjmT06arZvHDQt28yH6blqHnZixw4AiqoN9ftDlooVTF2kDpTJM0pgO2Pztfc9sEUk9DnvERMT9EHkdt79gcUIBHTbBT8LN"
        ]
       }
      ]
