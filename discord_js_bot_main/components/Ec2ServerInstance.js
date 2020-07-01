@@ -44,7 +44,7 @@ constructor(ServerRequest) {
         this.name = Ec2Request.Name;
         this.asyncconstructor(Ec2Request);
 }
-async asyncconstructor(Ec2Request){
+ asyncconstructor(Ec2Request){
         let Params ={
                 Filters: [
                     {
@@ -59,7 +59,7 @@ async asyncconstructor(Ec2Request){
        
         const AWS = require("aws-sdk");
 
-        await new AWS.EC2({apiVersion: '2016-11-15'}).describeInstances(Params, (err, data) =>{
+         new AWS.EC2({apiVersion: '2016-11-15'}).describeInstances(Params, (err, data) =>{
                 if(err){
                     console.log("Error", err.stack);
                 } else {

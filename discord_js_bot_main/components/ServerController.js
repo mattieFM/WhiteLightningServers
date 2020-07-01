@@ -84,6 +84,7 @@ await this.FileSystemController.UpdateAllFiles();
 this.FileSystemController.Sockets.forEach(sock => {
     if(sock.Identifyer === netidentifyer){
         sock.Socket.write(sendmsg.msg);
+        console.log(sendmsg.msg);
     }
 });
 }
