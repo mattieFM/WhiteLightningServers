@@ -37,7 +37,7 @@ exports.BotOnMethods = class BotOnMethods{
             if(message.author.id === client.user.id) return;
             
           let prefix = Config.prefix;
-          let msgArray = message.content.toLocaleLowerCase().split(" "); 
+          let msgArray = message.content.split(" "); 
           let cmd = msgArray[0];
           let args = msgArray.slice(1);
           let cmdFile = client.commands.get(cmd.slice(prefix.length));
