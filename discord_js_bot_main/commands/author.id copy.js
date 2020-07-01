@@ -6,6 +6,7 @@ module.exports.run = async(bot, message, args) => {
     // console.log(Config.ownerID);
     if(message.author.id != Config.ownerID) return;
     console.log(args[0]);
+    await args;
     let Params ={
         Filters: [
             {
@@ -20,7 +21,16 @@ module.exports.run = async(bot, message, args) => {
 let instance;
 const AWS = require("aws-sdk");
 
-new AWS.EC2({apiVersion: '2016-11-15'}).describeInstances(Params, (err, data) =>{
+new AWS.EC2({apiVersion: '2016-11-15'}).describeInstances({
+    Filters: [
+        {
+       Name: "tag:Name", 
+       Values: [
+          await args[0]
+       ]
+      }
+     ]
+    }, (err, data) =>{
         if(err){
             console.log("Error", err.stack);
         } else {
