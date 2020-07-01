@@ -1,6 +1,5 @@
 const Discord = require("discord.js");
 const Config = require("./Config.json");
-new Discord.Message().author.id
 module.exports.run = async(bot, message, args) => {
     if(message.author.id != Config.ownerID) return;
     let Params ={
