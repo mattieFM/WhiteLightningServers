@@ -81,10 +81,6 @@ if(serverRequest.ConfigHasBeenSent === true){
     SpecificSettings.MinecraftServerArgs[10].enabled = false;
     SpecificSettings.MinecraftServerArgs[11] = new SpecificSettings.MinecraftServerArgs[11]();
     SpecificSettings.MinecraftServerArgs[11].enabled = false;
-    SpecificSettings.MinecraftServerArgs[12] = new SpecificSettings.MinecraftServerArgs[12]();
-    SpecificSettings.MinecraftServerArgs[12].enabled = false;
-    SpecificSettings.MinecraftServerArgs[13] = new SpecificSettings.MinecraftServerArgs[13]();
-    SpecificSettings.MinecraftServerArgs[13].enabled = false;
     
 var sendmsg = new msg("SERVER", commands.LAUNCHSERVER, JSON.stringify(SpecificSettings));
 sendmsg.data = JSON.stringify(serverRequest);
