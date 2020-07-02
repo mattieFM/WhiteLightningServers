@@ -440,6 +440,7 @@ module.exports.FileSystemController = class FileSystemControllerserver {
                 var ServerRequest = Ec2Server.ServerRequest;
                 let i = 0;
                 let servercontroll = new this.ServerController();
+                console.log("launching game server for ServerRequest: " + ServerRequest.LaunchIndex)
                 await servercontroll.LaunchGameServer(ServerRequest);
                 resolve(true);
                 // await this.Sockets.forEach(async (Sock) => {

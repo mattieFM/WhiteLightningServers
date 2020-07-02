@@ -30,6 +30,7 @@ constructor(args = []) {
     }
 }
      launchGame(ServerRequest, Settings){ 
+         
         var ChildProccesCreator = require("../discord_js_bot_main/components/ChildProccessCreate").ChildShell;
         "use strict";
         var child = new ChildProccesCreator().CreateChildShell();
