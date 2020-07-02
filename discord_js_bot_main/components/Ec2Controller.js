@@ -29,8 +29,13 @@ async GetEC2ServerData(Ec2Request){
                 console.log("Error", err.stack);
             }
             else {
-                console.log(data.Reservations[0].Instances[0]);
-                resolve(data.Reservations[0].Instances[0]);
+                if(data.Reservations[0]){
+                    let instance = data.Reservations[0].Instances[0];
+                    console.log(data.Reservations[0].Instances[0]);
+                    resolve(data.Reservations[0].Instances[0]);
+                    }else{
+                        console.log("get ec2 data, could not get ec2 data --Ec2Controlelr --GETEC@SERVERDATA()");
+                    }
             }
         });
     })
