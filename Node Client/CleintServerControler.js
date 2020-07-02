@@ -30,7 +30,7 @@ constructor(args = []) {
     }
 }
      launchGame(ServerRequest, Settings){ 
-         
+         console.log("client is attempting to launch a server");
         var ChildProccesCreator = require("../discord_js_bot_main/components/ChildProccessCreate").ChildShell;
         "use strict";
         var child = new ChildProccesCreator().CreateChildShell();
@@ -45,6 +45,7 @@ constructor(args = []) {
         break;
 
        case "minecraft":
+           console.log("case of minecraft")
         Settings.MinecraftServerArgs.forEach(setting => {
             if(setting.enabled === true){
                 if(setting.arg != null){
@@ -82,10 +83,12 @@ constructor(args = []) {
     args.forEach(arg => {
         command = command +" " + arg;
     });
+    console.log("about to launch");
     var msg = require("./clientMsg").CleintMsg;
     var commands = require("./commandEnum").commands;
     var settings = require("./SettingsEnum").Settings;
     child.write(command+"\r");
+    console.log("launching");
     let ServerInstance = new ServerObject.serverinstance(ServerRequest, child);
     
     ServerRequest.ClientServerInstance = ServerInstance;

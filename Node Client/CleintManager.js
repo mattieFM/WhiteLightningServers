@@ -65,6 +65,7 @@ exports.clientServerManager = class clientServerManager{
                     });
                             break;
                     case commands.LAUNCHSERVER:
+                        console.log("cleint has entered case fro launchserver");
                         if(optionaldata){
                             var ServerRequest = JSON.parse(optionaldata.toString());
                         }else{
