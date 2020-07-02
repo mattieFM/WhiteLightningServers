@@ -13,25 +13,28 @@ constructor(avalibilityZone){
     this.zone = avalibilityZone;
 }
 async GetEC2ServerData(Ec2Request){
-    let Params ={
-        Filters: [
-            {
-           Name: "tag:Name", 
-           Values: [
-              Ec2Request.Name
-           ]
-          }
-         ]
-        };
+    let aws = new AWS.EC2({apiVersion: '2016-11-15'})
     return new Promise(resolve => {
-        new AWS.EC2({apiVersion: '2016-11-15'}).describeInstances(Params, (err, data) =>{
-            if(err){
+        aws.describeInstances({
+            Filters: [
+                {
+                    Name: "tag:Name",
+                    Values: [
+                        Ec2Request.Name
+                    ]
+                }
+            ]
+        }, (err, data) => {
+            if (err) {
                 console.log("Error", err.stack);
-            } else {
-                resolve(data);
+            }
+            else {
+                console.log(data.Reservations[0].Instances[0]);
+                resolve(data.Reservations[0].Instances[0]);
             }
         });
-    });
+    })
+    
 }
     async LaunchEc2Instance(Ec2Request){
         

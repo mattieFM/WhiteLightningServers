@@ -45,32 +45,14 @@ constructor(ServerRequest) {
         this.asyncconstructor(Ec2Request);
 }
  asyncconstructor(Ec2Request){
-        let Params ={
-                Filters: [
-                    {
-                   Name: "tag:Name", 
-                   Values: [
-                      Ec2Request.Name
-                   ]
-                  }
-                 ]
-                };
         let controller = require("./Ec2Controller").ec2launch;
-       
-        const AWS = require("aws-sdk");
-
-         new AWS.EC2({apiVersion: '2016-11-15'}).describeInstances(Params, (err, data) =>{
-                if(err){
-                    console.log("Error", err.stack);
-                } else {
-                       let instance = data.Reservations[0].Instances[0];
-                       this.PublicIpAddress = instance.PublicIpAddress;
+        let instance = await new controller().GetEC2ServerData(Ec2Request);
+        this.PublicIpAddress = instance.PublicIpAddress;
         this.ImageID = instance.ImageId;
         this.InstanceID = instance.InstanceId;
         this.KeyName = instance.KeyName;
         this.LaunchTime = instance.LaunchTime;
-                }
-            });
+              
         
 }
 
