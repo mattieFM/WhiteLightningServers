@@ -62,8 +62,9 @@ if(serverRequest.ConfigHasBeenSent === true){
     SpecificSettings.MinecraftServerArgs[1] = new SpecificSettings.MinecraftServerArgs[1]();
     SpecificSettings.MinecraftServerArgs[1].enabled = true;
 var sendmsg = new msg(serverRequest.NetIdentifyer, commands.LAUNCHSERVER, SpecificSettings);
-sendmsg.data = serverRequest;
+sendmsg.data = JSON.stringify(serverRequest);
 await sendmsg.addData();
+sendmsg.UniqueIdentifyer = serverRequest.NetIdentifyer
 await this.FileSystemController.UpdateAllFiles();
 this.SendCommandToLaunchGameServer(sendmsg)
 
