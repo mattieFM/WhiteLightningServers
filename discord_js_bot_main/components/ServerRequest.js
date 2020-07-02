@@ -91,7 +91,7 @@ exports.ServerRequest = class ServerRequest {
                 this.DateOfRequest = d.getDate();
                 this.DateAndTimeOfRequest = this.TimeOfRequest + "/"+ this.DateOfRequest + "/" + d.getMonth() + "/" + d.getFullYear();
               
-                this.IndexOfRequestByUser = this.UserInfo.ServerRequests.length +1;
+                //this.IndexOfRequestByUser = this.UserInfo.ServerRequests.length +1;
                 //brakes everything --infinte loop o data
                 //this.UserInfo.ServerRequests.push(this);
         }
