@@ -10,7 +10,7 @@ module.exports.run = async(bot, message, args) => {
         var severRequest = new serverRequest(gametypes.MINECRAFT, "162609988131487744", null, 0, "5971");
         //ServerRequest.NetIdentifyer = "162609988131487744_5971_0"
         severRequest.Status = ServerStatus.EC2LAUNCHING;
-        severRequest.Ec2Request = new ec2request(null, null, null, null);
+        severRequest.Ec2Request = new ec2request(null, null, null, null, null, "fakeservername");
         severRequest.Ec2Request.Status = ServerStatus.ACCEPTED;
         severRequest.OwnerName = message.author.username;
         await FileSystemController.AddLaunchingEC2Server(severRequest);
