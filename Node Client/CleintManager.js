@@ -1,6 +1,6 @@
 //const path = process.argv[3];
-const Config = require("./ClientConfig.json");
-const path = require("./ClientPath.json").path;
+const Config = require("./ClientConfig.json")
+const path = process.argv[2]; 
 const { cleint } = require("./ClientInit");
 const { Settings } = require("./SettingsEnum");
 const commands = require("./commandEnum").commands;

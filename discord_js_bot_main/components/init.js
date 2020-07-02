@@ -32,6 +32,7 @@ Ec2Controler = new this.ec2con("us-west-2");
                 //launching a client
                 case "client":
                     const CliEntinit = require("../../Node Client/ClientInit").cleint;
+                    Config.path = process.argv[2]; 
                     this.NetClient = new CliEntinit();
                     break;
 
