@@ -523,21 +523,23 @@ module.exports.FileSystemController = class FileSystemControllerserver {
     }
   }
   async FindOrCreateUserInfoFromServerRequest(ServerRequest) {
-    let UserInfo;
-    //checking if user has any info file created,
-    if ((await this.CheckUserInfoByID(ServerRequest.OwnerID)) === true) {
-      UserInfo = await this.GetUserInfoByID(ServerRequest.OwnerID);
-      //if it does, it will grab the UserInfo file
-    } else {
-      //if the user does not have a UserInfo file one will be created
-      //currently using random Patron Teir before that is implemented
-      UserInfo = await this.CreateUserInfoFromServerRequest(
-        ServerRequest,
-        Math.floor(Math.random() * 4)
-      );
-    }
-
-    return UserInfo;
+    new Promise(resolve => {
+      let UserInfo;
+      //checking if user has any info file created,
+      if ((await this.CheckUserInfoByID(ServerRequest.OwnerID)) === true) {
+        UserInfo = await this.GetUserInfoByID(ServerRequest.OwnerID);
+        //if it does, it will grab the UserInfo file
+      } else {
+        //if the user does not have a UserInfo file one will be created
+        //currently using random Patron Teir before that is implemented
+        UserInfo = await this.CreateUserInfoFromServerRequest(
+          ServerRequest,
+          Math.floor(Math.random() * 4)
+        );
+      }
+      resolve(UserInfo);
+    })
+    
   }
   async CreateUserInfoFromServerRequest(ServerRequest, patronTeir) {
     let UserInfo = new UserInfoInstance();

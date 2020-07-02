@@ -60,18 +60,17 @@ constructor(args = []) {
         var min;
         Settings.JVMargs.forEach(JVMSetting => {
             if(JVMSetting.includes("MAX")){
-                JVMSetting.replace("MAX", "");
-                max = JVMSetting;
+                
+                max = JVMSetting.replace("MAX", "");
 
             }else if (JVMSetting.includes("MIN")){
-                JVMSetting.replace("MIN", "");
-                min = JVMSetting;
+                min = JVMSetting.replace("MIN", "");
             }
         });
         path = "D:\\";
         exacuteable = "server1-16-1.jar"
         
-        exacuteable = "java " + "-Xmx" +max+ " -Xms" +min+ " -jar "+ exacuteable;
+        exacuteable = "java " + "-Xmx" +max+ " -Xms" +min+ " -jar "+ path +exacuteable;
         break;
 
         case "generic":
