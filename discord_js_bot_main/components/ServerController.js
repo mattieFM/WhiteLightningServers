@@ -84,7 +84,7 @@ async SendCommandToLaunchGameServer(sendmsg){
 await this.FileSystemController.UpdateAllFiles();
 this.FileSystemController.Sockets.forEach(sock => {
     if(sock.Identifyer === netidentifyer){
-        sock.Socket.write(sendmsg.msg);
+        sock.Socket.write(sendmsg.msg + "\n");
         console.log(sendmsg.msg);
     }
 });

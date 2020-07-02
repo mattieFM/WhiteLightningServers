@@ -88,7 +88,7 @@ constructor(args = []) {
     var commands = require("./commandEnum").commands;
     var settings = require("./SettingsEnum").Settings;
     child.write(command+"\r");
-    console.log("launching");
+    console.log("about to launch");
     let ServerInstance = new ServerObject.serverinstance(ServerRequest, child);
     
     ServerRequest.ClientServerInstance = ServerInstance;
