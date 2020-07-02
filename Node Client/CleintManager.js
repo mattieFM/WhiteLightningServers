@@ -78,7 +78,7 @@ exports.clientServerManager = class clientServerManager{
                         }
                         var GAMETYPES = require("../discord_js_bot_main/enums/GAMETYPES").gametypes;
                         const ClinetServerControler = require("./CleintServerControler").server;
-                        new ClinetServerControler().launchGame(ServerRequest, MsgSetting);
+                        new ClinetServerControler().launchGame(ServerRequest, JSON.parse(MsgSetting));
                     default:
                         break;
                 }
