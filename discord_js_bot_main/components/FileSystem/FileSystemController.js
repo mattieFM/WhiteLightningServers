@@ -332,6 +332,7 @@ module.exports.FileSystemController = class FileSystemControllerserver {
         let writefilepromise = new Promise(resolve => {
           this.fs.writeFile(Config32.path + "\\components\\FileSystem\\SavedData\\LaunchingEc2Servers.json", JSON.stringify(this.LaunchingEc2Servers), (err)=>{
             console.log("file has been writen from insicde inislaised server ec2")
+            resolve(true);
           })
         })
         await writefilepromise;
