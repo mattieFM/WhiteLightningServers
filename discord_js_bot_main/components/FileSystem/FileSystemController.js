@@ -329,16 +329,15 @@ module.exports.FileSystemController = class FileSystemControllerserver {
             let index = this.LaunchingEc2Servers.indexOf(ServerRequest);
             ServerRequest.LaunchIndex = index;
         });
-        this.fs.writeFile(Config32.path + "\\components\\FileSystem\\SavedData\\LaunchingEc2Servers.json", JSON.stringify(this.LaunchingEc2Servers), (err)=>{
-            resolve(true);
-            console.log("resolveed");
-          });
-
+        let writefilepromise = this.fs.writeFile(Config32.path + "\\components\\FileSystem\\SavedData\\LaunchingEc2Servers.json", JSON.stringify(this.LaunchingEc2Servers), (err)=>{
+            console.log("file has been writen from insicde inislaised server ec2")
+          }).promise();
+        await writefilepromise;
         if(this.ActiveEC2Servers[Ec2Server.Index].name === Ec2Server.name){
         Ec2Server.Status = Statuses.EC2HASBEENSTORED;
         ServerRequest.EC2ID = Ec2Server.InstanceID;
         ServerRequest.Status = Statuses.GAMESHOULDLAUNCH;
-        
+        console.log("ec2 server have been inisaliased amd ready to go")
         resolve(true);
         }
         }
@@ -402,6 +401,7 @@ module.exports.FileSystemController = class FileSystemControllerserver {
     switch (command) {
       case commands.CONNECTED:
         ServerRequest.Ec2Request.Status = ServerRequestStatus.EC2LAUNCHED;
+        console.log("server connected and initalising server, then launching applicable game servers");
         //ServerRequest.Ec2RequestStatus = ServerRequestStatus.EC2LAUNCHED;
         ServerRequest.Status = ServerRequestStatus.NETSERVERCONECTED;
         await this.InitaliseEc2ServerInstance(ServerRequest);

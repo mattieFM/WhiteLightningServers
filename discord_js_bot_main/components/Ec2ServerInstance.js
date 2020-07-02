@@ -44,7 +44,7 @@ constructor(ServerRequest) {
         this.name = Ec2Request.Name;
         this.asyncconstructor(Ec2Request);
 }
- asyncconstructor(Ec2Request){
+ async asyncconstructor(Ec2Request){
         let controller = require("./Ec2Controller").ec2launch;
         let instance = await new controller().GetEC2ServerData(Ec2Request);
         this.PublicIpAddress = instance.PublicIpAddress;
@@ -52,11 +52,8 @@ constructor(ServerRequest) {
         this.InstanceID = instance.InstanceId;
         this.KeyName = instance.KeyName;
         this.LaunchTime = instance.LaunchTime;
-              
-        
 }
 
- 
 
 
 
