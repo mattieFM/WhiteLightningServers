@@ -61,7 +61,7 @@ if(serverRequest.ConfigHasBeenSent === true){
     SpecificSettings.MinecraftServerArgs[6].enabled = true;
     SpecificSettings.MinecraftServerArgs[1] = new SpecificSettings.MinecraftServerArgs[1]();
     SpecificSettings.MinecraftServerArgs[1].enabled = true;
-var sendmsg = new msg(serverRequest.NetIdentifyer, commands.LAUNCHSERVER, JSON.stringify(SpecificSettings));
+var sendmsg = new msg("SERVER", commands.LAUNCHSERVER, JSON.stringify(SpecificSettings));
 sendmsg.data = JSON.stringify(serverRequest);
 await sendmsg.addData();
 sendmsg.UniqueIdentifyer = serverRequest.NetIdentifyer
