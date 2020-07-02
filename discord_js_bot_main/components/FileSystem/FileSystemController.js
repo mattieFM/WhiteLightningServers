@@ -523,7 +523,7 @@ module.exports.FileSystemController = class FileSystemControllerserver {
     }
   }
   async FindOrCreateUserInfoFromServerRequest(ServerRequest) {
-    new Promise(resolve => {
+    new Promise(async resolve => {
       let UserInfo;
       //checking if user has any info file created,
       if ((await this.CheckUserInfoByID(ServerRequest.OwnerID)) === true) {
