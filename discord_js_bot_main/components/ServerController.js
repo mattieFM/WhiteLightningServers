@@ -57,10 +57,35 @@ serverRequest.dontlaunchtwice = true;
 //once a net server has connected -- contuine
 if(serverRequest.ConfigHasBeenSent === true){
     var SpecificSettings = new settings.GameSettings.MINECRAFT();
+    SpecificSettings.MinecraftServerArgs[0] = new SpecificSettings.MinecraftServerArgs[1]();
+    SpecificSettings.MinecraftServerArgs[0].enabled = true;
+    SpecificSettings.MinecraftServerArgs[1] = new SpecificSettings.MinecraftServerArgs[1]();
+    SpecificSettings.MinecraftServerArgs[1].enabled = false;
+    SpecificSettings.MinecraftServerArgs[2] = new SpecificSettings.MinecraftServerArgs[1]();
+    SpecificSettings.MinecraftServerArgs[2].enabled = false;
+    SpecificSettings.MinecraftServerArgs[3] = new SpecificSettings.MinecraftServerArgs[1]();
+    SpecificSettings.MinecraftServerArgs[3].enabled = false;
+    SpecificSettings.MinecraftServerArgs[4] = new SpecificSettings.MinecraftServerArgs[1]();
+    SpecificSettings.MinecraftServerArgs[4].enabled = false;
+    SpecificSettings.MinecraftServerArgs[5] = new SpecificSettings.MinecraftServerArgs[1]();
+    SpecificSettings.MinecraftServerArgs[5].enabled = false;
     SpecificSettings.MinecraftServerArgs[6] = new SpecificSettings.MinecraftServerArgs[1]();
     SpecificSettings.MinecraftServerArgs[6].enabled = true;
-    SpecificSettings.MinecraftServerArgs[1] = new SpecificSettings.MinecraftServerArgs[1]();
-    SpecificSettings.MinecraftServerArgs[1].enabled = true;
+    SpecificSettings.MinecraftServerArgs[7] = new SpecificSettings.MinecraftServerArgs[1]();
+    SpecificSettings.MinecraftServerArgs[7].enabled = false;
+    SpecificSettings.MinecraftServerArgs[8] = new SpecificSettings.MinecraftServerArgs[1]();
+    SpecificSettings.MinecraftServerArgs[8].enabled = false;
+    SpecificSettings.MinecraftServerArgs[9] = new SpecificSettings.MinecraftServerArgs[1]();
+    SpecificSettings.MinecraftServerArgs[9].enabled = false;
+    SpecificSettings.MinecraftServerArgs[10] = new SpecificSettings.MinecraftServerArgs[1]();
+    SpecificSettings.MinecraftServerArgs[10].enabled = false;
+    SpecificSettings.MinecraftServerArgs[11] = new SpecificSettings.MinecraftServerArgs[1]();
+    SpecificSettings.MinecraftServerArgs[11].enabled = false;
+    SpecificSettings.MinecraftServerArgs[12] = new SpecificSettings.MinecraftServerArgs[1]();
+    SpecificSettings.MinecraftServerArgs[12].enabled = false;
+    SpecificSettings.MinecraftServerArgs[13] = new SpecificSettings.MinecraftServerArgs[1]();
+    SpecificSettings.MinecraftServerArgs[13].enabled = false;
+    
 var sendmsg = new msg("SERVER", commands.LAUNCHSERVER, JSON.stringify(SpecificSettings));
 sendmsg.data = JSON.stringify(serverRequest);
 await sendmsg.addData();
