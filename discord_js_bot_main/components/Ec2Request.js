@@ -19,16 +19,16 @@ zone;
 
 //unique name of this ec2 server
 Name;
-        constructor(InstanceType, VolumeSize, VolumeShouldTerminateOnClose, NetIdentifyer, Zone) {
+        constructor(InstanceType, VolumeSize, VolumeShouldTerminateOnClose, NetIdentifyer, Zone, name) {
                 let controller1231231231 =  require("./Ec2Controller").ec2launch;
                 this.zone = Zone;
                 this.NetIdentifyer = NetIdentifyer;
                 this.InstanceType = InstanceType;
                 this.VolumeSize = VolumeSize;
                 this.VolumeShouldTerminateOnClose = VolumeShouldTerminateOnClose;
-                new controller1231231231("us-west-2").makeid(200).then((value)=>{
-                        this.Name = value;
-                });
+                //new controller1231231231("us-west-2").makeid(200).then((value)=>{
+                        this.Name = name;
+                //});
                 
         }
 

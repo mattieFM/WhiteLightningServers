@@ -23,7 +23,7 @@ async LaunchEc2Server(serverRequest){
     if(serverRequest.Status === ServerStatus.ACCEPTED){
     let ec2Launcher = new EC2Launcher(AvalibilityZones.OREGON);
     //sending ec2 request with identifyer for net server
-    serverRequest.Ec2Request = new ec2Request("t2.micro", 8, true, serverRequest.OwnerID + "_" + serverRequest.OwnerUniqueIdenifyer + "_" + serverRequest.OwnerServerIndex, AvalibilityZones.OREGON);
+    serverRequest.Ec2Request = new ec2Request("t2.micro", 8, true, serverRequest.OwnerID + "_" + serverRequest.OwnerUniqueIdenifyer + "_" + serverRequest.OwnerServerIndex, AvalibilityZones.OREGON, await ec2Launcher.makeid(200));
     serverRequest.Ec2Request.IsOnDemandInstance = true;
     serverRequest.Ec2Request.port = process.argv[6]
     const ip = require('ip');
