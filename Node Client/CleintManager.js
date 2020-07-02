@@ -47,7 +47,7 @@ exports.clientServerManager = class clientServerManager{
             if(MsgIdentifyer === "SERVER"){
                 switch (MsgCommand) {
                     case commands.SENDINGCONFIG:
-                        fs.writeFileSync(path + "//Node Client//ClientConfig.json", JSON.stringify(optionaldata), (err) =>{
+                        fs.writeFileSync(path + "\\Node Client\\ClientConfig.json", JSON.stringify(optionaldata), (err) =>{
                     if(err){
                         console.error(err)
                         throw err
@@ -56,7 +56,7 @@ exports.clientServerManager = class clientServerManager{
                 });
                         break;
                         case commands.SENDINGSERVERREQUEST:
-                            fs.writeFileSync(path + "//Node Client//ServerRequest.json", JSON.stringify(optionaldata), (err) =>{
+                            fs.writeFileSync(path + "\\Node Client\\ServerRequest.json", JSON.stringify(optionaldata), (err) =>{
                         if(err){
                             console.error(err)
                             throw err
@@ -68,7 +68,7 @@ exports.clientServerManager = class clientServerManager{
                         if(optionaldata){
                             var ServerRequest = JSON.parse(optionaldata.toString());
                         }else{
-                        fs.readFile(path + "//Node Client//ServerRequest.json", (err, data) => {
+                        fs.readFile(path + "\\Node Client\\ServerRequest.json", (err, data) => {
                             if (err) throw err;
                             var ServerRequest = JSON.parse(data);
                             if(logging)console.log(this.LaunchingGameServers);
