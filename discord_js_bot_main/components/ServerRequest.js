@@ -85,8 +85,9 @@ exports.ServerRequest = class ServerRequest {
         async ContructorAsync(){
                 const FileSystemController = require("../index").init.FileSystemController;
                 var d = new Date();
-                this.UserInfo = await FileSystemController.FindOrCreateUserInfoFromServerRequest(this);
-                await FileSystemController.AddServerTeirFromUserInfo(this, this.UserInfo);
+                let UserInfo = await FileSystemController.FindOrCreateUserInfoFromServerRequest(this);
+                this.UserInfo = UserInfo;
+                await FileSystemController.AddServerTeirFromUserInfo(this, UserInfo);
                 this.TimeOfRequest = d.getTime();
                 this.DateOfRequest = d.getDate();
                 this.DateAndTimeOfRequest = this.TimeOfRequest + "/"+ this.DateOfRequest + "/" + d.getMonth() + "/" + d.getFullYear();
