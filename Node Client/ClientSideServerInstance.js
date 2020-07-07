@@ -53,7 +53,7 @@ constructor(ServerRequest, child) {
 
 async ContructorAsync(ServerRequest){
         var d = new Date();
-        this.UserInfo = ServerRequest.UserInfo;
+        //this.UserInfo = ServerRequest.UserInfo;
         this.ServerTier = ServerRequest.ServerTier;
         this.TimeOfRequest = ServerRequest.TimeOfRequest;
         this.DateOfRequest = ServerRequest.DateOfRequest;
