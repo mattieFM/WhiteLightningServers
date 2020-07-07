@@ -18,7 +18,7 @@ exports.UserInfoInstance = class UserInfoInstance {
     //the amount of time in a 24 hour period that the user has had a active server running
     MaxUptimePerDay;
 
-    PatronTeir;
+    PatronTier;
 
     constructor(){
 
