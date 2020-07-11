@@ -81,6 +81,14 @@ const clientinsance = require("./ClientInstance").clientInstance;
                                 this.FileSystemController.ParseDataFromClient(data, request.LaunchIndex);
                             }
                         })
+                        this.FileSystemController.ActiveEC2Servers.forEach(async server => {
+                            if(logging) console.log("secondPromiseInLoop");
+                            i++;
+                            var dataarr = data.toString().split("&split&");
+                            if(dataarr[0].includes(server.NetIdentifyer)){
+                                this.FileSystemController.ParseDataFromClient(data, server.LaunchIndex);
+                            }
+                        })
                         if(logging)console.log("secondPromise3");
                     } 
                     ).then(()=>{

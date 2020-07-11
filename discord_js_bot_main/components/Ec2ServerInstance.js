@@ -5,6 +5,8 @@ GAMETYPES = require("../enums/GAMETYPES");
 //Info Obtained from Ec2Controller --> InitialiseEc2ServerIntoStorage(); /or/ filesystemcontroller
 //Total index of ec2 server in relation to all servers running
 Index;
+
+LaunchIndex;
 ImageID;
 InstanceID;
 KeyName;

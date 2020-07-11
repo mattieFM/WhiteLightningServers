@@ -321,7 +321,8 @@ module.exports.FileSystemController = class FileSystemControllerserver {
         let Ec2ServerInstance = require("../Ec2ServerInstance").serverinstance;
         let Ec2Server = new Ec2ServerInstance(ServerRequest);
         await this.UpdateAllFiles();
-        Ec2Server.Index =this.ActiveEC2Servers.length;
+        Ec2Server.LaunchIndex =this.ActiveEC2Servers.length;
+        
         this.ActiveEC2Servers.push(Ec2Server);
         this.LaunchingEc2Servers.splice(ServerRequest.LaunchIndex, 1);
     
