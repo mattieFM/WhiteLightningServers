@@ -48,7 +48,7 @@ constructor(ServerRequest, child) {
         this.Game = ServerRequest.Game;
         this.Child = child;
         this.SessionTimeTillClose = ServerRequest.SessionTimeTillClose;
-        this.ContructorAsync();
+        this.ContructorAsync(ServerRequest);
 }
 
 async ContructorAsync(ServerRequest){
