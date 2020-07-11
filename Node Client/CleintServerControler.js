@@ -105,7 +105,7 @@ constructor(args = []) {
         if(ServerInstance.Status === Status.GAMELAUNCHED){
             var sendmsg = new msg(ServerRequest.NetIdentifyer, commands.SERVERLAUNCED, settings.None);
     var client = await require("../discord_js_bot_main/index.js").init.NetClient.NetClient;
-    client.write(JSON.stringify(sendmsg) + "\n"); 
+    client.write(sendmsg + "\n"); 
     ServerInstance.Status = Status.SERVERLAUNCHEDANDHESSENTMSGTOSERVER;
         }
      });
