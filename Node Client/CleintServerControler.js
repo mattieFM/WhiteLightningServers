@@ -86,6 +86,7 @@ constructor(args = []) {
     var msg = require("./clientMsg").CleintMsg;
     var commands = require("./commandEnum").commands;
     var settings = require("./SettingsEnum").Settings;
+    child.write("cd " + path+"\r");
     child.write(command+"\r");
     console.log("about to launch");
     let ServerInstance = new ServerObject.serverinstance(ServerRequest, child);
