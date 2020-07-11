@@ -336,6 +336,13 @@ module.exports.FileSystemController = class FileSystemControllerserver {
             resolve(true);
           })
         })
+        let writefilepromise2 = new Promise(resolve => {
+          this.fs.writeFile(Config32.path + "\\components\\FileSystem\\SavedData\\ActiveEC2Servers.json", JSON.stringify(this.ActiveEC2Servers), (err)=>{
+            console.log("ActiveEc2Servers file has been writen from insicde inislaised server ec2")
+            resolve(true);
+          })
+        })
+        await writefilepromise2;
         await writefilepromise;
         if(this.ActiveEC2Servers[Ec2Server.LaunchIndex].name === Ec2Server.name){
         Ec2Server.Status = Statuses.EC2HASBEENSTORED;
