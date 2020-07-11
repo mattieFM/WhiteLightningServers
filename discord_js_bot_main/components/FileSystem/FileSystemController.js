@@ -337,7 +337,7 @@ module.exports.FileSystemController = class FileSystemControllerserver {
           })
         })
         await writefilepromise;
-        if(this.ActiveEC2Servers[Ec2Server.Index].name === Ec2Server.name){
+        if(this.ActiveEC2Servers[Ec2Server.LaunchIndex].name === Ec2Server.name){
         Ec2Server.Status = Statuses.EC2HASBEENSTORED;
         ServerRequest.EC2ID = Ec2Server.InstanceID;
         ServerRequest.Status = Statuses.GAMESHOULDLAUNCH;
