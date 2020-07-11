@@ -65,6 +65,8 @@ const clientinsance = require("./ClientInstance").clientInstance;
                         //if(writen = true)
                         if(logging)console.log("ResolveFirstPrimse");
                         resolve(true);
+                    } else {
+                        resolve(false);
                     }
                 }) 
             })
