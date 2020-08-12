@@ -1,3 +1,4 @@
+/*** @description a class representing a bot instance, containing initialization information */
 exports.ClientInstace = class ClientInstace{
 bot;
 LoggingFileCreated;

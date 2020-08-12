@@ -1,10 +1,16 @@
 const Config = require("../config_auth/Config.json");
 exports.init = class init{
+/**Discord.js import */
 Discord = require('discord.js');
+/*** @description The ChildShell class */
 ChildProccesCreator = require("./ChildProccessCreate").ChildShell;
+/*** @description a class representing a bot instance, containing initialization information */
 BotInstance = require("./botInstance").ClientInstace;
+/*** @description a class representing the "on methods" of a bot */
 BotOnMethods = require("./BotOnMethods").BotOnMethods;
+/*** @description a class representing the logging methods of the bot */
 LoggingInit = require("./BotMethods/logging/logginginit").loggingInit;
+/*** @description a class representing the logging of individual messages of the bot */
 StartLogging = require("./BotMethods/logging/loggingOnMessage").OnMessageLogging;
 
 NetSoketInit = require("./Network/NetSocketInit");
@@ -17,11 +23,19 @@ NetClient;
 ec2con = require("./Ec2Controller").ec2launch;
 Ec2Controler = new this.ec2con("us-west-2");
 //custructor fires on new object, thus triggering Init()
+/**
+ * The constructor for the init() class.
+ * @constructor creating a new init class will initalize the bot, by triggering Init()
+ */
     constructor(){
         this.Init();
     }
 
     //the main initialisation function
+/**
+ * @async
+ * @description Determines weathor to launch the server or the client based upon the launch args
+ */
      async Init(){
         //checks if launching server or client
         if(process.argv.length > 0){
@@ -48,7 +62,10 @@ Ec2Controler = new this.ec2con("us-west-2");
         }
         
     }
-
+    /**
+ * @async
+ * @description The main initialisation function of the (server) bot,
+ */
     async serverInit(path){
          //create a Client/Bot Instance, then pass it to main bot init(), 
          var ClientInstace = await this.BotInit();
@@ -66,6 +83,11 @@ Ec2Controler = new this.ec2con("us-west-2");
           //this.JavaBotInit(ClientInstace, path);
          
     }
+    /**
+ * @async
+ * @description creates a new client (bot) instance
+ * @returns ClientInstance (bot)
+ */
     async BotInit(){
         //the function that will return a usable bot/client instance
         const Discord = require('discord.js');
@@ -75,7 +97,10 @@ Ec2Controler = new this.ec2con("us-west-2");
         bot.commands = new Discord.Collection();
         return ClientInstace; 
     }
-    
+/**
+ * @description Starts a Node-Pty shell and then launches a java bot inside of it, based upon launch args
+ * @returns null
+ */
     JavaBotInit(ClientInstace1, path){
         //the main init function for the java bot (launching the java bot inside a node-pty shell)
         var child = new this.ChildProccesCreator().CreateChildShell();
@@ -83,6 +108,10 @@ Ec2Controler = new this.ec2con("us-west-2");
         child.write("java -jar JavaDiscord4J-1.0-SNAPSHOT.jar\r");
         ClientInstace1.JavaBotHasInitialised = true;
     }
+/**
+ * @description Initalizes the "On" meathods of the bot
+ * @returns null
+ */
       MainBotInit(ClientInstace){
         //the main discord bot initalistation function
         //load commands
@@ -99,7 +128,10 @@ Ec2Controler = new this.ec2con("us-west-2");
 
     }
 
-
+/**
+ * @description Initalizes AWS-SDK global Variables
+ * @returns null
+ */
      AWSInit(){
          //set any global config that aws needs
         const AWS = require("aws-sdk");
@@ -111,7 +143,11 @@ Ec2Controler = new this.ec2con("us-west-2");
             });
           }
     }
-
+/**
+ * @param ClientInstace the bot/client instance representing the bot
+ * @description Initalizes commands on a client instnace (bot)
+ * @returns null
+ */
      async CommandsInit(ClientInstace){
         const bot = ClientInstace.bot;
         const Config = require("../config_auth/Config.json");

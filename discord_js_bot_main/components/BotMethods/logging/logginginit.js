@@ -1,3 +1,4 @@
+/*** @description a class representing the logging methods of the bot */
 exports.loggingInit = class loggingInit{
     constructor(){
 

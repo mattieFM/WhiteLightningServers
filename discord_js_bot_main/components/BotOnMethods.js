@@ -1,3 +1,4 @@
+/*** @description a class representing the "on methods" of a bot */
 exports.BotOnMethods = class BotOnMethods{
     constructor(){
 

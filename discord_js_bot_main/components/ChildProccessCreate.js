@@ -1,8 +1,14 @@
+/**
+ * @description the class containing all functions to create CreateChildShell
+ */
 exports.ChildShell = class ChildShell {
   constructor() {
    
   }
-
+/**
+ * @description Spawns a new Child Shell through Node-Pty
+ * @returns child --a child instance spawned through node-pty
+ */
   CreateChildShell() {
     const Config = require("../config_auth/Config.json");
     var defaults = {

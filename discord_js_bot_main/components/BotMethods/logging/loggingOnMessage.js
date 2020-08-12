@@ -1,3 +1,4 @@
+/*** @description a class representing the logging of individual messages of the bot */
 exports.OnMessageLogging = class OnMessageLogging{
 time;
     constructor(){
@@ -10,7 +11,7 @@ time;
         var time = month + `.` + day + "." + year +  ".txt"
         this.time = time;
     }
-
+/*** @description logging of messages when a message is posted */
     async OnMessageLogging(ClientInstance = require("../../botInstance").ClientInstace){
         if(ClientInstance.LoggingFileCreated == false){
             var HasLoged = false;
