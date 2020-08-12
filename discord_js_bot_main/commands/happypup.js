@@ -16,7 +16,7 @@ num = 7;
 
 
   console.log(chosenfile);
-message.channel.send(`Not WoofPup`, {
+message.channel.send(`happu pupper`, {
   
     file: Config.path  + "/image_commands/happup/" +files[Math.floor(Math.random() * files.length)]
 });
