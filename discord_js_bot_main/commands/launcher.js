@@ -9,13 +9,19 @@ var activeServers = [];
 var inDM = Boolean;
 const ServerRequest = require("../components/ServerRequest").ServerRequest;
 const ServerRequestStatus = require("../enums/ServerRequestStatus").Status;
-var minecraft = bot.emojis.find(emoji => emoji.id === "712007147432575076");
-var terraria = bot.emojis.find(emoji => emoji.id === "712007201320992784");
-var incognito = bot.emojis.find(emoji => emoji.id === "712015446441721856");
-var chest = bot.emojis.find(emoji => emoji.id === "742938267569356822");
-var OfflineMode = bot.emojis.find(emoji => emoji.id === "742938631412514849");
-var filter2 = (reaction, user) => ['742938267569356822', '742938631412514849'].includes(reaction.emoji.id) && user.id === message.author.id;
+const minecraft = bot.emojis.find(emoji => emoji.id === "712007147432575076");
+const terraria = bot.emojis.find(emoji => emoji.id === "712007201320992784");
+const incognito = bot.emojis.find(emoji => emoji.id === "712015446441721856");
+const chest = bot.emojis.find(emoji => emoji.id === "742938267569356822");
+const OfflineMode = bot.emojis.find(emoji => emoji.id === "742938631412514849");
+
+
 module.exports.run = async(bot, message, args) => {
+const minecraft = bot.emojis.find(emoji => emoji.id === "712007147432575076");
+const terraria = bot.emojis.find(emoji => emoji.id === "712007201320992784");
+const incognito = bot.emojis.find(emoji => emoji.id === "712015446441721856");
+const chest = bot.emojis.find(emoji => emoji.id === "742938267569356822");
+const OfflineMode = bot.emojis.find(emoji => emoji.id === "742938631412514849");
     inDM = false;
     if(message.channel.type === "dm")inDM = true;
 
@@ -36,7 +42,7 @@ const embed = new RichEmbed()
     ${incognito} (continue dialog in direct message (DMs MUST be enabled))
     `)
     .setColor(0xdd9323)
-    .setFooter(`InDM: False; ID: ${message.author.id}`);
+    .setFooter(`InDM: False; ID: ${message.author.id}; #0`);
 
 
     const DMembed = new RichEmbed()
@@ -47,7 +53,7 @@ const embed = new RichEmbed()
     ${terraria} (launch a terraria server)
     `)
     .setColor(0xdd9323)
-    .setFooter(`InDM: True; ID: ${message.author.id}`);
+    .setFooter(`InDM: True; ID: ${message.author.id}; #0`);
 
     const MinecraftSettingsEmbed = new RichEmbed()
     .setTitle('Please select all launch options you would like to enable')
@@ -57,7 +63,7 @@ const embed = new RichEmbed()
     ${OfflineMode} (Disable Mojang's username authentication on this server) **highly discouraged, only choose this if you know what this means. 
     `)
     .setColor(0xdd9323)
-    .setFooter(`InDM: False; ID: ${message.author.id}`);
+    .setFooter(`InDM: False; ID: ${message.author.id}; #1`);
     LaunchGui(inDM)
     
     
@@ -75,6 +81,7 @@ const embed = new RichEmbed()
         };
         if(!IsInDM)var msg = await message.channel.send(embed);
         if(IsInDM) var msg = await user.send(DMembed);
+        await message.channel.send('Updating...').then(m => m.delete(700));
             // const promisereact1 = new Promise((resolve) => msg.react('712007147432575076'));
             // const promisereact2 = new Promise((resolve) => msg.react('712007201320992784'));
             // const promisereact3 = new Promise((resolve) => msg.react('712015446441721856'));
@@ -87,7 +94,7 @@ const embed = new RichEmbed()
             // if(!IsInDM) await Promise.all([promisereact1, promisereact2, promisereact3]);
          
             
-    
+
             msg.awaitReactions(filter, {
                 max: 1,
                 time: 120000,
@@ -103,12 +110,13 @@ const embed = new RichEmbed()
                         //minecraft
                         case '712007147432575076':
                             errormessage = ""
-                            message.channel.send('launching mincraft').then(m => m.delete(2000));
+                            message.channel.send('Updating...').then(m => m.delete(500));
                             msg.edit(MinecraftSettingsEmbed)
+                            var settings = MinecraftSettingsMsgHandler(msg);
                             
                             const Discord = require('discord.js');
                             //new Discord.Message().author.username
-                            var severRequest = new ServerRequest(gametypes.MINECRAFT, message.author.id, null, 0, message.author.discriminator);
+                            var severRequest = new ServerRequest(gametypes.MINECRAFT, message.author.id, settings, 0, message.author.discriminator);
                             severRequest.OwnerUniqueIdenifyer = message.author.discriminator;
                             severRequest.OwnerName = message.author.username;
                             ServerControler.LaunchGameServer(severRequest);
@@ -160,12 +168,14 @@ const embed = new RichEmbed()
     
 
     function MinecraftSettingsMsgHandler(msg){
-        msg.awaitReactions(filter2, {
+        var filter = (reaction, user) => ['742938267569356822', '742938631412514849'].includes(reaction.emoji.id) && user.id === msg.author.id;
+        msg.awaitReactions(filter, {
             max: 1,
             time: 120000,
             errors: ['time']
         }).then(collected =>{
             const reaction = collected.first();
+            const settings = require("../../../WhiteLightningServers/Node Client/SettingsEnum").Settings;
             var SpecificSettings = new settings.GameSettings.MINECRAFT();
     SpecificSettings.MinecraftServerArgs[0] = new SpecificSettings.MinecraftServerArgs[0]();
     SpecificSettings.MinecraftServerArgs[0].enabled = false;
@@ -191,18 +201,21 @@ const embed = new RichEmbed()
     SpecificSettings.MinecraftServerArgs[10].enabled = false;
     SpecificSettings.MinecraftServerArgs[11] = new SpecificSettings.MinecraftServerArgs[11]();
     SpecificSettings.MinecraftServerArgs[11].enabled = false;
-            switch (reaction.emoji.id){
+            collected.forEach(reaction => {
+                switch (reaction.emoji.id){
                 
-                //minecraft
-                case chest:
-                    SpecificSettings.MinecraftServerArgs[0] = new SpecificSettings.MinecraftServerArgs[0]();
-                    SpecificSettings.MinecraftServerArgs[0].enabled = true;
-                break
-                case OfflineMode:
-                    SpecificSettings.MinecraftServerArgs[9] = new SpecificSettings.MinecraftServerArgs[9]();
-                    SpecificSettings.MinecraftServerArgs[9].enabled = true;
-                break
-        }
+                    //minecraft
+                    case chest:
+                        SpecificSettings.MinecraftServerArgs[0] = new SpecificSettings.MinecraftServerArgs[0]();
+                        SpecificSettings.MinecraftServerArgs[0].enabled = true;
+                    break
+                    case OfflineMode:
+                        SpecificSettings.MinecraftServerArgs[9] = new SpecificSettings.MinecraftServerArgs[9]();
+                        SpecificSettings.MinecraftServerArgs[9].enabled = true;
+                    break
+            }
+            }); 
+            return SpecificSettings;
     })
     }
 

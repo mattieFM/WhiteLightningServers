@@ -63,7 +63,7 @@ Ec2Controler = new this.ec2con("us-west-2");
           this.FileSystemController = new this.FSControl();;
           await this.NetServer.DefineFileSys();
           //launch the java bot inside a node-pty shell
-          this.JavaBotInit(ClientInstace, path);
+          //this.JavaBotInit(ClientInstace, path);
          
     }
     async BotInit(){
