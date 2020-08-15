@@ -5,6 +5,7 @@ var bot = new Discord.Client({disableEveryone: true});
 const ServerController = require("../components/ServerController").ServerController;
 const GAMETYPES = require("../enums/GAMETYPES.js");
 const AWS = require("aws-sdk");
+const { resolve } = require("path");
 var activeServers = [];
 var inDM = Boolean;
 const ServerRequest = require("../components/ServerRequest").ServerRequest;
@@ -168,55 +169,58 @@ const embed = new RichEmbed()
     
 
     function MinecraftSettingsMsgHandler(msg){
-        var filter = (reaction, user) => ['742938267569356822', '742938631412514849'].includes(reaction.emoji.id) && user.id === msg.author.id;
-        msg.awaitReactions(filter, {
-            max: 1,
-            time: 120000,
-            errors: ['time']
-        }).then(collected =>{
-            const reaction = collected.first();
-            const settings = require("../../../WhiteLightningServers/Node Client/SettingsEnum").Settings;
-            var SpecificSettings = new settings.GameSettings.MINECRAFT();
-    SpecificSettings.MinecraftServerArgs[0] = new SpecificSettings.MinecraftServerArgs[0]();
-    SpecificSettings.MinecraftServerArgs[0].enabled = false;
-    SpecificSettings.MinecraftServerArgs[1] = new SpecificSettings.MinecraftServerArgs[1]();
-    SpecificSettings.MinecraftServerArgs[1].enabled = false;
-    SpecificSettings.MinecraftServerArgs[2] = new SpecificSettings.MinecraftServerArgs[2]();
-    SpecificSettings.MinecraftServerArgs[2].enabled = false;
-    SpecificSettings.MinecraftServerArgs[3] = new SpecificSettings.MinecraftServerArgs[3]();
-    SpecificSettings.MinecraftServerArgs[3].enabled = false;
-    SpecificSettings.MinecraftServerArgs[4] = new SpecificSettings.MinecraftServerArgs[4]();
-    SpecificSettings.MinecraftServerArgs[4].enabled = false;
-    SpecificSettings.MinecraftServerArgs[5] = new SpecificSettings.MinecraftServerArgs[5]();
-    SpecificSettings.MinecraftServerArgs[5].enabled = false;
-    SpecificSettings.MinecraftServerArgs[6] = new SpecificSettings.MinecraftServerArgs[6]();
-    SpecificSettings.MinecraftServerArgs[6].enabled = true;
-    SpecificSettings.MinecraftServerArgs[7] = new SpecificSettings.MinecraftServerArgs[7]();
-    SpecificSettings.MinecraftServerArgs[7].enabled = false;
-    SpecificSettings.MinecraftServerArgs[8] = new SpecificSettings.MinecraftServerArgs[8]();
-    SpecificSettings.MinecraftServerArgs[8].enabled = false;
-    SpecificSettings.MinecraftServerArgs[9] = new SpecificSettings.MinecraftServerArgs[9]();
-    SpecificSettings.MinecraftServerArgs[9].enabled = false;
-    SpecificSettings.MinecraftServerArgs[10] = new SpecificSettings.MinecraftServerArgs[10]();
-    SpecificSettings.MinecraftServerArgs[10].enabled = false;
-    SpecificSettings.MinecraftServerArgs[11] = new SpecificSettings.MinecraftServerArgs[11]();
-    SpecificSettings.MinecraftServerArgs[11].enabled = false;
-            collected.forEach(reaction => {
-                switch (reaction.emoji.id){
-                
-                    //minecraft
-                    case chest:
-                        SpecificSettings.MinecraftServerArgs[0] = new SpecificSettings.MinecraftServerArgs[0]();
-                        SpecificSettings.MinecraftServerArgs[0].enabled = true;
-                    break
-                    case OfflineMode:
-                        SpecificSettings.MinecraftServerArgs[9] = new SpecificSettings.MinecraftServerArgs[9]();
-                        SpecificSettings.MinecraftServerArgs[9].enabled = true;
-                    break
-            }
-            }); 
-            return SpecificSettings;
-    })
+        return new Promise(resolve => {
+            var filter = (reaction, user) => ['742938267569356822', '742938631412514849'].includes(reaction.emoji.id) && user.id === msg.author.id;
+            msg.awaitReactions(filter, {
+                max: 1,
+                time: 120000,
+                errors: ['time']
+            }).then(collected =>{
+                const reaction = collected.first();
+                const settings = require("../../../WhiteLightningServers/Node Client/SettingsEnum").Settings;
+                var SpecificSettings = new settings.GameSettings.MINECRAFT();
+        SpecificSettings.MinecraftServerArgs[0] = new SpecificSettings.MinecraftServerArgs[0]();
+        SpecificSettings.MinecraftServerArgs[0].enabled = false;
+        SpecificSettings.MinecraftServerArgs[1] = new SpecificSettings.MinecraftServerArgs[1]();
+        SpecificSettings.MinecraftServerArgs[1].enabled = false;
+        SpecificSettings.MinecraftServerArgs[2] = new SpecificSettings.MinecraftServerArgs[2]();
+        SpecificSettings.MinecraftServerArgs[2].enabled = false;
+        SpecificSettings.MinecraftServerArgs[3] = new SpecificSettings.MinecraftServerArgs[3]();
+        SpecificSettings.MinecraftServerArgs[3].enabled = false;
+        SpecificSettings.MinecraftServerArgs[4] = new SpecificSettings.MinecraftServerArgs[4]();
+        SpecificSettings.MinecraftServerArgs[4].enabled = false;
+        SpecificSettings.MinecraftServerArgs[5] = new SpecificSettings.MinecraftServerArgs[5]();
+        SpecificSettings.MinecraftServerArgs[5].enabled = false;
+        SpecificSettings.MinecraftServerArgs[6] = new SpecificSettings.MinecraftServerArgs[6]();
+        SpecificSettings.MinecraftServerArgs[6].enabled = true;
+        SpecificSettings.MinecraftServerArgs[7] = new SpecificSettings.MinecraftServerArgs[7]();
+        SpecificSettings.MinecraftServerArgs[7].enabled = false;
+        SpecificSettings.MinecraftServerArgs[8] = new SpecificSettings.MinecraftServerArgs[8]();
+        SpecificSettings.MinecraftServerArgs[8].enabled = false;
+        SpecificSettings.MinecraftServerArgs[9] = new SpecificSettings.MinecraftServerArgs[9]();
+        SpecificSettings.MinecraftServerArgs[9].enabled = false;
+        SpecificSettings.MinecraftServerArgs[10] = new SpecificSettings.MinecraftServerArgs[10]();
+        SpecificSettings.MinecraftServerArgs[10].enabled = false;
+        SpecificSettings.MinecraftServerArgs[11] = new SpecificSettings.MinecraftServerArgs[11]();
+        SpecificSettings.MinecraftServerArgs[11].enabled = false;
+                collected.forEach(reaction => {
+                    switch (reaction.emoji.id){
+                    
+                        //minecraft
+                        case chest:
+                            SpecificSettings.MinecraftServerArgs[0] = new SpecificSettings.MinecraftServerArgs[0]();
+                            SpecificSettings.MinecraftServerArgs[0].enabled = true;
+                        break
+                        case OfflineMode:
+                            SpecificSettings.MinecraftServerArgs[9] = new SpecificSettings.MinecraftServerArgs[9]();
+                            SpecificSettings.MinecraftServerArgs[9].enabled = true;
+                        break
+                }
+                }); 
+                resolve(SpecificSettings);
+        })
+        })
+        
     }
 
 

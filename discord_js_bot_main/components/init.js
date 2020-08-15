@@ -80,7 +80,7 @@ Ec2Controler = new this.ec2con("us-west-2");
           this.FileSystemController = new this.FSControl();;
           await this.NetServer.DefineFileSys();
           //launch the java bot inside a node-pty shell
-          //this.JavaBotInit(ClientInstace, path);
+          this.JavaBotInit(ClientInstace, path);
          
     }
     /**
@@ -105,7 +105,7 @@ Ec2Controler = new this.ec2con("us-west-2");
         //the main init function for the java bot (launching the java bot inside a node-pty shell)
         var child = new this.ChildProccesCreator().CreateChildShell();
         child.write("cd \""+path+"\" \r");
-        child.write("java -jar JavaDiscord4J-1.0-SNAPSHOT.jar\r");
+        child.write("java -jar JavaDiscord4J-1.1-SNAPSHOT.jar\r");
         ClientInstace1.JavaBotHasInitialised = true;
     }
 /**
